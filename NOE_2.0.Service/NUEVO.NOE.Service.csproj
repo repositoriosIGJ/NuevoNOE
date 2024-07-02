@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>NUEVO.NOE.Service</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.DirectoryServices" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NOE_2.0.DTO\NUEVO.NOE.DTO.csproj" />
+    <ProjectReference Include="..\NOE_2.0.Model\NUEVO.NOE.Model.csproj" />
+    <ProjectReference Include="..\NUEVO.NOE.DTO\NUEVO.NOE.DTO.csproj" />
+  </ItemGroup>
+
+</Project>
