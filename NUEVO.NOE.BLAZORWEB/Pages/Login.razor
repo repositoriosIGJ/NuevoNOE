@@ -1,0 +1,68 @@
+﻿@page "/"
+@using MudBlazor
+@using NUEVO.NOE.BLAZORWEB.ClientServices.Contrato
+@using NUEVO.NOE.DTO
+@using NUEVO.NOE.DTO.Seguridad
+@using NUEVO.NOE.Model.Seguridad
+@inject IUsuarioClientService _usuarioClientService 
+@inject NavigationManager _navigationManager
+<EditForm Model="userRequest">
+ 
+    <MudGrid class="m-4">
+        <MudItem  xs="12" sm="7">
+            <MudCard>
+                <MudCardContent>
+                    <MudTextField @bind-Value="userRequest.username" Label="Username" />
+                    <MudTextField @bind-Value="userRequest.password" Label="Password" />
+                       
+                </MudCardContent>
+                <MudCardActions>
+                    <MudButton ButtonType="ButtonType.Submit" Variant="Variant.Filled" Color="Color.Primary" Class="ml-auto" OnClick="Logeo">Login</MudButton>
+                </MudCardActions>
+            </MudCard>
+        </MudItem>
+       
+    </MudGrid>
+</EditForm>
+
+@code {
+
+    //OBJETO PARA ALMACENAR EL USERNAME Y EL PASSWORD INGRESADO 
+    private UsuarioDTORequest userRequest = new();
+    private UsuarioDTO user = new();
+    private string message;
+
+
+
+    private async Task Logeo()
+    {
+        // validar las credenciales del usuario
+        var usuarioValido = await _usuarioClientService.ValidateUser(userRequest.username, userRequest.password);
+
+        if (usuarioValido.IsSuccess)
+        {
+            // traigo los datos del usuario + sus roles + funciones
+
+            ResponseDTO<UsuarioDTO> UserRsp = await _usuarioClientService.GetDataUser(userRequest.username);
+
+            // ALMACENO LOS DATOS DE LA RESPUESTA EN EL OBJETO USER (USUARIODTO) PARA LA VISTA Y LA SESION
+            user.Usuario = UserRsp.Data.Usuario  ;
+            user.UsuarioRol = UserRsp.Data.UsuarioRol;
+            user.RolFuncion = UserRsp.Data.RolFuncion;
+
+
+            if(user is not null)
+            {
+                _navigationManager.NavigateTo("Home");
+            }
+            else
+            {
+                message = UserRsp.Message;
+            }
+
+        } else
+        {
+            message = usuarioValido.Message;
+        }
+    }
+}
