@@ -34,7 +34,16 @@ namespace NUEVO.NOE.API.Controllers
 
         }
 
-        [HttpPatch("UpdateFuncion")]
+        [HttpGet("GetFuncionById")]
+        public async Task<ActionResult<ResponseDTO<FuncionDTO>>> GetFuncionById(int id)
+        {
+            var rsp = await _funcionBusiness.GetFuncionById(id);
+
+            return rsp;
+
+        }
+
+        [HttpPut("UpdateFuncion")]
         public async Task<ActionResult<ResponseDTO<FuncionDTO>>> UpdateFuncion(FuncionDTO funcionDTO)
         {
             var rsp = await _funcionBusiness.UpdateFuncion(funcionDTO);

@@ -29,8 +29,40 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AdministradorDeFunciones.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvckRlRnVuY2lvbmVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AdministradorRoles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclJvbGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AdministradorUsuarios.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclVzdWFyaW9zLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AuthorizedViewRoles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yaXplZFZpZXdSb2xlcy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsFuncion.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsc0Z1bmNpb24ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsRol.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsc1JvbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsUsuario.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsc1VzdWFyaW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/FuncionesRol.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmVzUm9sLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Home.razor]
@@ -39,6 +71,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/NoAutorizado.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm9BdXRvcml6YWRvLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/RolesUsuario.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNVc3VhcmlvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Weather.razor]

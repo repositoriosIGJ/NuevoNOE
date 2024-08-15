@@ -46,6 +46,26 @@ namespace NUEVO.NOE.Business.Implementacion
             return rst;
         }
 
+        public async Task<ResponseDTO<List<RolDTO>>> GetRolesAssignedToUser(int userId)
+        {
+            var roles = await _rolRepository.GetRolesAssignedToUser(userId);
+
+            return roles;
+        }
+
+        public async Task<ResponseDTO<List<RolDTO>>> GetRolesNotAssignedToUser(int userId)
+        {
+            var rolesNotAssigned = await _rolRepository.GetRolesNotAssignedToUser(userId);
+
+            return rolesNotAssigned;
+        }
+
+        public async Task<ResponseDTO<List<RolDTO>>> GetRolesNotAssignedToUserByDepartamento(int userId, int departamentoId)
+        {
+            var rolesNotAssignedByDepto = await _rolRepository.GetRolesNotAssignedToUserByDepartamento(userId, departamentoId);
+
+            return rolesNotAssignedByDepto;
+        }
 
         public async Task<ResponseDTO<RolDTO>> UpdateRol(RolDTO rol)
         {

@@ -1,0 +1,164 @@
+﻿@page "/FuncionesRol"
+@page "/FuncionesRol/{id:int}"
+
+@inject NavigationManager Navigation
+@inject ISessionStorageService sessionStorage
+@inject IRolesClientService rolClientService
+@inject IFuncionesClientService funcionesClientService
+@inject IFuncionesRolClientService funcionesRolClientService
+
+
+@inject IMapper mapper
+@inject ISnackbar snackbar
+@inject IDialogService dialogService ;
+@inject SweetAlertService Swal
+
+<!-- LLAMO AL COMPONENTE PADRE AuthorizedViewRoles y le paso los roles autorizados donde esta la logica de permisos  -->
+<AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">
+<div class="m-3">
+        <MudCard>
+            <MudCardHeader>
+                <MudText>Bienvenido a la página de administacion de usuarios</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText Typo="Typo.body2"> Solo usuarios con roles de soporte o sistemas pueden ver esta página.</MudText>
+            </MudCardContent>
+        </MudCard>
+ </div>
+
+    <div class="mx-5 mb-3">
+
+        <MudTable Items="funcionesAsignadasAlRol" Dense="true" Hover="true" Bordered="false" Striped="true">
+            <HeaderContent>
+                <MudTh>ROLES ASIGNADOS</MudTh>
+                <MudTh>QUITAR</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd>@context.Nombre</MudTd>
+                <MudTd>
+                    <MudIconButton ButtonType="MudBlazor.ButtonType.Submit" Icon="@Icons.Material.Filled.Remove" OnClick="@(() => EliminarFuncionAlRol(context.Id))" Variant="MudBlazor.Variant.Filled" Color="Color.Error" Class="ml-auto"></MudIconButton>
+                </MudTd>
+
+            </RowTemplate>
+        </MudTable>
+        <h6>@message</h6>
+    </div>
+
+    <div class="mx-5 mb-3">
+
+        <MudTable Items="funcionesNoAsignadasAlRol" Dense="true" Hover="true" Bordered="false" Striped="true">
+            <HeaderContent>
+                <MudTh>ROLES ASIGNADOS</MudTh>
+                <MudTh>AGREGAR</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd>@context.Nombre</MudTd>
+                <MudTd>
+                    <MudIconButton ButtonType="MudBlazor.ButtonType.Submit" Icon="@Icons.Material.Filled.Add" Variant="MudBlazor.Variant.Filled" OnClick="@(() => AgregarFuncionAlRol(context.Id))" Color="Color.Success" Class="ml-auto"></MudIconButton>
+                </MudTd>
+
+            </RowTemplate>
+        </MudTable>
+        <h6>@message</h6>
+    </div>
+ </AuthorizedViewRoles>       
+
+
+@code {
+
+    [Parameter]
+    public int id { get; set; }
+    //LISTA FUNCIONES PARA MOSTRAR EN LA INTERFAZ
+    public List<FuncionDTO> funcionesAsignadasAlRol;
+    public List<FuncionDTO> funcionesNoAsignadasAlRol;
+    public string message;
+    // PARA AGREGAR EL USUARIOROL SELECCIONADO A LA DB
+    RolFuncionDTO rolFuncion = new();
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        // Inicializar las listas
+        funcionesAsignadasAlRol = new List<FuncionDTO>();
+        funcionesNoAsignadasAlRol = new List<FuncionDTO>();
+
+        //PASO EL ID DEL ROL COMO PARA PARAMETRO AL OBJETO ROLFUNCION PARA LAS OPERACIONES CRUD
+        rolFuncion.Rolid = id;
+
+        //TRAIGO LOS ROLES DEL USUARIO
+        var rstFuncionesAssignedToRol = await funcionesClientService.GetFuncionesAssignedToRol(id);
+        var rstFuncionesNotAssignedToRol = await funcionesClientService.GetFuncionNotAssignedToRol(id);
+
+        if (rstFuncionesAssignedToRol.IsSuccess)
+        {
+            funcionesAsignadasAlRol = rstFuncionesAssignedToRol.Data;
+           
+        }
+        else
+        {
+            message = rstFuncionesAssignedToRol.Message;
+        }
+
+        if (rstFuncionesNotAssignedToRol.IsSuccess)
+        {
+            funcionesNoAsignadasAlRol = rstFuncionesNotAssignedToRol.Data;
+        }
+        else
+        {
+            message = rstFuncionesNotAssignedToRol.Message;
+        }
+    }
+
+    private async void AgregarFuncionAlRol(int id)
+    {
+
+        rolFuncion.Funid = id;
+        var rspAddfuncionRol = await funcionesRolClientService.AddRolFuncion(rolFuncion);
+
+        if (rspAddfuncionRol.IsSuccess)
+        {
+            //Actualizar listas en la  UI
+            var funcion = funcionesNoAsignadasAlRol.FirstOrDefault(r => r.Id == id);
+            if (funcion != null)
+            {
+                funcionesNoAsignadasAlRol.Remove(funcion);
+                funcionesAsignadasAlRol.Add(funcion);
+            }
+            snackbar.Add("Funcion agregado al usuario  correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+
+
+        }
+        else
+        {
+            snackbar.Add($"No se pudo agregar Error: {rspAddfuncionRol.Message}", Severity.Error, a => a.VisibleStateDuration = 400);
+        }
+
+        StateHasChanged();
+    }
+
+    private async void EliminarFuncionAlRol(int id)
+    {
+        rolFuncion.Funid = id;
+        var rspRolUsuario = await funcionesRolClientService.DeleteRolFuncion(rolFuncion);
+
+        if (rspRolUsuario.IsSuccess)
+        {
+            // Actualizar la listas de roles en la UI
+            var rol = funcionesAsignadasAlRol.FirstOrDefault(r => r.Id == id);
+            if (rol != null)
+            {
+                funcionesAsignadasAlRol.Remove(rol);
+                funcionesNoAsignadasAlRol.Add(rol);
+            }
+            snackbar.Add("Rol eliminado al usuario  correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+
+
+        }
+        else
+        {
+            snackbar.Add($"No se pudo agregar Error: {rspRolUsuario.Message}", Severity.Error, a => a.VisibleStateDuration = 400);
+        }
+
+        StateHasChanged();
+    }
+}

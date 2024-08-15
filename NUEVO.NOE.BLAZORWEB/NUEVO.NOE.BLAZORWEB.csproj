@@ -7,13 +7,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="Blazored.SessionStorage" Version="2.4.0" />
+    <PackageReference Include="CurrieTechnologies.Razor.SweetAlert2" Version="5.6.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.7" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.7" PrivateAssets="all" />
     <PackageReference Include="MudBlazor" Version="7.3.0" />
+    <PackageReference Include="Radzen.Blazor" Version="5.0.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\NOE_2.0.DTO\NUEVO.NOE.DTO.csproj" />
+    <ProjectReference Include="..\NOE_2.0.Service\NUEVO.NOE.Service.csproj" />
   </ItemGroup>
 
 </Project>

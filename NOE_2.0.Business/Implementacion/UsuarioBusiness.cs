@@ -22,9 +22,9 @@ namespace NUEVO.NOE.Business.Implementacion
             _mapper = mapper;
         }
 
-        public ResponseDTO<List<UsuarioActiveDirectory>> GetUsersActiveDirectory()
+        public async Task<ResponseDTO<List<UsuarioActiveDirectory>>> GetUsersActiveDirectory()
         {
-            var rst = _activeDirectoryService.GetUsers();
+            var rst = await _activeDirectoryService.GetUsers();
 
             return rst;
         }
@@ -69,23 +69,23 @@ namespace NUEVO.NOE.Business.Implementacion
 
         }
 
-        public ResponseDTO<bool> ValidateUserActiveDirectory(string nombre, string password)
+        public async Task<ResponseDTO<bool>> ValidateUserActiveDirectory(string nombre, string password)
         {
-            var rst = _activeDirectoryService.ValidateUser(nombre, password);
+            var rst = await _activeDirectoryService.ValidateUser(nombre, password);
 
             return rst;
         }
 
-        public async Task<ResponseDTO<UsuarioDTO>> AddUser(UsuarioDTO usuarioDTO)
+        public async Task<ResponseDTO<Usuario>> AddUser(Usuario usuario)
         {
-            var rsp = await _usuarioRepository.AddUser(usuarioDTO);
+            var rsp = await _usuarioRepository.AddUser(usuario);
 
             return rsp;
         }
 
-        public async Task<ResponseDTO<UsuarioDTO>> EditUser(UsuarioDTO usuarioDTO)
+        public async Task<ResponseDTO<Usuario>> EditUser(Usuario usuario)
         {
-            var rsp = await _usuarioRepository.EditUser(usuarioDTO);
+            var rsp = await _usuarioRepository.EditUser(usuario);
 
             return rsp;
         }
@@ -95,6 +95,15 @@ namespace NUEVO.NOE.Business.Implementacion
             var rsp = await _usuarioRepository.RemoveUser(Id);
 
             return rsp;
+        }
+
+        public async Task<ResponseDTO<Usuario>> GetUserById(int id)
+        {
+
+            var rst = await _usuarioRepository.GetUserById(id);
+
+
+            return rst;
         }
     }
 }

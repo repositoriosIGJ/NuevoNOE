@@ -53,11 +53,13 @@ public partial class SeguridadDbContext : DbContext
         modelBuilder.Entity<Departamento>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK_dpto");
-
             entity.ToTable("Departamento");
-
             entity.Property(e => e.Acronimo).HasMaxLength(10);
             entity.Property(e => e.Descripcion).HasMaxLength(100);
+            entity.HasMany(d => d.Roles)
+                  .WithOne(p => p.Departamento)
+                  .HasForeignKey(p => p.IdDepartamento)
+                  .HasConstraintName("FK_Rol_Departamento");
         });
 
         modelBuilder.Entity<Funcion>(entity =>
@@ -70,15 +72,17 @@ public partial class SeguridadDbContext : DbContext
             entity.Property(e => e.Tooltip).HasMaxLength(255);
             entity.Property(e => e.Url).HasMaxLength(255);
         });
-
         modelBuilder.Entity<Rol>(entity =>
         {
             entity.HasKey(e => e.Id).HasName("PK_rol");
-
             entity.ToTable("Rol");
-
             entity.Property(e => e.Descripcion).HasMaxLength(255);
+            entity.HasOne(d => d.Departamento)
+                  .WithMany(p => p.Roles)
+                  .HasForeignKey(d => d.IdDepartamento)
+                  .HasConstraintName("FK_Rol_Departamento");
         });
+
 
         modelBuilder.Entity<RolFuncion>(entity =>
         {
@@ -89,7 +93,7 @@ public partial class SeguridadDbContext : DbContext
             entity.Property(e => e.Funid).HasColumnName("funid");
             entity.Property(e => e.Rolid).HasColumnName("rolid");
 
-            entity.HasOne(d => d.Fun).WithMany()
+            entity.HasOne(d => d.Funcion).WithMany()
                 .HasForeignKey(d => d.Funid)
                 .OnDelete(DeleteBehavior.Cascade)
                 .HasConstraintName("FK_rol_funciones_funcion");

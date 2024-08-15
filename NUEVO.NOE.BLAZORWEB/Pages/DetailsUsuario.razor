@@ -1,0 +1,173 @@
+﻿@page "/DetailsUsuario"
+@page "/DetailsUsuario/{id:int}"
+@using AutoMapper
+@using Radzen
+@using Radzen.Blazor
+@using MudBlazor
+@inject NavigationManager Navigation
+@inject ISessionStorageService sessionStorage
+@inject IDepartamentoClientService departamentoClientService
+@inject IUsuarioClientService usuarioClientService
+@inject IMapper mapper
+@inject ISnackbar snackbar
+@inject IDialogService dialogService
+@inject UsuarioNotificationService usuarioNotificationService
+
+<AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">
+    <div class="m-5">
+      
+        <MudCard Class="mb-5">
+            <MudCardHeader>
+                <MudText>Bienvenido a la página de administacion de usuarios</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText Typo="Typo.body2"> Solo usuarios con roles de soporte o sistemas pueden ver esta página.</MudText>
+            </MudCardContent>
+        </MudCard>
+
+        <div class="row">
+            <div class="col-md-12">
+                <RadzenCard>
+                    <ChildContent>
+                        <RadzenTemplateForm Data="@user">
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <RadzenTextBox @bind-Value="@user.Nombre" Style="width: 100%;" />
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="apellido">Apellido</label>
+                                <RadzenTextBox @bind-Value="user.Apellido" Style="width: 100%;" />
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="usernameWindows">Username Windows</label>
+                                <RadzenTextBox @bind-Value="user.NameActiveDirectory" Style="width: 100%;" />
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="usernameArga">Username ARGA</label>
+                                <RadzenTextBox @bind-Value="user.UserName" Style="width: 100%;" />
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="departamento">Departamento</label>
+
+                              @*   Se ha añadido el atributo @bind-SearchText al RadzenDropDown para permitir la búsqueda.
+                                Los atributos FilterCaseSensitivity y FilterOperator se configuran para ajustar cómo se realiza la búsqueda 
+                                (en este caso, insensible a mayúsculas y minúsculas, y contiene). *@
+                                <RadzenDropDown @bind-Value="user.IdDpto"
+                                                @bind-SearchText="SearchText"
+                                                Data="departamentos"
+                                                TextProperty="AcronimoDescripcion"
+                                                ValueProperty="Id"
+                                                FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                                                FilterOperator="StringFilterOperator.Contains"
+                                                AllowFiltering="true"
+                                                Style="width: 100%;" />
+                            </div>
+
+                            <div class="form-group mt-3">
+                                <!-- MANEJAMOS EL VISIBLE DE MANERA DINAMICA EN EL CODE>
+                                 <RadzenCheckBox @bind-Value=@user.Baja Name="CheckBox1" Visible="@Visible"  />
+                                 <RadzenLabel Text="DAR DE BAJA" Visible="@Visible" Component="CheckBox1" class="rz-ms-2"  />
+                            </div>
+                        </RadzenTemplateForm>
+                        <div class="text-right mt-3">
+                            @if (id > 0)
+                            {
+                            
+                                <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Dark" Class="ml-auto" OnClick="EditarUsuario">Editar</MudButton>
+                            }
+                            else
+                            {
+                                <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Info" Class="ml-auto" OnClick="AgregarUsuario">Agregar</MudButton>
+                            }
+                        </div>
+                    </ChildContent>
+                </RadzenCard>
+            </div>
+        </div>
+    </div>
+</AuthorizedViewRoles>
+
+@code {
+    [Parameter]
+    public int id { get; set; }
+
+
+
+    // el checkbox  Dar de baja se iniciliza en true para que en agregar Usuario este oculto
+    bool Visible = false;
+
+    //La propiedad SearchText se enlaza al RadzenDropDown para manejar la entrada de búsqueda.
+    public string SearchText { get; set; } = string.Empty;
+
+    public string message;
+
+    List<Departamento> departamentos = new();
+
+    Usuario user = new();
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        if (id == 0)
+        {
+            user = new();
+        }
+        else
+        {
+            var userRst = await usuarioClientService.GetUserById(id);
+
+            Visible = true;
+
+            if (userRst.IsSuccess)
+            {
+                user = userRst.Data;
+            }
+            else
+            {
+                message = userRst.Message;
+            }
+        }
+
+        var rspDepartamentos = await departamentoClientService.GetDepartamentos();
+
+        if (rspDepartamentos.IsSuccess)
+        {
+            departamentos = rspDepartamentos.Data;
+        }
+    }
+
+    private async Task EditarUsuario()
+    {
+        var rsp = await usuarioClientService.EditUser(user);
+
+        if (rsp.IsSuccess)
+        {
+            snackbar.Add("Usuario actualizado correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+            usuarioNotificationService.NotifyUsuarioUpdated(); //  Disparo el evento, Notifico para que lo escuche la pagina administrador de usuarios y actualiza la tabla de usuarios
+            Navigation.NavigateTo("AdministradorUsuarios");
+        }
+        else
+        {
+            snackbar.Add($"{rsp.Message}", Severity.Error, a => a.VisibleStateDuration = 200);
+           
+
+        }
+    }
+
+    private async Task AgregarUsuario()
+    {
+        var rsp = await usuarioClientService.AddUser(user);
+
+        if (rsp.IsSuccess)
+        {
+            snackbar.Add("Usuario agregado correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+            usuarioNotificationService.NotifyUsuarioUpdated(); //  Disparo el evento, Notifico para que lo escuche la pagina administrador de usuarios y actualiza la tabla de usuarios
+        }
+        else
+        {
+            snackbar.Add($"Error: {rsp.Message}", Severity.Success, a => a.VisibleStateDuration = 200);
+        }
+    }
+}
+
+

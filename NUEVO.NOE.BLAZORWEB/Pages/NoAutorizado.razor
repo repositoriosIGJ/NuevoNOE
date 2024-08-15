@@ -1,0 +1,37 @@
+﻿@page "/NoAutorizado"
+@using Blazored.SessionStorage
+@using CurrieTechnologies.Razor.SweetAlert2
+@using MudBlazor
+@using NUEVO.NOE.BLAZORWEB.ClientServices.Contrato
+@using NUEVO.NOE.DTO
+@using NUEVO.NOE.DTO.Seguridad
+@using NUEVO.NOE.Model.Seguridad
+@inject IUsuarioClientService usuarioClientService 
+@inject NavigationManager navigationManager
+@inject ISessionStorageService sessionStorage
+@inject IDialogService dialogService
+@inject SweetAlertService Swal
+
+
+<HeadContent>
+    <script src="_content/CurrieTechnologies.Razor.SweetAlert2/sweetAlert2.min.js" defer></script>
+</HeadContent>
+@code {
+
+    protected async override Task OnInitializedAsync()
+    {
+        SweetAlertResult alerta = await Swal.FireAsync(new SweetAlertOptions
+            {
+                Title = "No Autorizado",
+                Text = "No tiene permisos para ver esta pagina",
+                Icon = SweetAlertIcon.Warning,
+                ConfirmButtonText = "Aceptar",
+
+            });
+
+        if (alerta.IsConfirmed)
+        {
+            navigationManager.NavigateTo("/Home");
+        }
+    }
+}

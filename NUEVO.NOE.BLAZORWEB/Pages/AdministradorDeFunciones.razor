@@ -1,0 +1,114 @@
+﻿ @page "/AdministradorFunciones";
+@using NUEVO.NOE.BLAZORWEB.ClientServices.Implementacion
+@inject IFuncionesClientService funcionesClientService
+@inject ISnackbar snackbar
+@inject IDialogService dialogService
+@inject NavigationManager navigation
+@inject FuncionNotificationService funcionNotificationService
+
+<!-- LLAMO AL COMPONENTE PADRE AuthorizedViewRoles y le paso los roles autorizados donde esta la logica de permisos  -->
+<AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">
+<MudCard Class="m-3">
+    <MudCardHeader>
+        Bienvenido a la pagina de administracion de roles
+    </MudCardHeader>
+    <MudCardHeader>
+        <MudText>
+            Solo Los usuarios con roles de soporte o sistemas pueden ver esta pagina
+        </MudText>
+    </MudCardHeader>
+</MudCard>
+
+<div class="m-3">
+    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Class="ml-auto" Variant="MudBlazor.Variant.Filled" OnClick="AgregarFuncion" Color="Color.Primary">Agregar Funcion</MudButton>
+</div>
+
+<div class="mx-5 mb-3">
+    <MudTable Items="funciones" Dense="false" Hover="true" Bordered="false" Striped="true">
+        <ToolBarContent>
+                <MudText Typo="Typo.h6">Funciones</MudText>
+         </ToolBarContent>
+        <HeaderContent>
+            <MudTh>FUNCION</MudTh>
+            <MudTh>INHABILITADO</MudTh>
+            <MudTh>ACCIONES</MudTh>
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd>@context.Nombre</MudTd>
+            <MudTd>@context.Inhabilitado</MudTd>
+            <MudTd>
+                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Tertiary" Class="ml-auto" OnClick="@(() => EditarFuncion(context.Id))">Editar</MudButton>
+            </MudTd>
+        </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+    </MudTable>
+</div>
+</AuthorizedViewRoles>
+@code {
+    List<FuncionDTO> funciones = new();
+    string message;
+
+    protected override async Task OnInitializedAsync()
+    {
+        //El evento se dispara cuando se hace update o insert de la pagina DetailsUsuario
+        funcionNotificationService.OnFuncionlUpdated += async () => await CargarFunciones();
+        await CargarFunciones();
+    }
+
+    public async Task CargarFunciones()
+    {
+        var rspfunciones = await funcionesClientService.GetFunciones();
+
+        if (rspfunciones.IsSuccess)
+        {
+            funciones = rspfunciones.Data;
+        }
+        else
+        {
+            message = rspfunciones.Message;
+        }
+    }
+
+    //desuscribisrse cuando no esta en uso, para liberar memomia y errores 
+    public void Dispose()
+    {
+        funcionNotificationService.OnFuncionlUpdated -= async () => await CargarFunciones();
+    }
+
+    private async void EditarFuncion(int id)
+    {
+
+        IDialogReference dialog;
+
+
+        var parameters = new DialogParameters();
+        parameters.Add("id", id);
+
+        //para que se actualice la tabla cuando se edita el rol
+        parameters.Add("OnFuncionUpdated", EventCallback.Factory.Create(this, async () => await CargarFunciones()));
+
+        dialog = dialogService.Show<DetailsFuncion>("Editar Funcion", parameters);
+
+
+        var result = await dialog.Result;
+
+
+
+
+    }
+
+    private async void AgregarFuncion()
+    {
+
+        // var dialog = dialogService.Show<DetailsFuncion>("Agregar Funcion");
+        dialogService.Show<DetailsFuncion>("Agregar Funcion", new DialogParameters
+        {
+              //para que se actualice la pagina cuando se agregue un rol
+            { "OnRolUpdated", EventCallback.Factory.Create(this, async () => await CargarFunciones()) }
+        });
+
+    }
+}
+}

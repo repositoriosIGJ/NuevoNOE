@@ -56,5 +56,29 @@ namespace NUEVO.NOE.API.Controllers
 
             return rst;
         }
+
+
+        [HttpGet("GetRolesNotAssignedToUser")]
+        public async Task<ResponseDTO<List<RolDTO>>> GetRolesNotAssignedToUser(int userId)
+        {
+            var rst = await _rolesBusiness.GetRolesNotAssignedToUser(userId);
+
+            return rst;
+        }
+
+        [HttpGet("GetRolesAssignedToUser")]
+        public async Task<ResponseDTO<List<RolDTO>>> GetRolesAssignedToUser(int userId)
+        {
+            var rst = await _rolesBusiness.GetRolesAssignedToUser(userId);
+            return rst;
+        }
+
+        [HttpGet("GetRolesNotAssignedToUserByDepartamento/{userId}/{departamentoId}")]
+        public async Task<ResponseDTO<List<RolDTO>>> GetRolesNotAssignedToUserByDpto(int userId, int departamentoId)
+        {
+            var rst = await _rolesBusiness.GetRolesNotAssignedToUserByDepartamento(userId, departamentoId);
+
+            return rst;
+        }
     }
 }

@@ -1,0 +1,209 @@
+﻿@page "/RolesUsuarios"
+@page "/RolesUsuarios/{id:int}"
+@using AutoMapper
+@using MudBlazor
+@using Radzen 
+@inject NavigationManager Navigation
+@inject ISessionStorageService sessionStorage
+@inject IDepartamentoClientService departamentoClientService
+@inject IUsuarioClientService usuarioClientService
+@inject IRolesClientService rolClientService
+@inject IRolesUsuariosclientService rolesUsuariosClientService
+
+
+@inject IMapper mapper
+@inject ISnackbar snackbar
+@inject IDialogService dialogService ;
+@inject SweetAlertService Swal
+
+<!-- LLAMO AL COMPONENTE PADRE AuthorizedViewRoles y le paso los roles autorizados donde esta la logica de permisos  -->
+<AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">
+<div class="m-3">
+        <MudCard>
+            <MudCardHeader>
+                <MudText>Bienvenido a la página de administacion de usuarios</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText Typo="Typo.body2"> Solo usuarios con roles de soporte o sistemas pueden ver esta página.</MudText>
+            </MudCardContent>
+        </MudCard>
+        
+</div>
+
+    <div class="m-3">
+        <MudCard>
+            <MudCardHeader>
+                <MudText>Usuario</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText Typo="Typo.body2"> [@user.UserName] @user.NombreCompleto  </MudText>
+                <MudText Typo="Typo.body1"> @departamento.AcronimoDescripcion  </MudText> 
+              
+            </MudCardContent>
+        </MudCard>
+      
+    </div>
+  <div class="mx-5 mb-3">
+
+      <MudTable Items="rolesAsignadosAlUsuario" Dense="true" Hover="true" Bordered="false" Striped="true">
+          <HeaderContent>
+              <MudTh>ROLES ASIGNADOS</MudTh>
+              <MudTh>QUITAR</MudTh>
+          </HeaderContent>
+          <RowTemplate>
+              <MudTd>@context.Descripcion</MudTd>
+              <MudTd>
+                    <MudIconButton ButtonType="MudBlazor.ButtonType.Submit" Icon="@Icons.Material.Filled.Remove" Variant="MudBlazor.Variant.Filled" Color="Color.Error" Class="ml-auto" OnClick="@(() => EliminarRolUsuario(context.Id))"></MudIconButton>
+              </MudTd>
+              
+            </RowTemplate>
+      </MudTable>
+      <h3>@message</h3>
+  </div>
+
+    <div class="mx-5 mb-3">
+
+        <MudTable Items="rolesNoAsignadosAlUsuario" Dense="true" Hover="true" Bordered="false" Striped="true">
+            <HeaderContent>
+                <MudTh>ROLES NO ASIGNADOS</MudTh>
+                <MudTh>AGREGAR</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd>@context.Descripcion</MudTd>
+                <MudTd>
+                    <MudIconButton ButtonType="MudBlazor.ButtonType.Submit" Icon="@Icons.Material.Filled.Add" Variant="MudBlazor.Variant.Filled" Color="Color.Primary" Class="ml-auto" OnClick="@(() => AgregarRolUsuario(context.Id))"></MudIconButton>
+                </MudTd>
+            </RowTemplate>
+        </MudTable>
+        <h3>@message</h3>
+    </div>
+
+
+</AuthorizedViewRoles>
+@code {
+    [Parameter]
+    public int id { get; set; }
+    public int idDepartamento { get; set; }
+
+    //La propiedad SearchText se enlaza al RadzenDropDown para manejar la entrada de búsqueda.
+    public string SearchText { get; set; } = string.Empty;
+
+    //LISTA ROLES PARA MOSTRAR EN LA INTERFAZ
+    public List<RolDTO> rolesAsignadosAlUsuario;
+    public List<RolDTO> rolesNoAsignadosAlUsuario;
+    public Usuario user = new();
+    public Departamento departamento = new();
+    public string message;
+    // PARA AGREGAR EL USUARIOROL SELECCIONADO A LA DB
+    UsuarioRolDTO usuarioRol = new();
+
+    protected async override Task OnInitializedAsync()
+    {
+        // Inicializar las listas
+        rolesAsignadosAlUsuario = new List<RolDTO>();
+        rolesNoAsignadosAlUsuario = new List<RolDTO>();
+
+        //TRAIGO LOS ROLES DEL USUARIO
+        var rstRolesUser = await rolClientService.GetRolesAssignedToUser(id);
+
+        //TRAIGO LOS DATOS DEL USUARIO PARA OBTENER SU ID DEPARTAMENTO Y SU DATA
+        var usuario = await usuarioClientService.GetUserById(id);
+        //MAPEO PARA EL ID DEL USUARIO SELECCIONADO EN EL USUARIOROL PARA LAS OPERACIONES DE AGREGADO Y ELIMINADO
+        usuarioRol.Usrid = usuario.Data.Id;
+
+
+        if (usuario.Data is not null)
+        {
+            idDepartamento = usuario.Data.IdDpto;
+            user = usuario.Data;
+            departamento = usuario.Data.Departamento;
+        }
+        // TRAIGO LOS ROLES  ASIGNADOS AL USUARIOS
+        rstRolesUser = await rolClientService.GetRolesAssignedToUser(id);
+
+        //MAPEOS DE LA DATA PARA LA UI
+        if (rstRolesUser.IsSuccess && rstRolesUser.Data != null)
+        {
+            rolesAsignadosAlUsuario = rstRolesUser.Data;
+
+        }
+        else
+        {
+            message = rstRolesUser.Data == null ? "El usuario no tiene roles" : rstRolesUser.Message;
+        }
+
+        // TRAIGO LOS ROLES QUE PERTENCEN A SU DEPARTAMENTO NO ASIGNADOR AL USUARIOS
+        var rstRolesUserNotAssignByDpto = await rolClientService.GetRolesNotAssignedToUserByDepartamento(id, idDepartamento);
+
+        //MAPEOS DE LA DATA PARA LA UI
+        if (rstRolesUserNotAssignByDpto.IsSuccess && rstRolesUserNotAssignByDpto.Data != null)
+        {
+            rolesNoAsignadosAlUsuario = rstRolesUserNotAssignByDpto.Data;
+
+        }
+        else
+        {
+            message = rstRolesUserNotAssignByDpto.Data == null ? "El usuario no tiene roles" : rstRolesUserNotAssignByDpto.Message;
+        }
+
+
+
+        StateHasChanged();
+    }
+
+    // Método para agregar un rol al usuario
+
+    private async void AgregarRolUsuario(int id)
+    {
+        usuarioRol.Rolid = id;
+        var rspAddRolUsuario = await  rolesUsuariosClientService.AddRolUsuario(usuarioRol);
+
+        if (rspAddRolUsuario.IsSuccess)
+        {
+            // Actualizar listas en la  UI
+            var rol = rolesNoAsignadosAlUsuario.FirstOrDefault(r => r.Id == id);
+            if (rol != null)
+            {
+                rolesNoAsignadosAlUsuario.Remove(rol);
+                rolesAsignadosAlUsuario.Add(rol);
+            }
+            snackbar.Add("Rol agregado al usuario  correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+           
+
+        }
+        else
+        {
+            snackbar.Add($"No se pudo agregar Error: {rspAddRolUsuario.Message}", Severity.Error, a => a.VisibleStateDuration = 400);
+        }
+
+        StateHasChanged();
+    }
+
+    // Método para eliminar un rol al usuario
+    private async void EliminarRolUsuario(int id)
+    {
+        usuarioRol.Rolid = id;
+        var rspAddRolUsuario = await rolesUsuariosClientService.DeleteRolUsuario(usuarioRol);
+
+        if (rspAddRolUsuario.IsSuccess)
+        {
+            // Actualizar la listas de roles en la UI
+            var rol = rolesAsignadosAlUsuario.FirstOrDefault(r => r.Id == id);
+            if (rol != null)
+            {
+                rolesAsignadosAlUsuario.Remove(rol);
+                rolesNoAsignadosAlUsuario.Add(rol);
+            }
+            snackbar.Add("Rol eliminado al usuario  correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+
+
+        }
+        else
+        {
+            snackbar.Add($"No se pudo agregar Error: {rspAddRolUsuario.Message}", Severity.Error, a => a.VisibleStateDuration = 400);
+        }
+
+        StateHasChanged();
+    }
+}
+ 

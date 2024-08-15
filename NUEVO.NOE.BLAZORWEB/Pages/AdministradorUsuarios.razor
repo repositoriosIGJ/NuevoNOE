@@ -1,0 +1,163 @@
+﻿@page "/AdministradorUsuarios"
+
+@inject NavigationManager Navigation
+@inject ISessionStorageService sessionStorage
+@inject IDepartamentoClientService departamentoClientService
+@inject IUsuarioClientService usuarioClientService
+@inject IMapper mapper
+@inject ISnackbar snackbar
+@inject IDialogService dialogService ;
+@inject SweetAlertService Swal
+@inject UsuarioNotificationService usuarioNotificationService
+
+<!-- LLAMO AL COMPONENTE PADRE AuthorizedViewRoles y le paso los roles autorizados donde esta la logica de permisos  -->
+<AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">
+
+        <MudCard Class="mb-5">
+            <MudCardHeader>
+                <MudText>Bienvenido a la página de administacion de usuarios</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText Typo="Typo.body2"> Solo usuarios con roles de soporte o sistemas pueden ver esta página.</MudText>
+            </MudCardContent>
+        </MudCard>
+        <div class="m-5">
+        <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled"
+                   Color="Color.Primary" Class="ml-auto" OnClick="AgregarUsuario">Agregar Usuario</MudButton>
+        </div>
+
+
+        <div class="m-5">
+            <MudTable Items="@filteredUsuarios" Dense="false" Hover="true" Bordered="false" Striped="true">
+                <ToolBarContent>
+                    <MudText Typo="Typo.h6">Usuarios</MudText>
+                    <MudSpacer />
+                    @*La propiedad Immediate en el MudTextField se establece en true para que la busqueda de la funcion searchString 
+                    se actualice en el momento  sin necesidad de presionar Enter. *@
+                    <MudTextField @bind-Value="searchString" Placeholder="Buscar por nombre o username" Adornment="Adornment.Start" 
+                    AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField>
+                </ToolBarContent>
+                <HeaderContent>
+                    <MudTh>NOMBRE COMPLETO</MudTh>
+                    <MudTh>USER NAME</MudTh>
+                    <MudTh>DNI</MudTh>
+                    <MudTh>DADO DE BAJA</MudTh>
+                    <MudTh>ACCIONES</MudTh>
+                </HeaderContent>
+                <RowTemplate>
+                    <MudTd DataLabel="NOMBRE COMPLETO">@context.NombreCompleto.ToUpper()</MudTd>
+                    <MudTd DataLabel="USER NAME">@context.UserName.ToUpper()</MudTd>
+                    <MudTd DataLabel="DNI">@context.Documento</MudTd>
+                    <MudTd DataLabel="DADO DE BAJA">@context.Baja</MudTd>
+                    <MudTd DataLabel="ACCIONES">
+                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Tertiary" Class="ml-auto" OnClick="@(() => EditarUsuario(context.Id))">Editar</MudButton>
+                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Info" Class="ml-auto" OnClick="@(() => UsuarioRol(context.Id))">Ver roles </MudButton>
+
+                </MudTd>
+                </RowTemplate>
+                <PagerContent>
+                    <MudTablePager />
+                </PagerContent>
+            </MudTable>
+            </div>>
+</AuthorizedViewRoles>
+
+ 
+
+@code{
+
+    // [Parameter]
+    // public int id { get; set; }
+
+    List<Usuario> usuarios = new();
+
+    Usuario user = new();
+
+    //bindeado en el input de busqueda
+    private string searchString = "";
+
+    //logica busqueda filtro
+    private List<Usuario> filteredUsuarios => usuarios.Where(u =>
+       u.NombreCompleto.Contains(searchString, StringComparison.OrdinalIgnoreCase) ||
+       u.UserName.Contains(searchString, StringComparison.OrdinalIgnoreCase)).ToList();
+
+
+    private List<Usuario> usuariosFiltrados => string.IsNullOrWhiteSpace(searchString)
+       ? usuarios
+       : usuarios.Where(u => u.UserName.Contains(searchString, StringComparison.OrdinalIgnoreCase) ||
+                             u.NombreCompleto.Contains(searchString, StringComparison.OrdinalIgnoreCase)).ToList();
+
+
+  
+
+    protected override async Task OnInitializedAsync()
+    {
+        //Evento OnUsuarioUpdated
+        //cada vez que se dispare el evento OnUsuarioUpdated, automáticamente se ejecutará el método CargarUsuarios para resfrescar la tabla
+        //El evento se dispara cuando se hace update o insert de la pagina DetailsUsuario
+        usuarioNotificationService.OnUsuarioUpdated += async () => await CargarUsuarios() ;
+        await CargarUsuarios();
+    }
+
+    //obtiene la lista actualizada de usuarios.
+    private async Task CargarUsuarios()
+    {
+        var rspUsuarios = await usuarioClientService.GetUsuarios();
+        if (rspUsuarios.IsSuccess)
+        {
+            usuarios = rspUsuarios.Data;
+            StateHasChanged();
+        }
+    }
+
+    public void Dispose()
+    {
+        usuarioNotificationService.OnUsuarioUpdated += async () => await CargarUsuarios();
+    }
+    
+    private async void EditarUsuario( int id)
+    {
+
+        IDialogReference dialog ;
+
+
+        var parameters = new DialogParameters();
+        parameters.Add("id", id);
+
+        dialog = dialogService.Show<DetailsUsuario>("Editar Usuario", parameters);
+        // Navigation.NavigateTo($"DetailsUsuario/{id}");
+     
+        var result = await dialog.Result;
+
+        
+
+        
+    }
+
+    //Después de cerrar el diálogo de agregar, se llama a CargarUsuarios para refrescar la lista de usuarios.
+    private async void AgregarUsuario()
+    {
+
+        var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
+     
+        var result = await dialog.Result;
+
+        
+
+    }
+
+    private async void UsuarioRol(int id)
+    {
+
+        var parameters = new DialogParameters();
+        parameters.Add("id", id);
+
+         dialogService.Show<RolesUsuario>("Roles Usuario", parameters);
+        // Navigation.NavigateTo($"DetailsUsuario/{id}");
+    }
+
+ 
+}
+
+             
+      

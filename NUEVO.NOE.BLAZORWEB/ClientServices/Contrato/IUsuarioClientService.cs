@@ -7,8 +7,9 @@ namespace NUEVO.NOE.BLAZORWEB.ClientServices.Contrato
     {
         Task<ResponseDTO<List<Usuario>>> GetUsuarios();
         Task<ResponseDTO<UsuarioDTO>> GetDataUser(string name);
-        Task<ResponseDTO<UsuarioDTO>> AddUser(UsuarioDTO usuarioDTO);
-        Task<ResponseDTO<UsuarioDTO>> EditUser(UsuarioDTO usuarioDTO);
+        Task<ResponseDTO<Usuario>> GetUserById(int id);
+        Task<ResponseDTO<Usuario>> AddUser(Usuario usuario);
+        Task<ResponseDTO<Usuario>> EditUser(Usuario usuario);
         Task<ResponseDTO<bool>> RemoveUser(int Id);
 
         Task<ResponseDTO<bool>> ValidateUser(string username, string password);

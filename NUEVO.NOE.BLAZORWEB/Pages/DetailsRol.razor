@@ -1,0 +1,164 @@
+﻿@page "/DetailsRol"
+@page "/DetailsRol/{id:int}"
+
+@inject RolNotificationService rolNotificationService
+@inject IRolesClientService rolClientService
+@inject IDepartamentoClientService departamentoClientService
+
+@* <AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">*@
+    <div class="m-5"> 
+
+        <MudCard Class="mb-5">
+            <MudCardHeader>
+                <MudText>Bienvenido a la página de administacion de roles</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText Typo="Typo.body2"> Solo usuarios con roles de soporte o sistemas pueden ver esta página.</MudText>
+            </MudCardContent>
+        </MudCard>
+
+        <div class="row">
+            <div class="col-md-12">
+                <RadzenCard>
+                    <ChildContent>
+                        <RadzenTemplateForm Data="rolDTO">
+                            <div class="form-group mt-3">
+                                <label for="nombre">Roles</label>
+                                <RadzenTextBox @bind-Value="@rolDTO.Descripcion" Style="width: 100%;" />
+                            </div>
+                             <div class="form-group mt-3">
+                                <label for="departamento">Departamento</label>
+                                @*   Se ha añadido el atributo @bind-SearchText al RadzenDropDown para permitir la búsqueda.
+                                Los atributos FilterCaseSensitivity y FilterOperator se configuran para ajustar cómo se realiza la búsqueda
+                                (en este caso, insensible a mayúsculas y minúsculas, y contiene). *@
+                                <RadzenDropDown @bind-Value="rolDTO.IdDepartamento"
+                                                @bind-SearchText="SearchText"
+                                                Data="departamentos"
+                                                TextProperty="AcronimoDescripcion"
+                                                ValueProperty="Id"
+                                                FilterCaseSensitivity="FilterCaseSensitivity.CaseInsensitive"
+                                                FilterOperator="StringFilterOperator.Contains"
+                                                AllowFiltering="true"
+                                                Style="width: 100%;" />
+                            </div>
+                            <div class="form-group mt-3">
+                            <!-- MANEJAMOS EL VISIBLE DE MANERA DINAMICA EN EL CODE>
+                            <RadzenCheckBox @bind-Value=@rolDTO.Inhabilitado Name="CheckBox1" Visible="@Visible" />
+                            <RadzenLabel Text="INHABILITAR" Component="CheckBox1" class="rz-ms-2" Visible="@Visible" />
+                            </div>
+                        </RadzenTemplateForm>
+                            <div class="text-right mt-3">
+                                @if (id > 0)
+                                {
+                                    
+                                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Dark" Class="ml-auto" OnClick="EditarRol">Editar</MudButton>
+                                }
+                                else
+                                {
+                                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Info" Class="ml-auto" OnClick="AgregarRol">Agregar</MudButton>
+                                }
+                            </div>
+                    </ChildContent>
+                </RadzenCard>
+            </div>
+        </div>
+
+    </div>
+@* </AuthorizedViewRoles> *@
+@code {
+
+    // el checkbox  Inhabilitado se iniciliza en false para que en agregar Roles este oculto
+    bool Visible = false;
+    [Parameter]
+    public int id { get; set; }
+
+    //La propiedad SearchText se enlaza al RadzenDropDown para manejar la entrada de búsqueda.
+    public string SearchText { get; set; } = string.Empty;
+
+    public string message;
+
+    List<Departamento> departamentos = new();
+
+    RolDTO rolDTO = new();
+
+    [Parameter]
+    public EventCallback OnRolUpdated { get; set; }
+
+  @*   //Añade una acción de callback para notificar al componente padre(AdministradorRoles) cuando se haya realizado una operación de agregar o editar:
+    [Parameter]
+    public EventCallback OnRolesChanged { get; set; } *@
+
+    protected override async Task OnInitializedAsync()
+    {
+
+
+        if (id > 0)
+        {
+            //TRAEMOS EL ROL POR EL ID
+
+            var rstRol = await rolClientService.GetRolById(id);
+
+            //hacemos visible el Checkbox Inhabilitar para que pueda editarlo
+
+            Visible = true;
+            if (rstRol.IsSuccess)
+            {
+                rolDTO = rstRol.Data;
+            }
+            else
+            {
+                message = rstRol.Message;
+            }
+        }
+
+        var respuestaDepartamento = await departamentoClientService.GetDepartamentos();
+
+        if (respuestaDepartamento.IsSuccess)
+        {
+            departamentos = respuestaDepartamento.Data;
+        }
+
+    }
+
+    private async Task EditarRol()
+    {
+        var rstEditRol = await rolClientService.UpdateRol(rolDTO);
+
+        if (rstEditRol.IsSuccess)
+        {
+            snackbar.Add("Rol actualizado correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+            rolNotificationService.NotifyRolUpdated();//  Disparo el evento, Notifico para que lo escuche la pagina administrador de roles y actualiza la tabla de roles
+            await OnRolUpdated.InvokeAsync();  // Invocar el callback
+        
+        @*  await OnRolesChanged.InvokeAsync();  *@
+        }
+        else
+        {
+            snackbar.Add($"No se ha podido actualizar el rol {rstEditRol.Message}, Severity.Error, a => a.VisibleStateDuration = 400");
+        }
+
+        StateHasChanged();
+        navigation.NavigateTo("/AdministradorRoles");
+    }
+
+    private async Task AgregarRol()
+    {
+        var rstAddRol = await rolClientService.AddRol(rolDTO);
+
+        if (rstAddRol.IsSuccess)
+        {
+
+            snackbar.Add("Rol agregado correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+            rolNotificationService.NotifyRolUpdated(); //  Disparo el evento, Notifico para que lo escuche la pagina administrador de roles y actualiza la tabla de roles
+            await OnRolUpdated.InvokeAsync();  // Invocar el callback
+        }
+        else
+        {
+            snackbar.Add($" No se pudo agregar el rol, Error: {rstAddRol.Message}", Severity.Error, a => a.VisibleStateDuration = 400);
+        }
+
+        StateHasChanged();
+        navigation.NavigateTo("/AdministradorRoles");
+    }
+}
+}

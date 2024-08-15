@@ -1,15 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "nPWaOPRUIDA=",
+  "dgSpecHash": "393ZoYCGIkw=",
   "success": true,
   "projectFilePath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Está ejecutando la operación \"restore\" con un origen \"HTTP\", \"http://packages.nuget.org/v1/FeedService.svc/.\". El acceso que no sea HTTPS se quitará en una versión futura. Considere la posibilidad de migrar a un origen \"HTTPS\"."
-    }
-  ]
+  "logs": []
 }

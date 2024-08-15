@@ -6,8 +6,8 @@ namespace NUEVO.NOE.Service.Contrato
 {
     public interface IActiveDirectoryService
     {
-        ResponseDTO<List<UsuarioActiveDirectory>> GetUsers();
+        Task<ResponseDTO<List<UsuarioActiveDirectory>>> GetUsers();
 
-        ResponseDTO<bool> ValidateUser(string username, string password);
+        Task<ResponseDTO<bool>> ValidateUser(string username, string password);
     }
 }

@@ -2,7 +2,7 @@
 
 public partial class UsuarioRol
 {
-    public int? Usrid { get; set; }
+    public int Usrid { get; set; }
 
     public int? Rolid { get; set; }
 

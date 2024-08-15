@@ -37,7 +37,8 @@ namespace NUEVO.NOE.Business.Implementacion
 
         public Task<ResponseDTO<FuncionDTO>> GetFuncionById(int id)
         {
-            throw new NotImplementedException();
+            var rsp = _funcionRepository.GetFuncionById(id);
+            return rsp;
         }
 
         public async Task<ResponseDTO<List<FuncionDTO>>> GetFunciones()

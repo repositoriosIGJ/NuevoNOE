@@ -9,6 +9,10 @@ namespace NUEVO.NOE.Service
         {
             CreateMap<Rol, RolDTO>().ReverseMap();
             CreateMap<UsuarioRol, UsuarioRolDTO>().ReverseMap();
+            CreateMap<RolFuncion, RolFuncionDTO>().ReverseMap();
+            CreateMap<Usuario, UsuarioDTO>().ReverseMap();
+            CreateMap<Funcion, FuncionDTO>().ReverseMap();
+            CreateMap<Departamento, DepartamentoDTO>().ReverseMap();
         }
     }
 }

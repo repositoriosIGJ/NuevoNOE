@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace NUEVO.NOE.Model.Seguridad;
+﻿namespace NUEVO.NOE.Model.Seguridad;
 
 public partial class RolFuncionDTO
 {
@@ -9,7 +6,7 @@ public partial class RolFuncionDTO
 
     public int? Funid { get; set; }
 
-    public virtual FuncionDTO? Fun { get; set; }
+    public virtual FuncionDTO? Funcion { get; set; }
 
     public virtual RolDTO? Rol { get; set; }
 }

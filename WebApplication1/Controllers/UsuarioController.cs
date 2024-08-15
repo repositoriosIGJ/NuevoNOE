@@ -17,17 +17,17 @@ namespace NUEVO.NOE.API.Controllers
         }
 
         [HttpGet("ActiveDirectoryUsers")]
-        public ResponseDTO<List<UsuarioActiveDirectory>> GetUsers()
+        public async Task<ResponseDTO<List<UsuarioActiveDirectory>>> GetUsers()
         {
-            var rsp = _usuarioBusiness.GetUsersActiveDirectory();
+            var rsp = await _usuarioBusiness.GetUsersActiveDirectory();
             return rsp;
         }
 
 
         [HttpGet("ValidarCredencialUsuarioActiveDirectory")]
-        public ResponseDTO<bool> ValidateUser(string nombre, string password)
+        public async Task<ResponseDTO<bool>> ValidateUser(string nombre, string password)
         {
-            var rsp = _usuarioBusiness.ValidateUserActiveDirectory(nombre, password);
+            var rsp = await _usuarioBusiness.ValidateUserActiveDirectory(nombre, password);
             return rsp;
         }
 
@@ -35,6 +35,14 @@ namespace NUEVO.NOE.API.Controllers
         public async Task<ResponseDTO<List<Usuario>>> GetUsersDB()
         {
             var rsp = await _usuarioBusiness.GetUsersDB();
+            return rsp;
+        }
+
+        [HttpGet("GetUserById")]
+        public async Task<ResponseDTO<Usuario>> GetUserById(int id)
+        {
+            var rsp = await _usuarioBusiness.GetUserById(id);
+
             return rsp;
         }
 
@@ -46,17 +54,26 @@ namespace NUEVO.NOE.API.Controllers
         }
 
         [HttpPost("AddUser")]
-        public async Task<ResponseDTO<UsuarioDTO>> AddUser(UsuarioDTO usuarioDTO)
+        public async Task<ResponseDTO<Usuario>> AddUser(Usuario usuario)
         {
-            var rsp = await _usuarioBusiness.AddUser(usuarioDTO);
+            var rsp = await _usuarioBusiness.AddUser(usuario);
 
             return rsp;
         }
 
-        [HttpPatch("EditUser")]
-        public async Task<ResponseDTO<UsuarioDTO>> EditUser(UsuarioDTO usuarioDTO)
+        [HttpPost("EditUser")]
+        public async Task<ResponseDTO<Usuario>> EditUser(Usuario usuario)
         {
-            var rsp = await _usuarioBusiness.EditUser(usuarioDTO);
+            if (!ModelState.IsValid)
+            {
+                return new ResponseDTO<Usuario>
+                {
+                    IsSuccess = false,
+                    Message = "Invalid model",
+                    Data = null
+                };
+            }
+            var rsp = await _usuarioBusiness.EditUser(usuario);
 
             return rsp;
         }

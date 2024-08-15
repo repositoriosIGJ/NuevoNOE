@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NUEVO.NOE.BLAZORWEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+55a81705a1d00967950eae7b5734e0a532947600")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23fb2f9aefe486016bca6c015413a8f706a0d7fb")]
 [assembly: System.Reflection.AssemblyProductAttribute("NUEVO.NOE.BLAZORWEB")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NUEVO.NOE.BLAZORWEB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

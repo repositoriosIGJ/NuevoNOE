@@ -1,0 +1,137 @@
+﻿@page "/DetailsFuncion"
+@page "/DetailsFuncion/{id:int}"
+@inject NavigationManager Navigation
+@inject ISessionStorageService sessionStorage
+@inject IRolesClientService rolClientService
+@inject IFuncionesClientService funcionClientService
+@inject IMapper mapper
+@inject ISnackbar snackbar
+@inject IDialogService dialogService
+@inject FuncionNotificationService funcionNotificationService
+
+<AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">
+    <div class="mx-5">
+        <MudCard>
+            <MudCardHeader>
+                <MudText>Bienvenido a la página de administacion de Funciones</MudText>
+            </MudCardHeader>
+            <MudCardContent>
+                <MudText Typo="Typo.body2"> Solo usuarios con roles de soporte o sistemas pueden ver esta página.</MudText>
+            </MudCardContent>
+        </MudCard>
+    </div>
+
+    <div class="row m-5">
+        <div class="col-md-12">
+            <MudCard>
+                <ChildContent>
+                    <RadzenTemplateForm Data="funcionDTO">
+                        <div class="form-group m-3">
+                            <label class="mb-3" for="Nombre">Funcion</label>
+                            <RadzenTextBox @bind-Value="@funcionDTO.Nombre" Style="width:100%"></RadzenTextBox>
+                        </div>
+                        <div class="form-group m-3">
+                            <!-- MANEJAMOS EL VISIBLE DE MANERA DINAMICA EN EL CODE>
+                             <RadzenCheckBox @bind-Value=@funcionDTO.Inhabilitado Name="CheckBox1" Visible="@Visible" />
+                              <RadzenLabel Text="INHABILITAR" Component="CheckBox1" class="rz-ms-2" Visible="@Visible" />
+                        </div>
+                    </RadzenTemplateForm>
+                       <div class="text-right m-3">
+                        @if (id > 0)
+                        {
+                          <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Dark" Class="ml-auto"  OnClick="EditarFuncion" >Editar</MudButton>
+                        }
+                        else
+                        {
+                          <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Info" Class="ml-auto"  OnClick="AgregarFuncion" >Agregar</MudButton>
+                        }
+                       </div>
+                           <MudCardContent>
+                                <MudText Color="Color.Error" Typo="Typo.h6"> @message</MudText>
+                           </MudCardContent>
+                </ChildContent>
+            
+            </MudCard>
+
+        </div>
+    </div>
+</AuthorizedViewRoles>
+
+@code {
+    FuncionDTO funcionDTO = new();
+    List<RolDTO> roles = new();
+    public string message;
+    bool Visible = false;
+    [Parameter]
+    public int id { get; set; }
+    [Parameter]
+    public EventCallback OnFuncionUpdated { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        if (id > 0)
+        {
+            //TRAEMOS EL ROL POR EL ID
+
+            var rstFuncion = await funcionClientService.GetFuncionById(id);
+
+            //hacemos visible el Checkbox Inhabilitar para que pueda editarlo
+
+            Visible = true;
+            if (rstFuncion.IsSuccess)
+            {
+                funcionDTO = rstFuncion.Data;
+            }
+            else
+            {
+                message = rstFuncion.Message;
+            }
+        }
+    }
+
+    private async Task EditarFuncion()
+    {
+        var rsp = await funcionClientService.UpdateFuncion(funcionDTO);
+
+        if (rsp.IsSuccess)
+        {
+            snackbar.Add("Funcion actualizada correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+            funcionNotificationService.NotifyFuncionUpdated();//  Disparo el evento, Notifico para que lo escuche la pagina administrador de roles y actualiza la tabla de roles
+            await OnFuncionUpdated.InvokeAsync();  // Invocar el callback
+
+            navigation.NavigateTo("/AdministradorFunciones");
+        }
+        else
+        {
+            snackbar.Add($"No se ha podido actualizar la funcion {rsp.Message}, Severity.Error, a => a.VisibleStateDuration = 400");
+        }
+    }
+
+    private async Task AgregarFuncion()
+    {
+        if(funcionDTO.Nombre is not null)
+        {
+
+            var rsp = await funcionClientService.AddFuncion(funcionDTO);
+
+            if (rsp.IsSuccess)
+            {
+                snackbar.Add("Funcion actualizada correctamente", Severity.Success, a => a.VisibleStateDuration = 200);
+                funcionNotificationService.NotifyFuncionUpdated(); //  Disparo el evento, Notifico para que lo escuche la pagina administrador de roles y actualiza la tabla de roles
+                await OnFuncionUpdated.InvokeAsync();  // Invocar el callback 
+             
+            }
+            else
+            {
+                snackbar.Add($"No se ha podido agregar la funcion {rsp.Message}, Severity.Error, a => a.VisibleStateDuration = 400");
+            }
+
+            navigation.NavigateTo("/AdministradorFunciones");
+        }
+        else
+        {
+            message = "Debe ingresar el nombre de la funcion";
+        }
+
+    }
+}

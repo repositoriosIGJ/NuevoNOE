@@ -1,11 +1,22 @@
 ﻿@using MudBlazor
+@using Radzen.Blazor
 @inherits LayoutComponentBase
 <div class="page">
    <main>
+       <HeadContent>
+            <link href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" rel="stylesheet">
+            <link rel="stylesheet" href="_content/Radzen.Blazor/css/material-base.css">
+            <link href="_content/Radzen.Blazor/css/default-base.css" rel="stylesheet" />
+            <script src="_content/CurrieTechnologies.Razor.SweetAlert2/sweetAlert2.min.js"></script>
+            <script src="_content/Radzen.Blazor/Radzen.Blazor.js"></script>
+        </HeadContent>
         <MudThemeProvider/>
         <MudDialogProvider/>
         <MudSnackbarProvider/>
-        <AppBar></AppBar>
+        <MudPopoverProvider />
+        <RadzenComponents />
+        <MudIconButton/>
+      @*   <AppBar></AppBar> *@
         @Body
     </main>
   

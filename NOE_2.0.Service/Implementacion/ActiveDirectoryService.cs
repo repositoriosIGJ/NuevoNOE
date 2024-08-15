@@ -11,7 +11,7 @@ namespace NUEVO.NOE.Service.Implementacion
         ResponseDTO<List<UsuarioActiveDirectory>> rst = new ResponseDTO<List<UsuarioActiveDirectory>>();
         string DomainPath = "LDAP://OU=IGJ,OU=Organismos Delegados,OU=Ministerio,DC=JUSTICIA,DC=AR";
 
-        public ResponseDTO<List<UsuarioActiveDirectory>> GetUsers()
+        public async Task<ResponseDTO<List<UsuarioActiveDirectory>>> GetUsers()
         {
             rst.IsSuccess = false;
 
@@ -79,7 +79,7 @@ namespace NUEVO.NOE.Service.Implementacion
         }
 
 
-        public ResponseDTO<bool> ValidateUser(string username, string password)
+        public async Task<ResponseDTO<bool>> ValidateUser(string username, string password)
         {
             ResponseDTO<bool> rst = new ResponseDTO<bool>();
 

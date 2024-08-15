@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v8.0": {
       "NUEVO.NOE.DTO/1.0.0": {
+        "dependencies": {
+          "NUEVO.NOE.Model": "1.0.0"
+        },
         "runtime": {
           "NUEVO.NOE.DTO.dll": {}
+        }
+      },
+      "NUEVO.NOE.Model/1.0.0": {
+        "runtime": {
+          "NUEVO.NOE.Model.dll": {}
         }
       }
     }
   },
   "libraries": {
     "NUEVO.NOE.DTO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NUEVO.NOE.Model/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -8,6 +8,10 @@ public partial class DepartamentoDTO
 
     public string? Acronimo { get; set; }
 
+    public string AcronimoDescripcion { get { return $"{Acronimo} {Descripcion}"; } }
+
+    public ICollection<Rol>? Roles { get; set; }
+
     public virtual ICollection<AreaDTO> Areas { get; set; } = new List<AreaDTO>();
 
     public virtual ICollection<UsuarioDTO> Usuarios { get; set; } = new List<UsuarioDTO>();

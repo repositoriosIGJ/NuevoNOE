@@ -27,6 +27,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Servic
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.AssemblyInfoInputs.cache
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.AssemblyInfo.cs
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.csproj.CoreCompileInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.sourcelink.json
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NO.22091E83.Up2Date
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\refint\NUEVO.NOE.Service.dll

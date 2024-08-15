@@ -71,9 +71,26 @@ namespace NUEVO.NOE.Repository.Seguridad.Implementacion
             return rsp;
         }
 
-        public Task<ResponseDTO<FuncionDTO>> GetFuncionById(int id)
+        public async Task<ResponseDTO<FuncionDTO>> GetFuncionById(int id)
         {
-            throw new NotImplementedException();
+            ResponseDTO<FuncionDTO> rsp = new();
+            rsp.IsSuccess = false;
+            var funcion = await _db.Funciones.FirstOrDefaultAsync(_ => _.Id == id);
+            if (funcion is not null)
+            {
+                var funcionDTO = _mapper.Map<FuncionDTO>(funcion);
+                rsp.IsSuccess = true;
+                rsp.Message = "Ok";
+                rsp.Data = funcionDTO;
+            }
+            else
+            {
+                rsp.IsSuccess = false;
+                rsp.Message = "funcion inexistente";
+            }
+
+
+            return rsp;
         }
 
         public async Task<ResponseDTO<List<FuncionDTO>>> GetFunciones()

@@ -1,0 +1,58 @@
+﻿@using System.Net.Http
+@using System.Net.Http.Json
+@using Microsoft.AspNetCore.Components
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components.Routing
+@using Microsoft.AspNetCore.Components.Web
+@using Microsoft.AspNetCore.Components.Web.Virtualization
+@using Microsoft.AspNetCore.Components.WebAssembly.Http
+@inject NavigationManager navigationManager
+@inject ISessionStorageService sessionStorage
+
+@typeparam TRolesAutorizados
+
+@if(IsAuthorized)
+{
+    @ChildContent
+}
+
+@code {
+
+    // el componenete/pagina a renderizar si es autorizado
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    //los Roles permitidos recibidos por parametro 
+    [Parameter]
+    public TRolesAutorizados[] RolesAutorizados { get; set; }
+
+    private bool IsAuthorized { get; set; }
+
+    protected async override Task OnInitializedAsync()
+    {
+        var sesion = await sessionStorage.GetItemAsync<UsuarioDTO>("user");
+
+        if (sesion != null)
+        {
+            // busco los roles del usuario en la sesion
+            var userRoles = sesion.UsuarioRol?.Select(r => r.Rol.Descripcion);
+            
+            //verifico con el INTERSERCT ( intersección de las dos listas para encontrar elementos en comun) 
+            // Verifica si alguno de los roles del usuario está en la lista de roles permitidos
+
+            if (userRoles != null && RolesAutorizados.Select(r => r.ToString()).Intersect(userRoles).Any())
+            {
+                IsAuthorized = true;
+            }
+            else
+            {
+                IsAuthorized = false;
+                navigationManager.NavigateTo("/NoAutorizado");
+            }
+        }
+        else
+        {
+            navigationManager.NavigateTo("/");
+        }
+    }
+}

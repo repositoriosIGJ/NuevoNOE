@@ -1,7 +1,96 @@
-﻿ @page "/Home"; 
- @* @page "/Home/{userDTO}" *@
+﻿@using Blazored.SessionStorage
+@using NUEVO.NOE.Model.Seguridad
+@using MudBlazor 
+ @page "/Home"; 
+ @inject ISessionStorageService sessionStorage
+ @inject NavigationManager navigationManager
+ @inject IDialogService dialogService ;
+ <div class="m-5">
+@if (usuarioDTO.Usuario is not null){
+    
+        <MudCard Class="mb-5">
+            <MudCardContent>
+                <MudText>Bienvenido: @usuarioDTO.Usuario.NombreCompleto.ToUpper() - @usuarioDTO.Usuario.NameActiveDirectory.ToUpper()</MudText>
 
-<PageTitle>Home</PageTitle>
+                <MudText Typo="Typo.body2"> @usuarioDTO.Usuario.Departamento.Descripcion</MudText>
+            </MudCardContent>
 
-<h3>MENU PRINCIPAL USER</h3>
+        </MudCard>
 
+        }
+
+        @if (usuarioDTO.UsuarioRol is not null)
+        {
+            <MudPaper Width="300px" Class="mb-5">
+                <MudList T="UsuarioDTO">
+                    <MudListItem Text="Roles" SecondaryText="Roles del usuario logueado" />
+                    <MudDivider />
+                    @if (usuarioDTO.UsuarioRol is not null)
+                    {
+                        @foreach (var rolusuario in usuarioDTO.UsuarioRol)
+                        {
+                            <MudListItem Text="@rolusuario.Rol.Descripcion" Icon="@Icons.Material.Filled.Work" />
+                        }
+                    }
+
+                </MudList>
+            </MudPaper>
+
+        }
+
+    <!-- Botón para cerrar sesión -->
+    <MudButton OnClick="Logout" Color="Color.Secondary" Variant="MudBlazor.Variant.Filled"> Cerrar Sesión</MudButton>
+    <MudButton OnClick="RolManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Roles</MudButton> 
+    <MudButton OnClick="UserManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Usuarios</MudButton>
+    <MudButton OnClick="FuncionManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Funciones</MudButton>
+</div>
+
+
+
+@code{
+
+    // EN USUARIO DTO SE ALMANCENA  ADEMAS DE LOS DATOS DEL USUARIO, SUS ROLES Y SUS FUNCIONES
+    public UsuarioDTO? usuarioDTO = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var sesion = await sessionStorage.GetItemAsync<UsuarioDTO>("user");
+
+        if(sesion is not null)
+        {
+            //almaceno el usuario en el objeto user para manejar sus datos en la interfaz
+            usuarioDTO = sesion;
+
+        }
+        else
+        {
+            // redirigir en el caso donde no se encuentra el usuario en la sesión 
+            navigationManager.NavigateTo("/");
+        }
+
+    }
+
+    private async Task Logout()
+    {
+        await sessionStorage.RemoveItemAsync("user");
+        navigationManager.NavigateTo("/");
+    }
+
+    public async Task RolManagement()
+    {
+         // var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
+        navigationManager.NavigateTo("/AdministradorRoles");
+    }
+
+    public async Task UserManagement()
+    {
+        //var dialog = dialogService.Show<AdministradorUsuarios>("Administracion de Usuarios");
+        navigationManager.NavigateTo("/AdministradorUsuarios");
+    }
+
+    public async Task FuncionManagement()
+    {
+        // var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
+        navigationManager.NavigateTo("/AdministradorFunciones");
+    }
+}

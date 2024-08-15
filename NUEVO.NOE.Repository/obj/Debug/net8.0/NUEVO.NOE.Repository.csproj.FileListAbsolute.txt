@@ -30,6 +30,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.R
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.AssemblyInfoInputs.cache
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.AssemblyInfo.cs
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.csproj.CoreCompileInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.sourcelink.json
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NO.BF6F41A2.Up2Date
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\refint\NUEVO.NOE.Repository.dll

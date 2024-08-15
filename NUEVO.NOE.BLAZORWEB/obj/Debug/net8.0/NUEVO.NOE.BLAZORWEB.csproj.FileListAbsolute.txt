@@ -1,5 +1,8 @@
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\AutoMapper.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\Blazored.SessionStorage.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\CurrieTechnologies.Razor.SweetAlert2.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\dotnet.js
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\dotnet.js.map
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\dotnet.native.8.0.7.dzdv0jeb02.js
@@ -47,6 +50,8 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_fra
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\NUEVO.NOE.DTO.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\NUEVO.NOE.Model.pdb
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\NUEVO.NOE.Model.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\NUEVO.NOE.Service.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\NUEVO.NOE.Service.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.AppContext.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Buffers.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Collections.Concurrent.wasm
@@ -76,6 +81,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_fra
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.Tools.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.TraceSource.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.Tracing.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.DirectoryServices.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Drawing.Primitives.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Drawing.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Dynamic.Runtime.wasm
@@ -219,6 +225,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_fra
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Intrinsics.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.Annotations.wasm.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\AutoMapper.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Console.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Net.NetworkInformation.wasm.gz
@@ -252,9 +259,11 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_fra
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Xml.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Security.Cryptography.Cng.wasm.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\NUEVO.NOE.Service.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.Extensions.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Diagnostics.Tracing.wasm.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\CurrieTechnologies.Razor.SweetAlert2.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Win32.Registry.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Net.WebSockets.Client.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\icudt_no_CJK.dat.gz
@@ -280,6 +289,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_fra
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Drawing.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Xml.Linq.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Tasks.Parallel.wasm.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\Blazored.SessionStorage.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Resources.Reader.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Reflection.DispatchProxy.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Security.Claims.wasm.gz
@@ -361,6 +371,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_fra
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Xml.XDocument.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Security.Cryptography.X509Certificates.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.wasm.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.DirectoryServices.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Threading.Tasks.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Runtime.Serialization.Formatters.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.wasm.gz
@@ -410,6 +421,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_fra
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Xml.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Globalization.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.wasm.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\NUEVO.NOE.Service.pdb.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Threading.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.ComponentModel.TypeConverter.wasm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.IO.Compression.wasm.gz
@@ -423,6 +435,9 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_fra
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.BLAZORWEB.staticwebassets.runtime.json
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.BLAZORWEB.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.BLAZORWEB.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\AutoMapper.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Blazored.SessionStorage.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\CurrieTechnologies.Razor.SweetAlert2.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Microsoft.AspNetCore.Authorization.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Microsoft.AspNetCore.Components.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Microsoft.AspNetCore.Components.Forms.dll
@@ -448,6 +463,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Microsoft.Ex
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Microsoft.JSInterop.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Microsoft.JSInterop.WebAssembly.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\MudBlazor.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\System.DirectoryServices.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\System.IO.Pipelines.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Microsoft.CSharp.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Microsoft.VisualBasic.Core.dll
@@ -628,7 +644,9 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\icudt_EFIGS.
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\icudt_no_CJK.dat
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.Model.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.Service.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.Service.pdb
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.csproj.AssemblyReference.cache
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.GeneratedMSBuildEditorConfig.editorconfig
@@ -637,6 +655,9 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BL
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.csproj.CoreCompileInputs.cache
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.MvcApplicationPartsAssemblyInfo.cache
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.sourcelink.json
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\AutoMapper.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Blazored.SessionStorage.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\CurrieTechnologies.Razor.SweetAlert2.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Authorization.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Microsoft.AspNetCore.Components.Forms.wasm
@@ -662,6 +683,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Micro
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Microsoft.JSInterop.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Microsoft.JSInterop.WebAssembly.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\MudBlazor.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\System.DirectoryServices.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\System.IO.Pipelines.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Microsoft.CSharp.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Microsoft.VisualBasic.Core.wasm
@@ -833,6 +855,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\netst
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\System.Private.CoreLib.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\NUEVO.NOE.DTO.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\NUEVO.NOE.Model.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\NUEVO.NOE.Service.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\NUEVO.NOE.BLAZORWEB.wasm
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\blazor.build.boot-extension.json
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\blazor.boot.json
@@ -848,6 +871,9 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\scopedcss\La
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\scopedcss\bundle\NUEVO.NOE.BLAZORWEB.styles.css
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\scopedcss\projectbundle\NUEVO.NOE.BLAZORWEB.bundle.scp.css
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\o6zifg5mhv.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\2x6d6ffk5x.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\cfrbj50y9a.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\87gq9fhf7e.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\287rg7mhjk.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\wibonhi62t.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\k9iavoyrsb.gz
@@ -873,6 +899,7 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\q
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\fi288xl6h8.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\4oid6ihcfy.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\6exydt72qv.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\oqjlmdfbf5.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\qo6d1seqij.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\ep0fnerw1u.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\70t0evt59e.gz
@@ -1053,7 +1080,9 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\i
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\8wnyqgio6g.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\k3ehn3hotm.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\53abqjify3.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\7fsp4wgcly.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\9jcedyr4ay.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\xrhm1acbi4.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\97wpaah6eg.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\eiy0d35jfj.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\s49yskd14a.gz
@@ -1063,3 +1092,13 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BL
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\refint\NUEVO.NOE.BLAZORWEB.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.pdb
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\ref\NUEVO.NOE.BLAZORWEB.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\Radzen.Blazor.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Linq.Dynamic.Core.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\System.Linq.Dynamic.Core.wasm.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\Radzen.Blazor.wasm.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\Radzen.Blazor.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\System.Linq.Dynamic.Core.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Radzen.Blazor.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\System.Linq.Dynamic.Core.wasm
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\bnbvlkcgq1.gz
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\80xamt0pbz.gz
