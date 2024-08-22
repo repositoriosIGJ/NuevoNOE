@@ -1,6 +1,10 @@
-﻿namespace NUEVO.NOE.BLAZORWEB.ClientServices.Contrato
+﻿using NUEVO.NOE.Model.UtilidadesOracles;
+
+namespace NUEVO.NOE.BLAZORWEB.ClientServices.Contrato
 {
-    public class IUtilidadesDBOracle
+    public interface IUtilidadesDBOracle
     {
+        Task<IEnumerable<TipoTramite>> GetTipoTramites();
+        Task<IEnumerable<TipoSocietario>> GetTipoSocietario();
     }
 }

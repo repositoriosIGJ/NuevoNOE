@@ -45,7 +45,7 @@ namespace NUEVO.NOE.BLAZORWEB.ClientServices.Implementacion
                 throw new ArgumentNullException(nameof(usuarioRol));
             }
 
-            var url = "api/FuncionRol/DeleteRolFuncion";
+            var url = "api/RolUsuario/DeleteRolUsuario";
 
             // Creación de la solicitud DELETE con el contenido JSON
             var request = new HttpRequestMessage(HttpMethod.Delete, url)

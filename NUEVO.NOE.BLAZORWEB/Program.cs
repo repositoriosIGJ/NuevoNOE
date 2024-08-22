@@ -1,5 +1,7 @@
 using Blazored.SessionStorage;
 using CurrieTechnologies.Razor.SweetAlert2;
+using DinkToPdf;
+using DinkToPdf.Contracts;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using MudBlazor.Services;
@@ -24,6 +26,9 @@ builder.Services.AddScoped<IRolesUsuariosclientService, RolesUsuariosClientServi
 builder.Services.AddScoped<IDepartamentoClientService, DepartamentoClientService>();
 builder.Services.AddScoped<IFuncionesClientService, FuncionClientService>();
 builder.Services.AddScoped<IFuncionesRolClientService, FuncionesRolClientServices>();
+builder.Services.AddScoped<IUtilidadesDBOracle, UtilidadesDBOracle>();
+builder.Services.AddTransient<IGenerarPDFClientService, GenerarPDFClientService>();
+builder.Services.AddScoped<IGenerarExcelClientService, GenerarExcelClientService>();
 
 
 builder.Services.AddBlazoredSessionStorage();
@@ -34,4 +39,6 @@ builder.Services.AddRadzenComponents();
 builder.Services.AddSingleton<UsuarioNotificationService>();
 builder.Services.AddSingleton<RolNotificationService>();
 builder.Services.AddSingleton<FuncionNotificationService>();
+builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
+builder.Services.AddTransient<GenerarPDFService>();
 await builder.Build().RunAsync();

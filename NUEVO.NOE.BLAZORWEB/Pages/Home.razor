@@ -6,6 +6,19 @@
  @inject NavigationManager navigationManager
  @inject IDialogService dialogService ;
  <div class="m-5">
+    <MudPaper Width="250px" Class="py-3" Elevation="0">
+        <MudNavMenu>
+            <MudText Typo="Typo.h6" Class="px-4">NOE M10</MudText>
+            <MudText Typo="Typo.body2" Class="px-4 mud-text-secondary">Herramientas de trabajo</MudText>
+            <MudDivider Class="my-2" />
+           
+            <MudNavGroup Title="Utilidades" Expanded="true">
+                <MudNavLink Href="/ListTiposSocietarios">Codigos societarios</MudNavLink>
+                <MudNavLink Href="/ListTipoTramite">Codigos tramites</MudNavLink>
+            </MudNavGroup>
+            <MudNavLink Href="/about">About</MudNavLink>
+        </MudNavMenu>
+    </MudPaper>
 @if (usuarioDTO.Usuario is not null){
     
         <MudCard Class="mb-5">

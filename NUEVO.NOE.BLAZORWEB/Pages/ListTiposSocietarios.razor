@@ -1,0 +1,112 @@
+﻿@page "/ListTiposSocietarios"
+
+@inject IUtilidadesDBOracle utilidadesdDBoracle
+@inject IGenerarPDFClientService generarPDFService
+@inject IGenerarExcelClientService generarExcelService
+@inject IJSRuntime JSRuntime
+
+<div class="mx-5 mb-3 w-50 p-3" style="display: flex;align-items: center;justify-content: center;">
+    <MudTable Items="filteredTipoSocietario" Dense="true" Hover="true" Bordered="false" Striped="true">
+        <ToolBarContent>
+            <MudText>Listado codigo de sociedades</MudText>
+            <MudSpacer />
+           <MudTextField @bind-Value="searchString" Placeholder="Buscar tipo societario" Adornment="Adornment.Start"
+                          AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField> 
+        </ToolBarContent>
+        <HeaderContent>
+            <MudTh>CODIGO</MudTh>
+            <MudTh>TIPO SOCIETARIO</MudTh>
+           
+        </HeaderContent>
+        <RowTemplate>
+            <MudTd>@context.Codigo</MudTd>
+            <MudTd>@context.AcronimoNombre</MudTd>
+         
+            <MudTd>
+
+
+             
+            </MudTd>
+        </RowTemplate>
+        <PagerContent>
+            <MudTablePager />
+        </PagerContent>
+    </MudTable>
+</div>
+<div class="m-3" style="display: flex;align-items: center;justify-content: center;">
+    <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Primary" OnClick="GeneratePDF">Generar PDF</MudButton>
+    <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Secondary" OnClick="GenerateExcel">Generar Excel</MudButton>
+</div>
+
+@if (!string.IsNullOrEmpty(pdfDataUrl))
+{
+    <iframe src="@pdfDataUrl" style="width:100%; height:600px;"></iframe>
+}
+
+<script>
+    function downloadFile(dataUrl, fileName) {
+        var a = document.createElement("a");
+        a.href = dataUrl;
+        a.download = fileName;
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+    }
+</script>
+@code {
+
+    //bindeado en el input de busqueda
+    private string searchString = "";
+    private string message;
+    private string pdfDataUrl;
+    List<TipoSocietario> tiposSocietarios = new();
+
+    //logica busqueda filtro
+    private List<TipoSocietario> filteredTipoSocietario => tiposSocietarios.Where(s =>
+       // s.Nombre(searchString, StringComparison.OrdinalIgnoreCase) ||
+       s.AcronimoNombre.Contains(searchString, StringComparison.OrdinalIgnoreCase)).ToList();
+
+
+    protected async override Task OnInitializedAsync()
+    {
+        IEnumerable<TipoSocietario> rspListaTipoTramites = await utilidadesdDBoracle.GetTipoSocietario();
+
+        if(rspListaTipoTramites is not null)
+        {
+            tiposSocietarios = rspListaTipoTramites.ToList();
+        }
+    }
+
+    private async Task GeneratePDF()
+    {
+        var response = await generarPDFService.GeneratePDFHtmlFormat<TipoSocietario>(filteredTipoSocietario, @"api/GenerarPDF/generatePDFTipoSocietario");
+
+        if (response.IsSuccess)
+        {
+            var pdfBase64 = Convert.ToBase64String(response.Data);
+            pdfDataUrl = $"data:application/pdf;base64,{pdfBase64}";
+        }
+        else
+        {
+            // Maneja el error de acuerdo a tus necesidades
+            message = response.Message;
+        }
+    }
+
+    private async Task GenerateExcel()
+    {
+        var response = await generarExcelService.GenerateExcel<TipoSocietario>(filteredTipoSocietario, @"api/GenerarExcel/generateExcelTipoSocietario");
+
+        if (response.IsSuccess)
+        {
+            var excelBase64 = Convert.ToBase64String(response.Data);
+            var excelDataUrl = $"data:application/vnd.openxmlformats-officedocument.spreadsheetml.sheet;base64,{excelBase64}";
+            await JSRuntime.InvokeVoidAsync("downloadFile", excelDataUrl, "TipoSocietario.xlsx");
+        }
+        else
+        {
+            message = response.Message;
+        }
+    }
+}
+}
