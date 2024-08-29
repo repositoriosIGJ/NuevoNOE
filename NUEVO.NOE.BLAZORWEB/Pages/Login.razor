@@ -5,40 +5,67 @@
 @using NUEVO.NOE.DTO
 @using NUEVO.NOE.DTO.Seguridad
 @using NUEVO.NOE.Model.Seguridad
-@inject IUsuarioClientService usuarioClientService 
+@inject IUsuarioClientService usuarioClientService
 @inject NavigationManager navigationManager
 @inject ISessionStorageService sessionStorage
-<EditForm Model="userRequest">
- 
-    <MudGrid class="m-4">
-        <MudItem  xs="12" sm="7">
+
+
+<div class=" d-flex flex-grow-1 flex-column  justify-content-center">
+    <EditForm Model="userRequest">
+        <MudItem Class="m-auto" xs="3">
             <MudCard>
                 <MudCardContent>
-                    <MudTextField @bind-Value="userRequest.username" Label="Username" />
-                    <MudTextField InputType="InputType.Password" @bind-Value="userRequest.password" Label="Password" />
-                       
+                    <MudTextField @bind-Value="userRequest.username" Label="Username" Style="color:#242c4f;font-weight:bold" />
+                    <MudTextField InputType="@(showPass ? InputType.Text : InputType.Password)"
+                                  style="color:#242c4f;font-weight:bold"
+                                  @bind-Value="userRequest.password"
+                                  Label="Password"
+                                  Adornment="Adornment.End"
+                                  AdornmentIcon="@((showPass) ? Icons.Material.Filled.Visibility : Icons.Material.Filled.VisibilityOff)"
+                                  OnAdornmentClick="@(() => showPass = !showPass)" />
+
                 </MudCardContent>
                 <MudCardActions>
-                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Primary" Class="ml-auto" OnClick="Logeo">Login</MudButton>
+                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Disabled="@_processing" OnClick="ProcessSomething" Class="ml-auto" Variant="MudBlazor.Variant.Filled" Color="Color.Primary">
+                        @if (_processing)
+                        {
+                            <MudProgressCircular Class="ms-n1" Size="Size.Small" Indeterminate="true" />
+                            <MudText Class="ms-2">Ingresando...</MudText>
+                        }
+                        else
+                        {
+                            <MudText>Ingresar</MudText>
+                        }
+                    </MudButton>
                 </MudCardActions>
             </MudCard>
         </MudItem>
-        @if(message is not null)
+        @if (message is not null)
         {
             <h3 style="color:red">@message</h3>
             ;
         }
-    </MudGrid>
-</EditForm>
+    </EditForm>
+</div>
+
+
 
 @code {
 
-    //OBJETO PARA ALMACENAR EL USERNAME Y EL PASSWORD INGRESADO 
+    //OBJETO PARA ALMACENAR EL USERNAME Y EL PASSWORD INGRESADO
     private UsuarioDTORequest userRequest = new();
     private UsuarioDTO user = new();
     private string message;
+    private bool showPass = false;
 
+    private bool _processing = false;
 
+    async Task ProcessSomething()
+    {
+        _processing = true;
+        await Logeo();
+        _processing = false;
+    }
 
     private async Task Logeo()
     {
@@ -52,12 +79,12 @@
             ResponseDTO<UsuarioDTO> UserRsp = await usuarioClientService.GetDataUser(userRequest.username);
 
             // ALMACENO LOS DATOS DE LA RESPUESTA EN EL OBJETO USER (USUARIODTO) PARA LA VISTA Y LA SESION
-            user.Usuario = UserRsp.Data.Usuario  ;
+            user.Usuario = UserRsp.Data.Usuario;
             user.UsuarioRol = UserRsp.Data.UsuarioRol;
             user.RolFuncion = UserRsp.Data.RolFuncion;
 
 
-            if(user is not null)
+            if (user is not null)
             {
                 //ALMACENO EL USER EN UNA SESION
                 await sessionStorage.SetItemAsync("user", user);
@@ -68,7 +95,8 @@
                 message = UserRsp.Message;
             }
 
-        } else
+        }
+        else
         {
             message = usuarioValido.Message;
         }

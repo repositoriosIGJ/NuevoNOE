@@ -33,3 +33,21 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Servic
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\refint\NUEVO.NOE.Service.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.pdb
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\ref\NUEVO.NOE.Service.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\bin\Debug\net8.0\NUEVO.NOE.Service.deps.json
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\bin\Debug\net8.0\NUEVO.NOE.Service.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\bin\Debug\net8.0\NUEVO.NOE.Service.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\bin\Debug\net8.0\NUEVO.NOE.Model.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.csproj.AssemblyReference.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.AssemblyInfoInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.AssemblyInfo.cs
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.csproj.CoreCompileInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.sourcelink.json
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NO.22091E83.Up2Date
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\refint\NUEVO.NOE.Service.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\NUEVO.NOE.Service.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Service\obj\Debug\net8.0\ref\NUEVO.NOE.Service.dll

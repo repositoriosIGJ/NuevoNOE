@@ -11,7 +11,6 @@
     <ProjectReference Include="..\NOE_2.0.DTO\NUEVO.NOE.DTO.csproj" />
     <ProjectReference Include="..\NOE_2.0.Model\NUEVO.NOE.Model.csproj" />
     <ProjectReference Include="..\NOE_2.0.Service\NUEVO.NOE.Service.csproj" />
-    <ProjectReference Include="..\NUEVO.NOE.DTO\NUEVO.NOE.DTO.csproj" />
     <ProjectReference Include="..\NUEVO.NOE.Repository\NUEVO.NOE.Repository.csproj" />
   </ItemGroup>
 

@@ -16,91 +16,83 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = browser
 build_property.RootNamespace = NUEVO.NOE.BLAZORWEB
 build_property.RootNamespace = NUEVO.NOE.BLAZORWEB
-build_property.ProjectDir = D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\
+build_property.ProjectDir = C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB
+build_property.MSBuildProjectDirectory = C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/App.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AdministradorDeFunciones.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AdministradorDeFunciones.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvckRlRnVuY2lvbmVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AdministradorRoles.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AdministradorRoles.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclJvbGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AdministradorUsuarios.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AdministradorUsuarios.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5pc3RyYWRvclVzdWFyaW9zLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AuthorizedViewRoles.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/AuthorizedViewRoles.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yaXplZFZpZXdSb2xlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsFuncion.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsFuncion.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsc0Z1bmNpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsRol.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsRol.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsc1JvbC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsUsuario.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsUsuario.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsc1VzdWFyaW8ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/FuncionesRol.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/FuncionesRol.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRnVuY2lvbmVzUm9sLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Home.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Home.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSG9tZS5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/ListTiposSocietarios.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/ListTiposSocietarios.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFRpcG9zU29jaWV0YXJpb3MucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/ListTipoTramite.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/ListTipoTramite.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlzdFRpcG9UcmFtaXRlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Login.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Login.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/NoAutorizado.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/NoAutorizado.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm9BdXRvcml6YWRvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/RolesUsuario.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/RolesUsuario.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNVc3VhcmlvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/_Imports.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Layout/MainLayout.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-0i1d5yz2eq
 
-[D:/PROYECTOS IGJ 2024/NuevoNOE/NUEVO.NOE.BLAZORWEB/Layout/NavMenu.razor]
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Layout/NavMenu.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE5hdk1lbnUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-xsjj5va22i

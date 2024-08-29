@@ -41,3 +41,25 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Busin
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\refint\NUEVO.NOE.Business.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.pdb
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\ref\NUEVO.NOE.Business.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.deps.json
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Model.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Repository.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Service.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Service.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Repository.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.csproj.AssemblyReference.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.AssemblyInfoInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.AssemblyInfo.cs
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.csproj.CoreCompileInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.sourcelink.json
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NO.59E89B2B.Up2Date
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\refint\NUEVO.NOE.Business.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\ref\NUEVO.NOE.Business.dll

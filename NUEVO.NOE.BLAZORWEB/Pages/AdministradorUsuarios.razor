@@ -1,4 +1,5 @@
 ﻿@page "/AdministradorUsuarios"
+@using MudBlazor;
 
 @inject NavigationManager Navigation
 @inject ISessionStorageService sessionStorage
@@ -13,29 +14,28 @@
 <!-- LLAMO AL COMPONENTE PADRE AuthorizedViewRoles y le paso los roles autorizados donde esta la logica de permisos  -->
 <AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">
 
-        <MudCard Class="mb-5">
-            <MudCardHeader>
-                <MudText>Bienvenido a la página de administacion de usuarios</MudText>
-            </MudCardHeader>
-            <MudCardContent>
-                <MudText Typo="Typo.body2"> Solo usuarios con roles de soporte o sistemas pueden ver esta página.</MudText>
-            </MudCardContent>
-        </MudCard>
-        <div class="m-5">
-        <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled"
-                   Color="Color.Primary" Class="ml-auto" OnClick="AgregarUsuario">Agregar Usuario</MudButton>
+    <div class="w-100 bg-white">
+
+        <div class="container p-2">
+            <h3 class="text-center text-decoration-underline " style="color:#242c4f">Administación de usuarios</h3>
+            <div class="d-flex justify-content-between">
+                <span class="text-danger">* Solo usuarios con roles de soporte o sistemas pueden ver esta página.</span>
+                <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled"
+                           Color="Color.Primary" Class="ml-auto" OnClick="AgregarUsuario">Agregar Usuario</MudButton>
+            </div>
+            <MudDivider></MudDivider>
         </div>
 
 
-        <div class="m-5">
+        <div class="mx-5">
             <MudTable Items="@filteredUsuarios" Dense="false" Hover="true" Bordered="false" Striped="true">
                 <ToolBarContent>
                     <MudText Typo="Typo.h6">Usuarios</MudText>
                     <MudSpacer />
-                    @*La propiedad Immediate en el MudTextField se establece en true para que la busqueda de la funcion searchString 
+                    @*La propiedad Immediate en el MudTextField se establece en true para que la busqueda de la funcion searchString
                     se actualice en el momento  sin necesidad de presionar Enter. *@
-                    <MudTextField @bind-Value="searchString" Placeholder="Buscar por nombre o username" Adornment="Adornment.Start" 
-                    AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField>
+                    <MudTextField @bind-Value="searchString" Placeholder="Buscar por nombre o username" Adornment="Adornment.Start"
+                                  AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField>
                 </ToolBarContent>
                 <HeaderContent>
                     <MudTh>NOMBRE COMPLETO</MudTh>
@@ -48,23 +48,26 @@
                     <MudTd DataLabel="NOMBRE COMPLETO">@context.NombreCompleto.ToUpper()</MudTd>
                     <MudTd DataLabel="USER NAME">@context.UserName.ToUpper()</MudTd>
                     <MudTd DataLabel="DNI">@context.Documento</MudTd>
-                    <MudTd DataLabel="DADO DE BAJA">@context.Baja</MudTd>
+                    <MudTd DataLabel="DADO DE BAJA">@((context.Baja.Value) ? "Si" : "No")</MudTd>
                     <MudTd DataLabel="ACCIONES">
-                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Tertiary" Class="ml-auto" OnClick="@(() => EditarUsuario(context.Id))">Editar</MudButton>
-                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Info" Class="ml-auto" OnClick="@(() => UsuarioRol(context.Id))">Ver roles </MudButton>
+                        <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Tertiary" Class="ml-auto" OnClick="@(() => EditarUsuario(context.Id))">Editar</MudButton>
+                        <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Info" Class="ml-auto" OnClick="@(() => UsuarioRol(context.Id))">Ver roles </MudButton>
 
-                </MudTd>
+                    </MudTd>
                 </RowTemplate>
                 <PagerContent>
                     <MudTablePager />
                 </PagerContent>
             </MudTable>
-            </div>>
+        </div>>
+
+    </div>
+
 </AuthorizedViewRoles>
 
- 
 
-@code{
+
+@code {
 
     // [Parameter]
     // public int id { get; set; }
@@ -88,14 +91,17 @@
                              u.NombreCompleto.Contains(searchString, StringComparison.OrdinalIgnoreCase)).ToList();
 
 
-  
+
 
     protected override async Task OnInitializedAsync()
     {
+
+
+
         //Evento OnUsuarioUpdated
         //cada vez que se dispare el evento OnUsuarioUpdated, automáticamente se ejecutará el método CargarUsuarios para resfrescar la tabla
         //El evento se dispara cuando se hace update o insert de la pagina DetailsUsuario
-        usuarioNotificationService.OnUsuarioUpdated += async () => await CargarUsuarios() ;
+        usuarioNotificationService.OnUsuarioUpdated += async () => await CargarUsuarios();
         await CargarUsuarios();
     }
 
@@ -114,11 +120,11 @@
     {
         usuarioNotificationService.OnUsuarioUpdated += async () => await CargarUsuarios();
     }
-    
-    private async void EditarUsuario( int id)
+
+    private async void EditarUsuario(int id)
     {
 
-        IDialogReference dialog ;
+        IDialogReference dialog;
 
 
         var parameters = new DialogParameters();
@@ -126,38 +132,39 @@
 
         dialog = dialogService.Show<DetailsUsuario>("Editar Usuario", parameters);
         // Navigation.NavigateTo($"DetailsUsuario/{id}");
-     
+
         var result = await dialog.Result;
 
-        
 
-        
+
+
     }
 
     //Después de cerrar el diálogo de agregar, se llama a CargarUsuarios para refrescar la lista de usuarios.
     private async void AgregarUsuario()
     {
-
+       
         var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
-     
+
         var result = await dialog.Result;
 
-        
+
 
     }
 
     private async void UsuarioRol(int id)
     {
+      
 
         var parameters = new DialogParameters();
         parameters.Add("id", id);
 
-         dialogService.Show<RolesUsuario>("Roles Usuario", parameters);
+        dialogService.Show<RolesUsuario>("Roles Usuario", parameters);
         // Navigation.NavigateTo($"DetailsUsuario/{id}");
     }
 
- 
+
 }
 
-             
-      
+
+

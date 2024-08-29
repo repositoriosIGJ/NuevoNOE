@@ -9,13 +9,16 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="ClosedXML" Version="0.102.3" />
+    <PackageReference Include="DinkToPdf" Version="1.0.8" />
+    <PackageReference Include="DinkToPdfIncludesDependencies" Version="1.0.8" />
+    <PackageReference Include="EPPlus" Version="7.3.0" />
     <PackageReference Include="System.DirectoryServices" Version="8.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\NOE_2.0.DTO\NUEVO.NOE.DTO.csproj" />
     <ProjectReference Include="..\NOE_2.0.Model\NUEVO.NOE.Model.csproj" />
-    <ProjectReference Include="..\NUEVO.NOE.DTO\NUEVO.NOE.DTO.csproj" />
   </ItemGroup>
 
 </Project>

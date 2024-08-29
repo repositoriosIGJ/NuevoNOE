@@ -1,66 +1,91 @@
 ﻿@using Blazored.SessionStorage
 @using NUEVO.NOE.Model.Seguridad
-@using MudBlazor 
- @page "/Home"; 
+@using MudBlazor
+ @page "/Home";
  @inject ISessionStorageService sessionStorage
  @inject NavigationManager navigationManager
  @inject IDialogService dialogService ;
- <div class="m-5">
-    <MudPaper Width="250px" Class="py-3" Elevation="0">
-        <MudNavMenu>
-            <MudText Typo="Typo.h6" Class="px-4">NOE M10</MudText>
-            <MudText Typo="Typo.body2" Class="px-4 mud-text-secondary">Herramientas de trabajo</MudText>
-            <MudDivider Class="my-2" />
-           
-            <MudNavGroup Title="Utilidades" Expanded="true">
+
+<div class="container justify-content-center px-5 d-flex gap-2 flex-column flex-grow-1">
+
+    <div class="h-50 d-flex gap-2 ">
+        <MudPaper Class="w-50" Elevation="0" Style="height:16rem">
+            @if (usuarioDTO.Usuario is not null)
+            {
+                <MudCardContent Class="d-flex align-items-center gap-4">
+                    <MudAvatar Style="height:200px; width:200px; font-size:5rem;" Color="Color.Primary">AL</MudAvatar>
+                    <div>
+
+                        <MudText>Bienvenido: @usuarioDTO.Usuario.NombreCompleto.ToUpper() - @usuarioDTO.Usuario.NameActiveDirectory.ToUpper()</MudText>
+                        <MudText Typo="Typo.body2"> @usuarioDTO.Usuario.Departamento.Descripcion</MudText>
+
+                        @if (usuarioDTO.UsuarioRol is not null)
+                        {
+                            <MudList T="UsuarioDTO">
+                                <MudDivider />
+                                @if (usuarioDTO.UsuarioRol is not null)
+                                {
+                                    @foreach (var rolusuario in usuarioDTO.UsuarioRol)
+                                    {
+                                        <MudText Class=" fw-bolder " Style="color:#242c4f" Typo="Typo.body1"><MudIcon Icon="@Icons.Material.Filled.Work" Color="Color.Warning" />   @rolusuario.Rol.Descripcion</MudText>
+
+                                    }
+                                }
+
+                            </MudList>
+                        }
+                    </div>
+                </MudCardContent>
+
+            }
+        </MudPaper>
+
+        <MudPaper Class="w-50" Elevation="0" Style="height:16rem">
+            <MudCardContent>
+                <MudText Typo="Typo.h4" Class="px-4">Links utiles</MudText>
+                <MudDivider Class="my-2" />
+
+                <MudNavLink Icon="@Icons.Material.Filled.TravelExplore" Href="/ListTiposSocietarios">Intranet</MudNavLink>
+                <MudNavLink Icon="@Icons.Material.Filled.TravelExplore" Href="/ListTipoTramite">Inspección General de Justicia</MudNavLink>
+                <MudNavLink Icon="@Icons.Material.Filled.TravelExplore" Href="/ListTipoTramite">Ministerio de Justicia</MudNavLink>
+                <MudNavLink Icon="@Icons.Material.Filled.TravelExplore" Href="/ListTipoTramite">Borges</MudNavLink>
+            </MudCardContent>
+        </MudPaper>
+    </div>
+
+    <div class="d-flex gap-2 ">
+        <MudPaper Class="w-50" Elevation="0" Style="height:16rem">
+            <MudCardContent>
+                <MudText Typo="Typo.h4" Class="px-4">Herramientas de trabajo</MudText>
+                <MudDivider Class="my-2" />
+                <MudText Typo="Typo.h4">Sistemas - Testing</MudText>
+                <div class="d-flex flex-column gap-2">
+                    <MudButton OnClick="RolManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Roles</MudButton>
+                    <MudButton OnClick="UserManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Usuarios</MudButton>
+                    <MudButton OnClick="FuncionManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Funciones</MudButton>
+                </div>
+            </MudCardContent>
+        </MudPaper>
+
+
+        <MudPaper Class="w-50 " Elevation="0" Style="height:16rem">
+            <MudCardContent>
+                <MudText Typo="Typo.h4" Class="px-4">Utilidades</MudText>
+                <MudDivider Class="my-2" />
+
                 <MudNavLink Href="/ListTiposSocietarios">Codigos societarios</MudNavLink>
                 <MudNavLink Href="/ListTipoTramite">Codigos tramites</MudNavLink>
-            </MudNavGroup>
-            <MudNavLink Href="/about">About</MudNavLink>
-        </MudNavMenu>
-    </MudPaper>
-@if (usuarioDTO.Usuario is not null){
-    
-        <MudCard Class="mb-5">
-            <MudCardContent>
-                <MudText>Bienvenido: @usuarioDTO.Usuario.NombreCompleto.ToUpper() - @usuarioDTO.Usuario.NameActiveDirectory.ToUpper()</MudText>
-
-                <MudText Typo="Typo.body2"> @usuarioDTO.Usuario.Departamento.Descripcion</MudText>
             </MudCardContent>
+        </MudPaper>
 
-        </MudCard>
+    </div>
 
-        }
-
-        @if (usuarioDTO.UsuarioRol is not null)
-        {
-            <MudPaper Width="300px" Class="mb-5">
-                <MudList T="UsuarioDTO">
-                    <MudListItem Text="Roles" SecondaryText="Roles del usuario logueado" />
-                    <MudDivider />
-                    @if (usuarioDTO.UsuarioRol is not null)
-                    {
-                        @foreach (var rolusuario in usuarioDTO.UsuarioRol)
-                        {
-                            <MudListItem Text="@rolusuario.Rol.Descripcion" Icon="@Icons.Material.Filled.Work" />
-                        }
-                    }
-
-                </MudList>
-            </MudPaper>
-
-        }
-
-    <!-- Botón para cerrar sesión -->
-    <MudButton OnClick="Logout" Color="Color.Secondary" Variant="MudBlazor.Variant.Filled"> Cerrar Sesión</MudButton>
-    <MudButton OnClick="RolManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Roles</MudButton> 
-    <MudButton OnClick="UserManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Usuarios</MudButton>
-    <MudButton OnClick="FuncionManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Funciones</MudButton>
 </div>
 
 
 
-@code{
+
+@code {
 
     // EN USUARIO DTO SE ALMANCENA  ADEMAS DE LOS DATOS DEL USUARIO, SUS ROLES Y SUS FUNCIONES
     public UsuarioDTO? usuarioDTO = new();
@@ -69,15 +94,15 @@
     {
         var sesion = await sessionStorage.GetItemAsync<UsuarioDTO>("user");
 
-        if(sesion is not null)
+        if (sesion is not null)
         {
-            //almaceno el usuario en el objeto user para manejar sus datos en la interfaz
+            // almaceno el usuario en el objeto user para manejar sus datos en la interfaz
             usuarioDTO = sesion;
 
         }
         else
         {
-            // redirigir en el caso donde no se encuentra el usuario en la sesión 
+            // redirigir en el caso donde no se encuentra el usuario en la sesión
             navigationManager.NavigateTo("/");
         }
 
@@ -91,7 +116,7 @@
 
     public async Task RolManagement()
     {
-         // var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
+        // var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
         navigationManager.NavigateTo("/AdministradorRoles");
     }
 

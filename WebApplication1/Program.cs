@@ -30,7 +30,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("NuevaPolitica", app =>
     {
 
-        app.WithOrigins("https://localhost:7276") /// Hay que cambiaR
+        app.WithOrigins("https://localhost:7000") /// Hay que cambiaR
         .AllowAnyHeader()
         .AllowCredentials()
         .SetIsOriginAllowedToAllowWildcardSubdomains()
