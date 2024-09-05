@@ -14,21 +14,19 @@
 <!-- LLAMO AL COMPONENTE PADRE AuthorizedViewRoles y le paso los roles autorizados donde esta la logica de permisos  -->
 <AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">
 
-    <div class="w-100 bg-white">
+    <div class="w-100 flex-grow-1" style="background-color:rgba(255,255,255,0.5)">
 
-        <div class="container p-2">
-            <h3 class="text-center text-decoration-underline " style="color:#242c4f">Administación de usuarios</h3>
-            <div class="d-flex justify-content-between">
-                <span class="text-danger">* Solo usuarios con roles de soporte o sistemas pueden ver esta página.</span>
-                <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled"
-                           Color="Color.Primary" Class="ml-auto" OnClick="AgregarUsuario">Agregar Usuario</MudButton>
+        <div class="container p-2 bg-white border-2" Style="border-color:#242c4f">
+            <div class="">
+                <h3 class="text-center text-decoration-underline " style="color:#242c4f">Administación de usuarios</h3>
+                <div class="d-flex justify-content-between">
+                    <span class="text-danger">* Solo usuarios con roles de soporte o sistemas pueden ver esta página.</span>
+                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled"
+                               Color="Color.Primary" Class="ml-auto" OnClick="AgregarUsuario">Agregar Usuario</MudButton>
+                </div>
+                <MudDivider></MudDivider>
             </div>
-            <MudDivider></MudDivider>
-        </div>
-
-
-        <div class="mx-5">
-            <MudTable Items="@filteredUsuarios" Dense="false" Hover="true" Bordered="false" Striped="true">
+            <MudTable Items="@filteredUsuarios" Dense="true" Hover="true" Bordered="false" Striped="true">
                 <ToolBarContent>
                     <MudText Typo="Typo.h6">Usuarios</MudText>
                     <MudSpacer />
@@ -143,7 +141,7 @@
     //Después de cerrar el diálogo de agregar, se llama a CargarUsuarios para refrescar la lista de usuarios.
     private async void AgregarUsuario()
     {
-       
+
         var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
 
         var result = await dialog.Result;
@@ -154,7 +152,7 @@
 
     private async void UsuarioRol(int id)
     {
-      
+
 
         var parameters = new DialogParameters();
         parameters.Add("id", id);

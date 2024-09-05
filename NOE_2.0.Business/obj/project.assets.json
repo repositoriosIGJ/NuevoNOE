@@ -2569,6 +2569,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "EPPlus": "7.3.0",
           "NUEVO.NOE.Model": "1.0.0"
         },
         "compile": {
@@ -2581,6 +2582,9 @@
       "NUEVO.NOE.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EPPlus": "7.3.0"
+        },
         "compile": {
           "bin/placeholder/NUEVO.NOE.Model.dll": {}
         },
@@ -2593,6 +2597,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "EPPlus": "7.3.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
           "NUEVO.NOE.DTO": "1.0.0",
@@ -8082,6 +8087,7 @@
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "EPPlus >= 7.3.0",
       "NUEVO.NOE.DTO >= 1.0.0",
       "NUEVO.NOE.Model >= 1.0.0",
       "NUEVO.NOE.Repository >= 1.0.0",
@@ -8149,6 +8155,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "EPPlus": {
+            "target": "Package",
+            "version": "[7.3.0, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

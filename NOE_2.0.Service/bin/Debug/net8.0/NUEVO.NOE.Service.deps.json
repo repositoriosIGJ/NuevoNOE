@@ -1046,6 +1046,7 @@
       },
       "NUEVO.NOE.DTO/1.0.0": {
         "dependencies": {
+          "EPPlus": "7.3.0",
           "NUEVO.NOE.Model": "1.0.0"
         },
         "runtime": {
@@ -1056,6 +1057,9 @@
         }
       },
       "NUEVO.NOE.Model/1.0.0": {
+        "dependencies": {
+          "EPPlus": "7.3.0"
+        },
         "runtime": {
           "NUEVO.NOE.Model.dll": {
             "assemblyVersion": "1.0.0",

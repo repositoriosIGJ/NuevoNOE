@@ -1,3 +1,6 @@
+using DinkToPdf;
+using DinkToPdf.Contracts;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using Microsoft.EntityFrameworkCore;
 using NUEVO.NOE.API.Models;
 using NUEVO.NOE.Business.Contrato;
@@ -30,7 +33,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("NuevaPolitica", app =>
     {
 
-        app.WithOrigins("https://localhost:7000") /// Hay que cambiaR
+        app.WithOrigins("https://localhost:7276") /// Hay que cambiaR
         .AllowAnyHeader()
         .AllowCredentials()
         .SetIsOriginAllowedToAllowWildcardSubdomains()
@@ -49,6 +52,9 @@ builder.Services.AddScoped<IFuncionBusiness, FuncionBusiness>();
 builder.Services.AddScoped<IDepartamentoBusiness, DepartamentoBusiness>();
 // *  S E R V I C I O S  *
 builder.Services.AddScoped<IActiveDirectoryService, ActiveDirectoryService>();
+builder.Services.AddScoped<IGenerarExcelService, GenerarExcelService>();
+builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
+builder.Services.AddScoped<GenerarPDFService>();
 //AUTOMAPPER
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 

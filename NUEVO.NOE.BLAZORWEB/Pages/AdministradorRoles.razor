@@ -8,20 +8,18 @@
 @inject RolNotificationService rolNotificationService
 
 
-<div class="w-100 flex-grow-1 bg-white">
+<div class="w-100 flex-grow-1" style="background-color:rgba(255,255,255,0.5)">
 
-    <div class="container p-2">
-        <h3 class="text-center text-decoration-underline " style="color:#242c4f">administracion de roles</h3>
-        <div class="d-flex justify-content-between">
-            <span class="text-danger">* Solo usuarios con roles de soporte o sistemas pueden ver esta página.</span>
-            <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled"
-                       Color="Color.Primary" Class="ml-auto" OnClick="AgregarRol">Agregar Rol</MudButton>
+    <div class="container p-2 bg-white border-2" Style="border-color:#242c4f">
+        <div class="">
+            <h3 class="text-center text-decoration-underline " style="color:#242c4f">administracion de roles</h3>
+            <div class="d-flex justify-content-between">
+                <span class="text-danger">* Solo usuarios con roles de soporte o sistemas pueden ver esta página.</span>
+                <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled"
+                           Color="Color.Primary" Class="ml-auto" OnClick="AgregarRol">Agregar Rol</MudButton>
+            </div>
+            <MudDivider></MudDivider>
         </div>
-        <MudDivider></MudDivider>
-    </div>
-
-
-    <div class="mx-5">
         <MudTable Items="filteredRoles" Dense="true" Hover="true" Bordered="false" Striped="true">
             <ToolBarContent>
                 <MudText>Roles</MudText>

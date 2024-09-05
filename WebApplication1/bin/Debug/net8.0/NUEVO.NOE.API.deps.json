@@ -9,10 +9,12 @@
       "NUEVO.NOE.API/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "EPPlus": "7.3.0",
           "Microsoft.EntityFrameworkCore.Design": "8.0.6",
           "NUEVO.NOE.Business": "1.0.0",
           "NUEVO.NOE.DTO": "1.0.0",
           "NUEVO.NOE.Model": "1.0.0",
+          "NUEVO.NOE.Service": "1.0.0",
           "Swashbuckle.AspNetCore": "6.6.2"
         },
         "runtime": {
@@ -1731,6 +1733,7 @@
       },
       "NUEVO.NOE.Business/1.0.0": {
         "dependencies": {
+          "EPPlus": "7.3.0",
           "NUEVO.NOE.DTO": "1.0.0",
           "NUEVO.NOE.Model": "1.0.0",
           "NUEVO.NOE.Repository": "1.0.0",
@@ -1745,6 +1748,7 @@
       },
       "NUEVO.NOE.DTO/1.0.0": {
         "dependencies": {
+          "EPPlus": "7.3.0",
           "NUEVO.NOE.Model": "1.0.0"
         },
         "runtime": {
@@ -1755,6 +1759,9 @@
         }
       },
       "NUEVO.NOE.Model/1.0.0": {
+        "dependencies": {
+          "EPPlus": "7.3.0"
+        },
         "runtime": {
           "NUEVO.NOE.Model.dll": {
             "assemblyVersion": "1.0.0",
@@ -1765,6 +1772,7 @@
       "NUEVO.NOE.Repository/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "EPPlus": "7.3.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
           "NUEVO.NOE.DTO": "1.0.0",

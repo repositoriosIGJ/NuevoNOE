@@ -3157,6 +3157,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "EPPlus": "7.3.0",
           "NUEVO.NOE.DTO": "1.0.0",
           "NUEVO.NOE.Model": "1.0.0",
           "NUEVO.NOE.Repository": "1.0.0",
@@ -3173,6 +3174,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "EPPlus": "7.3.0",
           "NUEVO.NOE.Model": "1.0.0"
         },
         "compile": {
@@ -3185,6 +3187,9 @@
       "NUEVO.NOE.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EPPlus": "7.3.0"
+        },
         "compile": {
           "bin/placeholder/NUEVO.NOE.Model.dll": {}
         },
@@ -3197,6 +3202,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "EPPlus": "7.3.0",
           "Microsoft.EntityFrameworkCore": "8.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "8.0.6",
           "NUEVO.NOE.DTO": "1.0.0",
@@ -9795,10 +9801,12 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper >= 13.0.1",
+      "EPPlus >= 7.3.0",
       "Microsoft.EntityFrameworkCore.Design >= 8.0.6",
       "NUEVO.NOE.Business >= 1.0.0",
       "NUEVO.NOE.DTO >= 1.0.0",
       "NUEVO.NOE.Model >= 1.0.0",
+      "NUEVO.NOE.Service >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.6.2"
     ]
   },
@@ -9842,6 +9850,9 @@
             },
             "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
               "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+            },
+            "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
+              "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
             }
           }
         }
@@ -9864,6 +9875,10 @@
           "AutoMapper": {
             "target": "Package",
             "version": "[13.0.1, )"
+          },
+          "EPPlus": {
+            "target": "Package",
+            "version": "[7.3.0, )"
           },
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

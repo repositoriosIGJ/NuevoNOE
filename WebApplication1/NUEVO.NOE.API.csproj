@@ -8,6 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="EPPlus" Version="7.3.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.6">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -19,6 +20,7 @@
     <ProjectReference Include="..\NOE_2.0.Business\NUEVO.NOE.Business.csproj" />
     <ProjectReference Include="..\NOE_2.0.DTO\NUEVO.NOE.DTO.csproj" />
     <ProjectReference Include="..\NOE_2.0.Model\NUEVO.NOE.Model.csproj" />
+    <ProjectReference Include="..\NOE_2.0.Service\NUEVO.NOE.Service.csproj" />
   </ItemGroup>
 
 </Project>

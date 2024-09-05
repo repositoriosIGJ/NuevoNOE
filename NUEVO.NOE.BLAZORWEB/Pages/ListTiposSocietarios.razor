@@ -5,42 +5,46 @@
 @inject IGenerarExcelClientService generarExcelService
 @inject IJSRuntime JSRuntime
 
-<div class="mx-5 mb-3 w-50 p-3" style="display: flex;align-items: center;justify-content: center;">
-    <MudTable Items="filteredTipoSocietario" Dense="true" Hover="true" Bordered="false" Striped="true">
-        <ToolBarContent>
-            <MudText>Listado codigo de sociedades</MudText>
-            <MudSpacer />
-           <MudTextField @bind-Value="searchString" Placeholder="Buscar tipo societario" Adornment="Adornment.Start"
-                          AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField> 
-        </ToolBarContent>
-        <HeaderContent>
-            <MudTh>CODIGO</MudTh>
-            <MudTh>TIPO SOCIETARIO</MudTh>
-           
-        </HeaderContent>
-        <RowTemplate>
-            <MudTd>@context.Codigo</MudTd>
-            <MudTd>@context.AcronimoNombre</MudTd>
-         
-            <MudTd>
+<div class="flex-grow-1 d-flex flex-column">
 
+    <div class="container d-flex flex-column gap-2 justify-content-center flex-grow-1 ">
+        <MudTable Items="filteredTipoSocietario" Hover="true" Bordered="false" Striped="true" Height="500px">
+            <ToolBarContent>
+                <MudText Typo="Typo.h5" Style="color:#242c4f" Class=" fw-bolder">Listado codigo de sociedades</MudText>
+                <MudSpacer />
+                <MudTextField @bind-Value="searchString" Placeholder="Buscar tipo societario" Adornment="Adornment.Start"
+                              AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField>
+            </ToolBarContent>
+            <HeaderContent>
+                <MudTh>CODIGO</MudTh>
+                <MudTh>TIPO SOCIETARIO</MudTh>
 
-             
-            </MudTd>
-        </RowTemplate>
-        <PagerContent>
-            <MudTablePager />
-        </PagerContent>
-    </MudTable>
-</div>
-<div class="m-3" style="display: flex;align-items: center;justify-content: center;">
-    <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Primary" OnClick="GeneratePDF">Generar PDF</MudButton>
-    <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Secondary" OnClick="GenerateExcel">Generar Excel</MudButton>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd>@context.Codigo</MudTd>
+                <MudTd>@context.AcronimoNombre</MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager PageSizeOptions="new int[] {int.MaxValue, 10, 20 }" />
+            </PagerContent>
+        </MudTable>
+
+        <div class="d-flex justify-content-center gap-2">
+            <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Primary" OnClick="GeneratePDF">Generar PDF</MudButton>
+            <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Secondary" OnClick="GenerateExcel">Generar Excel</MudButton>
+        </div>
+    </div>
+
 </div>
 
 @if (!string.IsNullOrEmpty(pdfDataUrl))
 {
-    <iframe src="@pdfDataUrl" style="width:100%; height:600px;"></iframe>
+    <div style="width:100%; height:100vh;position:fixed">
+
+        <iframe src="@pdfDataUrl" >
+        </iframe>
+        <MudButton Class="position-fixed" Style="z-index:20" OnClick="@(() => pdfDataUrl = "")">Cerrar</MudButton>
+    </div>
 }
 
 <script>
@@ -61,17 +65,18 @@
     private string pdfDataUrl;
     List<TipoSocietario> tiposSocietarios = new();
 
+
     //logica busqueda filtro
     private List<TipoSocietario> filteredTipoSocietario => tiposSocietarios.Where(s =>
-       // s.Nombre(searchString, StringComparison.OrdinalIgnoreCase) ||
-       s.AcronimoNombre.Contains(searchString, StringComparison.OrdinalIgnoreCase)).ToList();
+    // s.Nombre(searchString, StringComparison.OrdinalIgnoreCase) ||
+    s.AcronimoNombre.Contains(searchString, StringComparison.OrdinalIgnoreCase)).ToList();
 
 
     protected async override Task OnInitializedAsync()
     {
         IEnumerable<TipoSocietario> rspListaTipoTramites = await utilidadesdDBoracle.GetTipoSocietario();
 
-        if(rspListaTipoTramites is not null)
+        if (rspListaTipoTramites is not null)
         {
             tiposSocietarios = rspListaTipoTramites.ToList();
         }

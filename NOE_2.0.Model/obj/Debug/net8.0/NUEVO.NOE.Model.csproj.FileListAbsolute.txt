@@ -33,3 +33,4 @@ C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE
 C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\refint\NUEVO.NOE.Model.dll
 C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.pdb
 C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\ref\NUEVO.NOE.Model.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.csproj.AssemblyReference.cache

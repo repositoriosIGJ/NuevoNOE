@@ -1889,6 +1889,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "EPPlus": "7.3.0",
           "NUEVO.NOE.Model": "1.0.0"
         },
         "compile": {
@@ -1901,6 +1902,9 @@
       "NUEVO.NOE.Model/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "EPPlus": "7.3.0"
+        },
         "compile": {
           "bin/placeholder/NUEVO.NOE.Model.dll": {}
         },
