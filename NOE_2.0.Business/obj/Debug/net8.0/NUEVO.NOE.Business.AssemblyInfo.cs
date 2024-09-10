@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NUEVO.NOE.Business")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ce66c9ab064c8cb297b3f0c67fff630859018d9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+368141818d72083d9ccc112c0ff5f30fc90cb239")]
 [assembly: System.Reflection.AssemblyProductAttribute("NUEVO.NOE.Business")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NUEVO.NOE.Business")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

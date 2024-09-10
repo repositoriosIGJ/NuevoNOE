@@ -45,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yaXplZFZpZXdSb2xlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DatosCiviles.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0b3NDaXZpbGVzLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DetailsFuncion.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGV0YWlsc0Z1bmNpb24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 

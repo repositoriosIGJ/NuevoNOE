@@ -31,5 +31,13 @@ namespace NUEVO.NOE.API.Controllers
 
             return File(excelBytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "TipoSocietario.xlsx");
         }
+
+        [HttpPost("generateExcelDatosCiviles")]
+        public async Task<IActionResult> GenerateExcelDatosCiviles(List<PersoneriaCiviles> datosCiviles)
+        {
+            var excelBytes = await _generarExcelService.GenerateExcelAsync(datosCiviles);
+
+            return File(excelBytes, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "datosCiviles.xlsx");
+        }
     }
 }

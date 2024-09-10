@@ -81,6 +81,22 @@
       "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240820151537.pdf"
     },
     {
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133311.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240830133311.pdf"
+    },
+    {
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133624.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240830133624.pdf"
+    },
+    {
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133723.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240830133723.pdf"
+    },
+    {
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830134103.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240830134103.pdf"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NUEVO.NOE.API.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

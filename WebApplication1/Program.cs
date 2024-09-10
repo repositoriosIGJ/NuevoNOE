@@ -4,7 +4,11 @@ using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using Microsoft.EntityFrameworkCore;
 using NUEVO.NOE.API.Models;
 using NUEVO.NOE.Business.Contrato;
+using NUEVO.NOE.Business.DatosCiviles.Contrato;
+using NUEVO.NOE.Business.DatosCiviles.Implementacion;
 using NUEVO.NOE.Business.Implementacion;
+using NUEVO.NOE.Repository.DatosCiviles.Contrato;
+using NUEVO.NOE.Repository.DatosCiviles.Implementacion;
 using NUEVO.NOE.Repository.Seguridad.Contrato;
 using NUEVO.NOE.Repository.Seguridad.Implementacion;
 using NUEVO.NOE.Service;
@@ -50,6 +54,7 @@ builder.Services.AddScoped<IRolesUsuariosBusiness, RolesUsuariosBusiness>();
 builder.Services.AddScoped<IFuncionRolBusiness, FuncionRolBusiness>();
 builder.Services.AddScoped<IFuncionBusiness, FuncionBusiness>();
 builder.Services.AddScoped<IDepartamentoBusiness, DepartamentoBusiness>();
+builder.Services.AddScoped<IDatosCivilesBusiness, DatosCivilesBusiness>();
 // *  S E R V I C I O S  *
 builder.Services.AddScoped<IActiveDirectoryService, ActiveDirectoryService>();
 builder.Services.AddScoped<IGenerarExcelService, GenerarExcelService>();
@@ -65,7 +70,9 @@ builder.Services.AddScoped<IFuncionRepository, FuncionRepository>();
 builder.Services.AddScoped<IRolUsuarioRepository, RolUsuarioRepository>();
 builder.Services.AddScoped<IFuncionRolRepository, FuncionRolRepositoy>();
 builder.Services.AddScoped<IDepartamentoRepository, DepartamentoRepository>();
+builder.Services.AddScoped<IDatosCivilesRepository, DatosCivilesRepository>();
 
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:32674/") });
 
 var app = builder.Build();
 
