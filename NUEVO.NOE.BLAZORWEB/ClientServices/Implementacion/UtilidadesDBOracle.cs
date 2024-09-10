@@ -15,7 +15,7 @@ namespace NUEVO.NOE.BLAZORWEB.ClientServices.Implementacion
 
         public async Task<IEnumerable<TipoSocietario>> GetTipoSocietario()
         {
-            var rspGetTiposSocietarios = await _httpClient.GetFromJsonAsync<List<TipoSocietario>>("http://localhost:32674/api/TipoSocietario");
+            var rspGetTiposSocietarios = await _httpClient.GetFromJsonAsync<List<TipoSocietario>>("http://localhost:32674/api/tiposocietario/GetTiposSocietarios");
 
             return rspGetTiposSocietarios;
         }

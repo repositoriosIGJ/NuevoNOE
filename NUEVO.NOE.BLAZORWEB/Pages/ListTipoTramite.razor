@@ -7,40 +7,36 @@
 @inject IGenerarExcelClientService generarExcelService
 @inject IJSRuntime JSRuntime
 
-<div class="mx-5 mb-3 w-50 p-3" style="display: flex;align-items: center;justify-content: center;">
+<div class="flex-grow-1 d-flex flex-column">
 
-    <MudTable Items="filteredTipoTramite" Dense="true" Hover="true" Bordered="false" Striped="true">
-        <ToolBarContent>
-            <MudText>Listado codigo de sociedades</MudText>
-            <MudSpacer />
-            <MudTextField @bind-Value="searchString" Placeholder="Buscar tipo societario" Adornment="Adornment.Start"
-                          AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField>
-        </ToolBarContent>
-        <HeaderContent>
-            <MudTh>CODIGO</MudTh>
-            <MudTh>TIPO TRAMITE</MudTh>
+    <div class="container d-flex flex-column gap-2 justify-content-center flex-grow-1 ">
 
-        </HeaderContent>
-        <RowTemplate>
-            <MudTd>@context.Codigo</MudTd>
-            <MudTd>@context.Nombre</MudTd>
+        <MudTable Items="filteredTipoTramite" Hover="true" Bordered="false" Striped="true" Height="500px">
+            <ToolBarContent>
+                <MudText Typo="Typo.h5" Style="color:#242c4f" Class=" fw-bolder">Listado codigo de Tramites</MudText>
+                <MudSpacer />
+                <MudTextField @bind-Value="searchString" Placeholder="Buscar tipo societario" Adornment="Adornment.Start"
+                              AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField>
+            </ToolBarContent>
+            <HeaderContent>
+                <MudTh>CODIGO</MudTh>
+                <MudTh>TIPO TRAMITE</MudTh>
 
-            <MudTd>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd>@context.Codigo</MudTd>
+                <MudTd>@context.Nombre</MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager PageSizeOptions="new int[] {50,100,200,int.MaxValue }" />
+            </PagerContent>
+        </MudTable>
+        <div class="d-flex justify-content-center gap-2">
+            <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Primary" OnClick="GeneratePDF">Generar PDF</MudButton>
+            <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Secondary" OnClick="GenerateExcel">Generar Excel</MudButton>
+        </div>
+    </div>
 
-
-
-            </MudTd>
-        </RowTemplate>
-        <PagerContent>
-            <MudTablePager />
-        </PagerContent>
-    </MudTable>
-
-    
-</div>
-<div class="m-3" style="display: flex;align-items: center;justify-content: center;">
-    <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Primary" OnClick="GeneratePDF">Generar PDF</MudButton>
-    <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Secondary" OnClick="GenerateExcel">Generar Excel</MudButton>
 </div>
 
 @if (!string.IsNullOrEmpty(pdfDataUrl))
@@ -63,7 +59,7 @@
 
     //bindeado en el input de busqueda
     private string searchString = "";
-    List<TipoTramite> tipoTramites= new();
+    List<TipoTramite> tipoTramites = new();
     string message;
     private string pdfDataUrl;
     //logica busqueda filtro
@@ -84,7 +80,7 @@
     // método para generar y mostrar el PDF
     private async Task GeneratePDF()
     {
-        var response = await GenerarPDFService.GeneratePDFHtmlFormat<TipoTramite>(filteredTipoTramite,@"api/GenerarPDF/generatePDFTipoTramite");
+        var response = await GenerarPDFService.GeneratePDFHtmlFormat<TipoTramite>(filteredTipoTramite, @"api/GenerarPDF/generatePDFTipoTramite");
 
         if (response.IsSuccess)
         {

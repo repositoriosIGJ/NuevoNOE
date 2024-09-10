@@ -41,9 +41,6 @@
               "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
                 "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
               },
-              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.DTO\\NUEVO.NOE.DTO.csproj": {
-                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.DTO\\NUEVO.NOE.DTO.csproj"
-              },
               "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj": {
                 "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj"
               }
@@ -64,6 +61,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -132,6 +135,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -196,6 +205,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -249,9 +264,6 @@
               },
               "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
                 "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
-              },
-              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.DTO\\NUEVO.NOE.DTO.csproj": {
-                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.DTO\\NUEVO.NOE.DTO.csproj"
               }
             }
           }
@@ -275,6 +287,22 @@
               "target": "Package",
               "version": "[13.0.1, )"
             },
+            "ClosedXML": {
+              "target": "Package",
+              "version": "[0.102.3, )"
+            },
+            "DinkToPdf": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "DinkToPdfIncludesDependencies": {
+              "target": "Package",
+              "version": "[1.0.8, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.3.0, )"
+            },
             "System.DirectoryServices": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -297,73 +325,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.DTO\\NUEVO.NOE.DTO.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.DTO\\NUEVO.NOE.DTO.csproj",
-        "projectName": "NUEVO.NOE.DTO",
-        "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.DTO\\NUEVO.NOE.DTO.csproj",
-        "packagesPath": "C:\\Users\\amalerba\\.nuget\\packages\\",
-        "outputPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.DTO\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\amalerba\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "http://packages.nuget.org/v1/FeedService.svc/.": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://packages.nuget.org/v1/FeedService.svc/.": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
@@ -422,6 +383,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.3.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -494,6 +459,9 @@
               },
               "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
                 "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              },
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
               }
             }
           }
@@ -516,6 +484,10 @@
             "AutoMapper": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "EPPlus": {
+              "target": "Package",
+              "version": "[7.3.0, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",

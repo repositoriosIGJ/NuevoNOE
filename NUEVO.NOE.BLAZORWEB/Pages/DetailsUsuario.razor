@@ -14,20 +14,11 @@
 @inject UsuarioNotificationService usuarioNotificationService
 
 <AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS", "SOPORTE" })">
-    <div class="m-5">
-      
-        <MudCard Class="mb-5">
-            <MudCardHeader>
-                <MudText>Bienvenido a la página de administacion de usuarios</MudText>
-            </MudCardHeader>
-            <MudCardContent>
-                <MudText Typo="Typo.body2"> Solo usuarios con roles de soporte o sistemas pueden ver esta página.</MudText>
-            </MudCardContent>
-        </MudCard>
+    <MudDialog class="m-5" Style="background-color:#242c4f;color:white">
 
-        <div class="row">
+        <DialogContent >
             <div class="col-md-12">
-                <RadzenCard>
+                <RadzenCard Style="background-color:#242c4f;">
                     <ChildContent>
                         <RadzenTemplateForm Data="@user">
                             <div class="form-group">
@@ -83,8 +74,8 @@
                     </ChildContent>
                 </RadzenCard>
             </div>
-        </div>
-    </div>
+        </DialogContent>
+    </MudDialog>
 </AuthorizedViewRoles>
 
 @code {

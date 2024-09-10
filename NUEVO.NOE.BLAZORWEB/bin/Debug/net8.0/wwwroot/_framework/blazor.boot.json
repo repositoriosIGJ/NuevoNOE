@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "NUEVO.NOE.BLAZORWEB",
   "resources": {
-    "hash": "sha256-sXemSDJI1Y8msOx5wZYj7xsE6RUg0rFKOxAoQhoHYNc=",
+    "hash": "sha256-ADM/OwjJoVscNS1xgtSSsHHVVhWJc7umzurMCLfkx5g=",
     "jsModuleNative": {
       "dotnet.native.8.0.7.dzdv0jeb02.js": "sha256-tFsxPBbhkdn6GKNBKvCRLzrfAHdyM86odYTe0MtrwMk="
     },
@@ -232,16 +232,16 @@
       "mscorlib.wasm": "sha256-fLbZiSHBNdpHoh4EgRqMaNP5NQyIK5TEj6AXFLqo8m8=",
       "netstandard.wasm": "sha256-d4xbAE8qrKq5euUoZHPO+jkYPjlCYBzUew45MKsYKic=",
       "System.Private.CoreLib.wasm": "sha256-8yi6NcX1lkNQgV4WKjnMBYIZyKh4P+OXnXVQmgxGZD4=",
-      "NUEVO.NOE.DTO.wasm": "sha256-cNGzcM9e3FCx7PqGjY0i+Qtvjdr8FdYUO4pd5YArQGA=",
-      "NUEVO.NOE.Model.wasm": "sha256-0rNZ0DHeT96qUOqW72qHJJAtO87QL3jtzB+rqXWC/hw=",
-      "NUEVO.NOE.Service.wasm": "sha256-U3KuBBe78aSqu/Dcai5oceKrcGBo9CVZTdLB8dJyCPs=",
-      "NUEVO.NOE.BLAZORWEB.wasm": "sha256-mCa4n32lLo8eLy2U7b1loedGCGexDRd/PEzbsXKoxzw="
+      "NUEVO.NOE.DTO.wasm": "sha256-OlerHsUfL6njUrhOMcO7lCHZGlMhU2sb5HdpHLAD/xw=",
+      "NUEVO.NOE.Model.wasm": "sha256-omBzD5YE5vXwsuKfSeBtDc1dbAo6ZRsssHin01RASqw=",
+      "NUEVO.NOE.Service.wasm": "sha256-18BNt7XdvjlsJxtE9Tfj5tFVIKjyxOrxVDwL/NwuiEg=",
+      "NUEVO.NOE.BLAZORWEB.wasm": "sha256-waWQy/VnZBF7QzmcMLPj00I7zj3prLVTku9I0q+MQqU="
     },
     "pdb": {
-      "NUEVO.NOE.DTO.pdb": "sha256-gV/tANQJtJETpib7nIwWZf0rygeLaURvOclfxk4DvOE=",
-      "NUEVO.NOE.Service.pdb": "sha256-kR3E2FIc1/nHWvaLN2f25830WVsckWEgB7QKNaReDZc=",
-      "NUEVO.NOE.Model.pdb": "sha256-5/GOBq3QBf+YZR6WW+PwJ9V7iVlR1x/50gJCi9zrxBs=",
-      "NUEVO.NOE.BLAZORWEB.pdb": "sha256-UDLgXlSom9wc/MTHzrJiGr1wlXRTatqy6UDl4LR7uj0="
+      "NUEVO.NOE.DTO.pdb": "sha256-RB7Uo/ly+OrggICxZlRwKs/HN4gfegZLaaG9dAfWGmk=",
+      "NUEVO.NOE.Service.pdb": "sha256-+uH7BzfYSmIWvsBEnpulit+5Oc/YnxmHfhhST4MC1Tg=",
+      "NUEVO.NOE.Model.pdb": "sha256-YVwVUxwyf3N8KkPKH7CJtNowouuPeGNT07siUWUDlrs=",
+      "NUEVO.NOE.BLAZORWEB.pdb": "sha256-Td+AYsB4EqZU46S1q7Fv9ClnEL6jrAYj8LroJIMmrLU="
     }
   },
   "cacheBootResources": true,

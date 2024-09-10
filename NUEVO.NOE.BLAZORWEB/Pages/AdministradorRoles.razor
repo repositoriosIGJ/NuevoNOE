@@ -1,57 +1,56 @@
 ﻿ @page "/AdministradorRoles";
 @using NUEVO.NOE.BLAZORWEB.ClientServices.Implementacion
+@using MudBlazor;
 @inject IRolesClientService rolesClientService
 @inject ISnackbar snackbar
-@inject IDialogService dialogService 
+@inject IDialogService dialogService
 @inject NavigationManager navigation
 @inject RolNotificationService rolNotificationService
 
-<MudCard Class="m-3">
-    <MudCardHeader>
-        Bienvenido a la pagina de administracion de roles
-    </MudCardHeader>
-    <MudCardContent>
-        <MudText>
-            Solo Los usuarios con roles de soporte o sistemas pueden ver esta pagina
-        </MudText>
-    </MudCardContent>
-</MudCard>
 
-<div class="m-3">
-    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled"
-               Color="Color.Primary" Class="ml-auto" OnClick="AgregarRol">Agregar Rol</MudButton>
+<div class="w-100 flex-grow-1" style="background-color:rgba(255,255,255,0.5)">
+
+    <div class="container p-2 bg-white border-2" Style="border-color:#242c4f">
+        <div class="">
+            <h3 class="text-center text-decoration-underline " style="color:#242c4f">administracion de roles</h3>
+            <div class="d-flex justify-content-between">
+                <span class="text-danger">* Solo usuarios con roles de soporte o sistemas pueden ver esta página.</span>
+                <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled"
+                           Color="Color.Primary" Class="ml-auto" OnClick="AgregarRol">Agregar Rol</MudButton>
+            </div>
+            <MudDivider></MudDivider>
+        </div>
+        <MudTable Items="filteredRoles" Dense="true" Hover="true" Bordered="false" Striped="true">
+            <ToolBarContent>
+                <MudText>Roles</MudText>
+                <MudSpacer />
+                <MudTextField @bind-Value="searchString" Placeholder="Buscar por nombre o departamento" Adornment="Adornment.Start"
+                              AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField>
+            </ToolBarContent>
+            <HeaderContent>
+                <MudTh>ROL</MudTh>
+                <MudTh>DEPARTAMENTO</MudTh>
+                <MudTh>INHABILITADO</MudTh>
+                <MudTh>ACCIONES</MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd>@context.Descripcion</MudTd>
+                <MudTd>@context.Departamento.AcronimoDescripcion</MudTd>
+                <MudTd>@((context.Inhabilitado.Value) ? "Si" : "No")</MudTd>
+                <MudTd>
+                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Primary" Class="ml-auto" OnClick="@(() => EditarRol(context.Id))">Editar</MudButton>
+                    <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Tertiary" Class="ml-auto" OnClick="@(() => FuncionesByRol(context.Id))">Funciones</MudButton>
+                </MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+    </div>
+
 </div>
 
-<div class="mx-5 mb-3">
-    <MudTable Items="filteredRoles" Dense="true" Hover="true" Bordered="false" Striped="true">
-        <ToolBarContent>
-            <MudText>Roles</MudText>
-            <MudSpacer />
-            <MudTextField @bind-Value="searchString" Placeholder="Buscar por nombre o departamento" Adornment="Adornment.Start"
-              AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField>
-        </ToolBarContent>
-       <HeaderContent>
-           <MudTh>ROL</MudTh>
-           <MudTh>DEPARTAMENTO</MudTh>
-            <MudTh>INHABILITADO</MudTh>
-           <MudTh>ACCIONES</MudTh>
-       </HeaderContent>
-       <RowTemplate>
-           <MudTd>@context.Descripcion</MudTd>
-           <MudTd>@context.Departamento.AcronimoDescripcion</MudTd>
-           <MudTd>@context.Inhabilitado</MudTd>
-            <MudTd>
-                
-            
-                <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Primary" Class="ml-auto" OnClick="@(() => EditarRol(context.Id))">Editar</MudButton>
-                <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Tertiary" Class="ml-auto" OnClick="@(() => FuncionesByRol(context.Id))">Funciones</MudButton>
-            </MudTd>
-                </RowTemplate>
-                <PagerContent>
-                    <MudTablePager />
-                </PagerContent>
-    </MudTable>
-</div>
+
 
 @code {
     List<RolDTO> roles = new();
@@ -61,7 +60,7 @@
 
     //logica busqueda filtro
     private List<RolDTO> filteredRoles => roles.Where(_ => _.Descripcion.Contains(searchString, StringComparison.OrdinalIgnoreCase) ||
-                                                       _.Departamento.Descripcion.Contains(searchString,StringComparison.OrdinalIgnoreCase) ).ToList();
+                                                       _.Departamento.Descripcion.Contains(searchString, StringComparison.OrdinalIgnoreCase)).ToList();
 
 
 
@@ -79,7 +78,7 @@
 
     private async Task CargarRoles()
     {
-        var respuestaRoles = await rolesClientService.GetRoles(); 
+        var respuestaRoles = await rolesClientService.GetRoles();
         if (respuestaRoles.IsSuccess)
         {
             roles = respuestaRoles.Data;
@@ -92,7 +91,7 @@
     }
     private async void AgregarRol()
 
-    {   
+    {
         // navigation.NavigateTo($"DetailsRol");
         var dialog = dialogService.Show<DetailsRol>("Agregar Rol", new DialogParameters
         {
@@ -101,8 +100,8 @@
         });
     }
 
-    
- 
+
+
 
 
     private async void EditarRol(int id)
@@ -112,16 +111,16 @@
         //para que se actualice la pagina cuando se edita el rol
         parameters.Add("OnRolUpdated", EventCallback.Factory.Create(this, async () => await CargarRoles()));
 
-        dialogService.Show<DetailsRol>("Editar Rol", parameters); 
+        dialogService.Show<DetailsRol>("Editar Rol", parameters);
 
-}
+    }
 
 
     private async void FuncionesByRol(int id)
     {
         var parameters = new DialogParameters();
         parameters.Add("id", id);
-      
+
         dialogService.Show<FuncionesRol>("Funciones Por Rol", parameters);
 
     }

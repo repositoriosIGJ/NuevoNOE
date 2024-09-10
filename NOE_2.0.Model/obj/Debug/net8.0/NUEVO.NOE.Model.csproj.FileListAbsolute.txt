@@ -9,9 +9,23 @@ D:\PROYECTOS IGJ 2024\API_NOE_2.0\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model
 D:\PROYECTOS IGJ 2024\API_NOE_2.0\NOE_2.0.Model\obj\Debug\net8.0\refint\NUEVO.NOE.Model.dll
 D:\PROYECTOS IGJ 2024\API_NOE_2.0\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.pdb
 D:\PROYECTOS IGJ 2024\API_NOE_2.0\NOE_2.0.Model\obj\Debug\net8.0\ref\NUEVO.NOE.Model.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\bin\Debug\net8.0\NUEVO.NOE.Model.deps.json
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\bin\Debug\net8.0\NUEVO.NOE.Model.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.AssemblyInfoInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.AssemblyInfo.cs
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.csproj.CoreCompileInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.sourcelink.json
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\refint\NUEVO.NOE.Model.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\ref\NUEVO.NOE.Model.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.csproj.AssemblyReference.cache
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Model\bin\Debug\net8.0\NUEVO.NOE.Model.deps.json
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Model\bin\Debug\net8.0\NUEVO.NOE.Model.dll
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Model\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.csproj.AssemblyReference.cache
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.GeneratedMSBuildEditorConfig.editorconfig
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.AssemblyInfoInputs.cache
 D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Model\obj\Debug\net8.0\NUEVO.NOE.Model.AssemblyInfo.cs

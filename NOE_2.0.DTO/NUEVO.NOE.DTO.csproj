@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="EPPlus" Version="7.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\NOE_2.0.Model\NUEVO.NOE.Model.csproj" />
   </ItemGroup>
 

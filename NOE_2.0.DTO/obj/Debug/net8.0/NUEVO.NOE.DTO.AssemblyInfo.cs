@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NUEVO.NOE.DTO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+23fb2f9aefe486016bca6c015413a8f706a0d7fb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+868f08b6cdeb259e95d03407f84434df37fb842d")]
 [assembly: System.Reflection.AssemblyProductAttribute("NUEVO.NOE.DTO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NUEVO.NOE.DTO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -33,6 +33,34 @@
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\IGJ2024.png",
+      "PackagePath": "staticwebassets\\img\\IGJ2024.png"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\LogoMin.png",
+      "PackagePath": "staticwebassets\\img\\LogoMin.png"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\image.png",
+      "PackagePath": "staticwebassets\\img\\image.png"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\logo-bandera-escudo.svg",
+      "PackagePath": "staticwebassets\\img\\logo-bandera-escudo.svg"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\modificado.png",
+      "PackagePath": "staticwebassets\\img\\modificado.png"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\noe.png",
+      "PackagePath": "staticwebassets\\img\\noe.png"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\semana_18.jpg",
+      "PackagePath": "staticwebassets\\img\\semana_18.jpg"
+    },
+    {
       "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

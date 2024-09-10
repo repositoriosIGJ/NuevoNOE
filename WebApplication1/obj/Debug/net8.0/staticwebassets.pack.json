@@ -57,6 +57,62 @@
       "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240820100450.pdf"
     },
     {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820113027.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240820113027.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820113157.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240820113157.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820113308.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240820113308.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820114717.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240820114717.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820114847.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240820114847.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820151537.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240820151537.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240822111914.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240822111914.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240822132907.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240822132907.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240826105245.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240826105245.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133311.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240830133311.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133624.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240830133624.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133723.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240830133723.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830134103.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240830134103.pdf"
+    },
+    {
+      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240905105842.pdf",
+      "PackagePath": "staticwebassets\\pdfs\\TipoTramite_20240905105842.pdf"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.NUEVO.NOE.API.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
