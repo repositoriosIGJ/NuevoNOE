@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NUEVO.NOE.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+368141818d72083d9ccc112c0ff5f30fc90cb239")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+27dfc98ae8a95bc5b1e0ea447f3605bfa0733309")]
 [assembly: System.Reflection.AssemblyProductAttribute("NUEVO.NOE.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NUEVO.NOE.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,12 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\pages\\datosciviles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\pages\\datosciviles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\webapplication1\\controllers\\generarexcelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\controllers\\generarexcelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,28 +50,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GenerarExcelController.cs",
-              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\Controllers\\GenerarExcelController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\GenerarExcelController.cs",
-              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\Controllers\\GenerarExcelController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\GenerarExcelController.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAowCIAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T16:55:33.664Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "DatosCiviles.razor",
-              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\DatosCiviles.razor",
-              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Pages\\DatosCiviles.razor",
-              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\DatosCiviles.razor",
-              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\Pages\\DatosCiviles.razor",
-              "ViewState": "AQIAAEUAAAAAAAAAAAAkwFYAAABoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-09-10T16:19:29.092Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\Program.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\Program.cs",
+              "RelativeToolTip": "WebApplication1\\Program.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T17:46:35.775Z",
               "EditorCaption": ""
             }
           ]
