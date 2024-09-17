@@ -1,33 +1,41 @@
 ﻿@using Radzen.Blazor
 @inject NavigationManager navigationManager
+@inject ISessionStorageService sessionStorage
 
 <style>
     .rz-menu:not(.rz-profile-menu) .rz-navigation-item-link {
-        color: white
+        color: white;
     }
 </style>
 
-<div class=" text-white fw-bolder w-100">
+<div class="text-white fw-bolder w-100">
     <RadzenMenu class="fw-bolder d-flex justify-content-center gap-4" style="background-color:#242c4f;">
         <RadzenMenuItem Text="Home" Path="home" Icon="home" IconColor="@Radzen.Colors.Warning"> </RadzenMenuItem>
-        <RadzenMenuItem Text="Utilidades" Icon="Build" IconColor="@Radzen.Colors.Warning">
+        @if (usuarioDTO.Usuario != null)
+        {
+            <RadzenMenuItem Icon="Build" IconColor="@Radzen.Colors.Warning" Path="depto" Text="@usuarioDTO.Usuario.Departamento.Descripcion"></RadzenMenuItem>
+        }
+        <RadzenMenuItem Text="Utilidades"
+                        Icon="Build" IconColor="@Radzen.Colors.Warning">
             <RadzenMenuItem Text="Codigos societarios" Path="ListTiposSocietarios"></RadzenMenuItem>
-            <RadzenMenuItem Text="Codigos tramites" Path="ListTipoTramite"  ></RadzenMenuItem>
+            <RadzenMenuItem Text="Codigos tramites" Path="ListTipoTramite"></RadzenMenuItem>
             <RadzenMenuItem Text="Consulta horario" Path="horario"></RadzenMenuItem>
         </RadzenMenuItem>
-        <RadzenMenuItem Text="Links utiles" Icon="Public" IconColor="@Radzen.Colors.Warning">
+        <RadzenMenuItem Text="Links útiles" Icon="Public" IconColor="@Radzen.Colors.Warning">
             <RadzenMenuItem Path="http://intranetigj/" Target="_blank" Text="Intranet"></RadzenMenuItem>
             <RadzenMenuItem Path="https://www.argentina.gob.ar/justicia" Target="_blank" Text="Web Ministerio"></RadzenMenuItem>
             <RadzenMenuItem Path="https://www.argentina.gob.ar/justicia/igj" Target="_blank" Text="Web IGJ"></RadzenMenuItem>
         </RadzenMenuItem>
-        <RadzenMenuItem Text="Usuario" Icon="Person" IconColor="@Radzen.Colors.Warning">
-            <RadzenMenuItem Text="Editar" Path="login" Icon="Edit"></RadzenMenuItem>
+        <RadzenMenuItem Text="Usuario" Path="usuario" Icon="Edit" IconColor="@Radzen.Colors.Warning">
         </RadzenMenuItem>
     </RadzenMenu>
 </div>
 
 @code {
     private bool collapseNavMenu = true;
+
+    [Parameter] public static UsuarioDTO? usuarioDTO { get; set; }
+
 
     private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
 

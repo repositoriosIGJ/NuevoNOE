@@ -1177,6 +1177,13 @@ D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\1
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\dg3w8z3h6x.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\k1hgrv90w7.gz
 D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\compressed\ezbamhjcmy.gz
+C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.csproj.AssemblyReference.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.AssemblyInfoInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.AssemblyInfo.cs
+C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.csproj.CoreCompileInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.sourcelink.json
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\AutoMapper.wasm
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\blazor.boot.json
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\wwwroot\_framework\blazor.webassembly.js
@@ -1878,13 +1885,6 @@ C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUE
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.Service.pdb
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
-C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.csproj.AssemblyReference.cache
-C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.AssemblyInfoInputs.cache
-C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.AssemblyInfo.cs
-C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.csproj.CoreCompileInputs.cache
-C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\NUEVO.NOE.BLAZORWEB.sourcelink.json
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\AutoMapper.wasm
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\Blazored.SessionStorage.wasm
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\webcil\ClosedXML.wasm
@@ -2113,6 +2113,7 @@ C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\sta
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.NUEVO.NOE.BLAZORWEB.props
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.NUEVO.NOE.BLAZORWEB.props
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\scopedcss\Layout\LoginLayout.razor.rz.scp.css
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\scopedcss\Layout\MainLayout.razor.rz.scp.css
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\scopedcss\Layout\NavMenu.razor.rz.scp.css
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.BLAZORWEB\obj\Debug\net8.0\scopedcss\bundle\NUEVO.NOE.BLAZORWEB.styles.css

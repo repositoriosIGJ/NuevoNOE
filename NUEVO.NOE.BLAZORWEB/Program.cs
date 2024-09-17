@@ -29,6 +29,8 @@ builder.Services.AddScoped<IFuncionesRolClientService, FuncionesRolClientService
 builder.Services.AddScoped<IUtilidadesDBOracle, UtilidadesDBOracle>();
 builder.Services.AddTransient<IGenerarPDFClientService, GenerarPDFClientService>();
 builder.Services.AddScoped<IGenerarExcelClientService, GenerarExcelClientService>();
+builder.Services.AddScoped<IExpedienteClientService, ExpedienteClientService>();
+builder.Services.AddScoped<ITramitesClientService, TramitesClientService>();
 
 
 builder.Services.AddBlazoredSessionStorage();

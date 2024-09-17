@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RHfogSqUGjUebKbi5yeKRXlveRqw9cpMRYwX3C4uALg=",
+  "Hash": "BH3hKIViCeFhTqEB+4VCYyjp0JVvQ4us1uLgkrnYq3c=",
   "Source": "NUEVO.NOE.BLAZORWEB",
   "BasePath": "/",
   "Mode": "Root",
@@ -10674,6 +10674,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\semana_18.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\waiting-7579_256.gif",
+      "SourceId": "NUEVO.NOE.BLAZORWEB",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "img/waiting-7579_256.gif",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\waiting-7579_256.gif"
     },
     {
       "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\index.html",

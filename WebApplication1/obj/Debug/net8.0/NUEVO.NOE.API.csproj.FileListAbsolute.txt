@@ -286,8 +286,8 @@ C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\bin\Debug\net8.0\NUEVO.N
 C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\bin\Debug\net8.0\NUEVO.NOE.Business.pdb
 C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
 C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
-C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\bin\Debug\net8.0\NUEVO.NOE.Repository.pdb
 C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\bin\Debug\net8.0\NUEVO.NOE.Service.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\bin\Debug\net8.0\NUEVO.NOE.Repository.pdb
 C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\obj\Debug\net8.0\NUEVO.NOE.API.csproj.AssemblyReference.cache
 C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\obj\Debug\net8.0\NUEVO.NOE.API.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\alelopez\source\repos\NuevoNOE\WebApplication1\obj\Debug\net8.0\NUEVO.NOE.API.AssemblyInfoInputs.cache

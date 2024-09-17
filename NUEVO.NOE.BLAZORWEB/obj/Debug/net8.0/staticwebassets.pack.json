@@ -61,6 +61,10 @@
       "PackagePath": "staticwebassets\\img\\semana_18.jpg"
     },
     {
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\waiting-7579_256.gif",
+      "PackagePath": "staticwebassets\\img\\waiting-7579_256.gif"
+    },
+    {
       "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },

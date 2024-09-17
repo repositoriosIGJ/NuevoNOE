@@ -15,5 +15,6 @@ namespace NUEVO.NOE.Model.UtilidadesOracles
         public Nullable<System.DateTime> Registracion { get; set; }
         public System.DateTime Alta { get; set; }
         public int Correlativo { get; set; }
+        public string Descripcion {get;set;}
     }
 }

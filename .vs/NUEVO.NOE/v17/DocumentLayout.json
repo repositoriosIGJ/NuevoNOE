@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\wwwroot\\css\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\pages\\datosciviles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\pages\\datosciviles.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\pages\\busquedaexpediente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\pages\\busquedaexpediente.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\pages\\pageusuario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\pages\\pageusuario.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\pages\\pagedepartamento.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\pages\\pagedepartamento.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\clientservices\\implementacion\\tramitesclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\clientservices\\implementacion\\tramitesclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|c:\\users\\alelopez\\source\\repos\\nuevonoe\\nuevo.noe.blazorweb\\clientservices\\contrato\\itramitesclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\clientservices\\contrato\\itramitesclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -49,16 +81,124 @@
               "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatosCiviles.razor",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\DatosCiviles.razor",
+              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Pages\\DatosCiviles.razor",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\DatosCiviles.razor",
+              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\Pages\\DatosCiviles.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T14:56:42.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PageDepartamento.razor",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\PageDepartamento.razor",
+              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Pages\\PageDepartamento.razor",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\PageDepartamento.razor",
+              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\Pages\\PageDepartamento.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T14:46:50.78Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PageUsuario.razor",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\PageUsuario.razor",
+              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Pages\\PageUsuario.razor",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\PageUsuario.razor",
+              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\Pages\\PageUsuario.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T14:37:25.477Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "app.css",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\app.css",
+              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\app.css",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\app.css",
+              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\app.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-09-17T14:24:09.047Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\Home.razor",
+              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\Pages\\Home.razor",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABAAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T14:22:27.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BusquedaExpediente.razor",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\BusquedaExpediente.razor",
+              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Pages\\BusquedaExpediente.razor",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\BusquedaExpediente.razor",
+              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\Pages\\BusquedaExpediente.razor",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAABTAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-17T13:14:53.853Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\Program.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
-              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\Program.cs",
-              "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAAADUAAABMAAAA",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Program.cs",
+              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Program.cs",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Program.cs",
+              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\Program.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACAAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T17:46:35.775Z",
+              "WhenOpened": "2024-09-17T13:14:36.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TramitesClientService.cs",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\TramitesClientService.cs",
+              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\TramitesClientService.cs",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\TramitesClientService.cs",
+              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\TramitesClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T13:08:51.515Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITramitesClientService.cs",
+              "DocumentMoniker": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\ITramitesClientService.cs",
+              "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\ITramitesClientService.cs",
+              "ToolTip": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\ITramitesClientService.cs",
+              "RelativeToolTip": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\ITramitesClientService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-17T13:07:18.522Z",
               "EditorCaption": ""
             }
           ]

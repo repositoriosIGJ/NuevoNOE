@@ -7,6 +7,8 @@ using NUEVO.NOE.Business.Contrato;
 using NUEVO.NOE.Business.DatosCiviles.Contrato;
 using NUEVO.NOE.Business.DatosCiviles.Implementacion;
 using NUEVO.NOE.Business.Implementacion;
+using NUEVO.NOE.Business.Oracle.Contrato;
+using NUEVO.NOE.Business.Oracle.Implementacion;
 using NUEVO.NOE.Repository.DatosCiviles.Contrato;
 using NUEVO.NOE.Repository.DatosCiviles.Implementacion;
 using NUEVO.NOE.Repository.Seguridad.Contrato;
@@ -14,6 +16,8 @@ using NUEVO.NOE.Repository.Seguridad.Implementacion;
 using NUEVO.NOE.Service;
 using NUEVO.NOE.Service.Contrato;
 using NUEVO.NOE.Service.Implementacion;
+using NUEVO.NOE.Service.OracleService.Contrato;
+using NUEVO.NOE.Service.OracleService.Implementacion;
 using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -55,11 +59,21 @@ builder.Services.AddScoped<IFuncionRolBusiness, FuncionRolBusiness>();
 builder.Services.AddScoped<IFuncionBusiness, FuncionBusiness>();
 builder.Services.AddScoped<IDepartamentoBusiness, DepartamentoBusiness>();
 builder.Services.AddScoped<IDatosCivilesBusiness, DatosCivilesBusiness>();
+builder.Services.AddScoped<IExpedienteBusiness, ExpedienteBusiness>();
+builder.Services.AddScoped<ITramiteBusiness, TramiteBusiness>();
+builder.Services.AddScoped<ITipoSocietarioBusiness, TipoSocietarioBusiness>();
+builder.Services.AddScoped<ITipoTramiteBusiness, TipoTramiteBusiness>();
+
 // *  S E R V I C I O S  *
 builder.Services.AddScoped<IActiveDirectoryService, ActiveDirectoryService>();
 builder.Services.AddScoped<IGenerarExcelService, GenerarExcelService>();
 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 builder.Services.AddScoped<GenerarPDFService>();
+builder.Services.AddScoped<IExpedienteService, ExpedienteService>();
+builder.Services.AddScoped<ITramiteService, TramiteService>();
+builder.Services.AddScoped<ITipoTramiteService, TipoTramiteService>();
+builder.Services.AddScoped<ITipoSocietarioService, TipoSocietarioService>();
+
 //AUTOMAPPER
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 

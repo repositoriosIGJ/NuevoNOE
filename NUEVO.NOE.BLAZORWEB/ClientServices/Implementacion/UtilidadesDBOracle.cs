@@ -42,7 +42,7 @@ namespace NUEVO.NOE.BLAZORWEB.ClientServices.Implementacion
 
         public async Task<IEnumerable<TipoSocietario>> GetTipoSocietario()
         {
-            var rspGetTiposSocietarios = await _httpClient.GetFromJsonAsync<List<TipoSocietario>>("http://localhost:32674/api/TipoSocietario");
+            var rspGetTiposSocietarios = await _httpClient.GetFromJsonAsync<List<TipoSocietario>>("api/TipoSocietario/GetTiposSocietarios");
 
             return rspGetTiposSocietarios;
         }
@@ -50,7 +50,7 @@ namespace NUEVO.NOE.BLAZORWEB.ClientServices.Implementacion
         public async Task<IEnumerable<TipoTramite>> GetTipoTramites()
         {
 
-            var rspGetTipoTramites = await _httpClient.GetFromJsonAsync<List<TipoTramite>>("http://localhost:32674/api/TipoTramite");
+            var rspGetTipoTramites = await _httpClient.GetFromJsonAsync<List<TipoTramite>>("api/tipoTramite/GetTiposTramites");
 
             return rspGetTipoTramites;
         }

@@ -1,94 +1,88 @@
 ﻿@page "/datosciviles"
 @using NUEVO.NOE.Model;
+@using Radzen;
+@using Radzen.Blazor;
 
 @inject IUtilidadesDBOracle utilidadesdDBoracle
 @inject IGenerarPDFClientService generarPDFService
 @inject IGenerarExcelClientService generarExcelService
 @inject IJSRuntime JSRuntime
+@inject Radzen.DialogService dialogService;
 
-<div class="flex-grow-1 d-flex flex-column">
+<AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS" })">
 
+    <div class="flex-grow-1 d-flex flex-column" style="background-color:#efd1a7; color:#242c4f">
 
+        <div class="px-3 d-flex flex-column gap-2 justify-content-center flex-grow-1 ">
 
+            <EditForm Model="@filtros" OnValidSubmit="CargarDatos">
+                <div class="d-flex p-2 align-items-center rounded-3 fw-bold justify-content-around">
+                    <div>
 
-    <div class="container d-flex flex-column gap-2 justify-content-center flex-grow-1 ">
+                        <label for="tipo">Tipo :</label>
+                        <InputSelect style="background-color:#efd1a7;" id="tipo" @bind-Value="filtros.Tipo">
+                            <option value="">Seleccione un tipo</option>
+                            <option value="1">Fiscalizacion</option>
+                            <option value="2">Contable</option>
+                            <option value="3">Personeria</option>
+                        </InputSelect>
+                    </div>
 
+                    <div>
 
+                        <label for="fechaInicio">Fecha Inicio :</label>
+                        <InputDate style="background-color:#efd1a7;" id="fechaInicio" @bind-Value="filtros.FechaInicio" />
+                    </div>
 
+                    <div>
 
+                        <label for="fechaFinal">Fecha Final :</label>
+                        <InputDate style="background-color:#efd1a7;" id="fechaFinal" @bind-Value="filtros.FechaFinal" />
+                    </div>
 
-        <EditForm Model="@filtros" OnValidSubmit="CargarDatos">
-            <div class="d-flex p-2 align-items-center rounded-3 justify-content-around bg-white">
-                <div>
-
-                    <label for="tipo">Tipo:</label>
-                    <InputSelect id="tipo" @bind-Value="filtros.Tipo">
-                        <option value="">Seleccione un tipo</option>
-                        <option value="1">Fiscalizacion</option>
-                        <option value="2">Contable</option>
-                        <option value="3">Personeria</option>
-                    </InputSelect>
+                    <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Primary" OnClick="CargarDatos" class="btn btn-primary">Buscar</MudButton>
                 </div>
+            </EditForm>
 
-                <div>
 
-                    <label for="fechaInicio">Fecha Inicio:</label>
-                    <InputDate id="fechaInicio" @bind-Value="filtros.FechaInicio" />
-                </div>
+            <MudTable Items="personeriaCiviles" Hover="true" Bordered="false" Striped="true" Height="500px">
+                <ToolBarContent>
+                    <MudText Typo="Typo.h5" Style="color:#242c4f" Class=" fw-bolder">Listado</MudText>
+                </ToolBarContent>
+                <HeaderContent>
+                    <MudTh>CORRELATIVO</MudTh>
+                    <MudTh>DENOMINACION</MudTh>
+                    <MudTh>TRAMITE</MudTh>
+                    <MudTh>DESCRIPCION</MudTh>
+                    <MudTh>DESTINO</MudTh>
+                    <MudTh>ALTA</MudTh>
+                    <MudTh>PASE</MudTh>
+                    <MudTh>REGISTRACION</MudTh>
 
-                <div>
-
-                    <label for="fechaFinal">Fecha Final:</label>
-                    <InputDate id="fechaFinal" @bind-Value="filtros.FechaFinal" />
-                </div>
-
-                <MudButton OnClick="CargarDatos" class="btn btn-primary">Buscar</MudButton>
-            </div>
-        </EditForm>
-
-        <MudTable Items="personeriaCiviles" Hover="true" Bordered="false" Striped="true" Height="500px">
-            <ToolBarContent>
-                <MudText Typo="Typo.h5" Style="color:#242c4f" Class=" fw-bolder">Listado</MudText>
-            </ToolBarContent>
-            <HeaderContent>
-                <MudTh>CORRELATIVO</MudTh>
-                <MudTh>DENOMINACION</MudTh>
-                <MudTh>TRAMITE</MudTh>
-                <MudTh>DESTINO</MudTh>
-                <MudTh>ALTA</MudTh>
-                <MudTh>PASE</MudTh>
-                <MudTh>REGISTRACION</MudTh>
-
-            </HeaderContent>
-            <RowTemplate>
-                @if (loading)
-                {
-                    <div class="w-100 h-100 bg-white text-xxl-center">CARGANDO....</div>
-                }
-                else
-                {
+                </HeaderContent>
+                <RowTemplate>
                     <MudTd>@context.Correlativo</MudTd>
                     <MudTd>@context.Denominacion</MudTd>
                     <MudTd>@context.Tramite</MudTd>
+                    <MudTd>@context.Descripcion</MudTd>
                     <MudTd>@context.Destino</MudTd>
                     <MudTd>@context.Alta.ToString("dd/MM/yyy")</MudTd>
                     <MudTd>@context.Pase.ToString("dd/MM/yyy")</MudTd>
                     <MudTd>@context.Registracion?.ToString("dd/MM/yyy")</MudTd>
-                }
-            </RowTemplate>
-            <PagerContent>
-                <MudTablePager PageSizeOptions="new int[] {int.MaxValue, 10, 20 }" />
-            </PagerContent>
-        </MudTable>
+                </RowTemplate>
+                <PagerContent>
+                    <MudTablePager PageSizeOptions="new int[] {int.MaxValue, 10, 20 }" />
+                </PagerContent>
+            </MudTable>
 
-
-        <div class="d-flex justify-content-center gap-2">
-            @*      <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Primary" OnClick="GeneratePDF">Generar PDF</MudButton> *@
-            <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Secondary" OnClick="GenerateExcel">Generar Excel</MudButton> 
+            <div class="d-flex justify-content-center gap-2">
+                @*      <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Primary" OnClick="GeneratePDF">Generar PDF</MudButton> *@
+                <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Secondary" OnClick="GenerateExcel">Generar Excel</MudButton>
+            </div>
         </div>
-    </div>
 
-</div>
+    </div>
+</AuthorizedViewRoles>
 
 @if (!string.IsNullOrEmpty(pdfDataUrl))
 {
@@ -116,7 +110,6 @@
     private string searchString = "";
     private string message;
     private string pdfDataUrl;
-    private bool loading = false;
     List<PersoneriaCiviles> personeriaCiviles = new();
 
 
@@ -130,16 +123,26 @@
 
     private async Task CargarDatos()
     {
-        loading = true;
+        BusyDialog();
         var rsp = await utilidadesdDBoracle.GetPersoneriaCiviles(filtros);
 
         if (rsp is not null)
         {
             personeriaCiviles = rsp.Data;
-            loading = false;
+            dialogService.Close();
+
 
             StateHasChanged();
         }
+    }
+
+    async Task BusyDialog()
+    {
+        await dialogService.OpenAsync("", ds =>
+    @<RadzenStack AlignItems="Radzen.AlignItems.Center" Gap="2rem" class="rz-p-12" Style="background-color:#242c4f">
+        <RadzenImage Path="img/waiting-7579_256.gif" Style="width: 200px;" AlternateText="community" />
+        <RadzenText Style="color:white" TextStyle="TextStyle.H6">Cargando, por favor espere...</RadzenText>
+    </RadzenStack>, new Radzen.DialogOptions() { ShowTitle = false, Style = "min-height:auto;min-width:auto;width:auto", CloseDialogOnEsc = false });
     }
 
     // private async Task GeneratePDF()

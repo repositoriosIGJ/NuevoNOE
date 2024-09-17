@@ -45,6 +45,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aG9yaXplZFZpZXdSb2xlcy5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/BusquedaExpediente.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQnVzcXVlZGFFeHBlZGllbnRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/DatosCiviles.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0b3NDaXZpbGVzLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -85,6 +89,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm9BdXRvcml6YWRvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/PageDepartamento.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZURlcGFydGFtZW50by5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/PageUsuario.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFnZVVzdWFyaW8ucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Pages/RolesUsuario.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUm9sZXNVc3VhcmlvLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -92,6 +104,10 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Layout/LoginLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XExvZ2luTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wuq6g7o1tg
 
 [C:/Users/alelopez/source/repos/NuevoNOE/NUEVO.NOE.BLAZORWEB/Layout/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
