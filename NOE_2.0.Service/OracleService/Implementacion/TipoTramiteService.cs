@@ -16,9 +16,9 @@ namespace NUEVO.NOE.Service.OracleService.Implementacion
             _httpClient.BaseAddress = new Uri("http://localhost:32674/");
         }
 
-        public async Task<IEnumerable<TipoTramite>> GetTiposTramites()
+        public async Task<ResponseDTO<IEnumerable<TipoTramite>>> GetTiposTramites()
         {
-            var rstGetBycodigo = await _httpClient.GetFromJsonAsync<IEnumerable<TipoTramite>>($"api/tipotramite/GetAllTipoTramites");
+            var rstGetBycodigo = await _httpClient.GetFromJsonAsync<ResponseDTO<IEnumerable<TipoTramite>>>($"api/tipotramite/GetAllTipoTramites");
 
             return rstGetBycodigo;
         }

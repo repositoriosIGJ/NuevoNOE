@@ -17,7 +17,7 @@ namespace NUEVO.NOE.API.Controllers
         }
 
         [HttpGet("GetTiposTramites")]
-        public async Task<IEnumerable<TipoTramite>> GetTiposTramites()
+        public async Task<ResponseDTO<IEnumerable<TipoTramite>>> GetTiposTramites()
         {
             var rst = await _tipoTramiteBusiness.GetTiposTramites();
 

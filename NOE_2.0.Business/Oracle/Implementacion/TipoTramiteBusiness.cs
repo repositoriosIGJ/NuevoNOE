@@ -14,7 +14,7 @@ namespace NUEVO.NOE.Business.Oracle.Implementacion
             _tipoTramiteservice = tipoTramiteservice;
         }
 
-        public async Task<IEnumerable<TipoTramite>> GetTiposTramites()
+        public async Task<ResponseDTO<IEnumerable<TipoTramite>>> GetTiposTramites()
         {
             var rst = await _tipoTramiteservice.GetTiposTramites();
 
