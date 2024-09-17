@@ -1,0 +1,89 @@
+﻿@using Blazored.SessionStorage
+@using NUEVO.NOE.Model.Seguridad
+@using MudBlazor
+ @page "/Usuario";
+ @inject ISessionStorageService sessionStorage
+ @inject NavigationManager navigationManager
+ @inject IDialogService dialogService ;
+
+<div class="justify-content-center px-5  d-flex gap-2 flex-column flex-grow-1">
+    @if (usuarioDTO.Usuario is not null)
+    {
+        <MudCardContent  Class=" m-auto p-5 d-flex flex-column text-white justify-content-center align-items-center gap-4">
+            <MudAvatar Style="height:300px; width:300px; font-size:6rem;border-color:white" Class="border-3" Color="Color.Primary">AL</MudAvatar>
+            <div Style="background-color:#efd1a7; border-color:#242c4f; color:#242c4f" class="border-4 p-4 rounded-3">
+                <MudText Class="fw-bolder">@usuarioDTO.Usuario.NombreCompleto.ToUpper() - @usuarioDTO.Usuario.NameActiveDirectory.ToUpper()</MudText>
+                <MudText Class="fw-bolder" Typo="Typo.body2"> @usuarioDTO.Usuario.Departamento.Descripcion</MudText>
+
+                <MudDivider></MudDivider>
+
+                <MudText Class="fw-bolder" Typo="Typo.body2">Roles:</MudText>
+
+                <MudList T="UsuarioDTO">
+                    <MudDivider />
+                    @if (usuarioDTO.UsuarioRol is not null)
+                    {
+                        @foreach (var rolusuario in usuarioDTO.UsuarioRol)
+                        {
+                            <MudText Class=" fw-bolder " Style="color:#242c4f" Typo="Typo.body1"><MudIcon Icon="@Icons.Material.Filled.Work" Color="Color.Warning" />   @rolusuario.Rol.Descripcion</MudText>
+
+                        }
+                    }
+
+                </MudList>
+
+            </div>
+        </MudCardContent>
+    }
+</div>
+
+
+
+
+@code {
+
+    // EN USUARIO DTO SE ALMANCENA  ADEMAS DE LOS DATOS DEL USUARIO, SUS ROLES Y SUS FUNCIONES
+    public UsuarioDTO? usuarioDTO = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var sesion = await sessionStorage.GetItemAsync<UsuarioDTO>("user");
+
+        if (sesion is not null)
+        {
+            // almaceno el usuario en el objeto user para manejar sus datos en la interfaz
+            usuarioDTO = sesion;
+
+        }
+        else
+        {
+            // redirigir en el caso donde no se encuentra el usuario en la sesión
+            navigationManager.NavigateTo("/");
+        }
+
+    }
+
+    private async Task Logout()
+    {
+        await sessionStorage.RemoveItemAsync("user");
+        navigationManager.NavigateTo("/");
+    }
+
+    public async Task RolManagement()
+    {
+        // var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
+        navigationManager.NavigateTo("/AdministradorRoles");
+    }
+
+    public async Task UserManagement()
+    {
+        //var dialog = dialogService.Show<AdministradorUsuarios>("Administracion de Usuarios");
+        navigationManager.NavigateTo("/AdministradorUsuarios");
+    }
+
+    public async Task FuncionManagement()
+    {
+        // var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
+        navigationManager.NavigateTo("/AdministradorFunciones");
+    }
+}

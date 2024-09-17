@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MtF2qhm9CDxkdT3VveOa0ZDV42RXN3zfRwInIb5xMbI=",
+  "Hash": "827cHOvkxyEaZniGyraunbirpGFpWe7a/+pGizZss3g=",
   "Source": "NUEVO.NOE.API",
   "BasePath": "_content/NUEVO.NOE.API",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "NUEVO.NOE.API\\wwwroot",
       "Source": "NUEVO.NOE.API",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819112841.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819112841.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819112841.pdf",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819112841.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819112930.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819112930.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819112930.pdf",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819112930.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113325.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113325.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819113325.pdf",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819113325.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113604.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113604.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819113604.pdf",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819113604.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113647.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113647.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819113647.pdf",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819113647.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113719.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113719.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819113719.pdf",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819113719.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113828.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819113828.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819113828.pdf",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819113828.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819114009.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819114009.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819114009.pdf",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819114009.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819114242.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819114242.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819114242.pdf",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819114242.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819115521.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240819115521.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240819115521.pdf",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240819115521.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820085949.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820085949.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820085949.pdf",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820085949.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820095454.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820095454.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820095454.pdf",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820095454.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820095833.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820095833.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820095833.pdf",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820095833.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820100450.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820100450.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820100450.pdf",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820100450.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820113027.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820113027.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820113027.pdf",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820113027.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820113157.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820113157.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820113157.pdf",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820113157.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820113308.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820113308.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820113308.pdf",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820113308.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820114717.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820114717.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820114717.pdf",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820114717.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820114847.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820114847.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820114847.pdf",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820114847.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820151537.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240820151537.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240820151537.pdf",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240820151537.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240822111914.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240822111914.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240822111914.pdf",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240822111914.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240822132907.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240822132907.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240822132907.pdf",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240822132907.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240826105245.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240826105245.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240826105245.pdf",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240826105245.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133311.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133311.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240830133311.pdf",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240830133311.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133624.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133624.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240830133624.pdf",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240830133624.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133723.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830133723.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240830133723.pdf",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240830133723.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830134103.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240830134103.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240830134103.pdf",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\pdfs\\TipoTramite_20240830134103.pdf"
     },
     {
-      "Identity": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240905105842.pdf",
+      "Identity": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\pdfs\\TipoTramite_20240905105842.pdf",
       "SourceId": "NUEVO.NOE.API",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\wwwroot\\",
       "BasePath": "_content/NUEVO.NOE.API",
       "RelativePath": "pdfs/TipoTramite_20240905105842.pdf",
       "AssetKind": "All",

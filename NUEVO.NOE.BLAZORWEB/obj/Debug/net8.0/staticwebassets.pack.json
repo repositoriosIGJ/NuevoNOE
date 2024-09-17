@@ -1,71 +1,75 @@
 {
   "Files": [
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\obj\\Debug\\net8.0\\compressed\\o6zifg5mhv.gz",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\obj\\Debug\\net8.0\\compressed\\eux6yz63c1.gz",
       "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NUEVO.NOE.BLAZORWEB.styles.css",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\obj\\Debug\\net8.0\\scopedcss\\bundle\\NUEVO.NOE.BLAZORWEB.styles.css",
       "PackagePath": "staticwebassets\\NUEVO.NOE.BLAZORWEB.styles.css"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\app.css",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\app.css",
       "PackagePath": "staticwebassets\\css\\app.css"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\favicon.png",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\icon-192.png",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\icon-192.png",
       "PackagePath": "staticwebassets\\icon-192.png"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\IGJ2024.png",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\IGJ2024.png",
       "PackagePath": "staticwebassets\\img\\IGJ2024.png"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\LogoMin.png",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\LogoMin.png",
       "PackagePath": "staticwebassets\\img\\LogoMin.png"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\image.png",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\image.png",
       "PackagePath": "staticwebassets\\img\\image.png"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\logo-bandera-escudo.svg",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\logo-bandera-escudo.svg",
       "PackagePath": "staticwebassets\\img\\logo-bandera-escudo.svg"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\modificado.png",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\modificado.png",
       "PackagePath": "staticwebassets\\img\\modificado.png"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\noe.png",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\noe.png",
       "PackagePath": "staticwebassets\\img\\noe.png"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\semana_18.jpg",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\semana_18.jpg",
       "PackagePath": "staticwebassets\\img\\semana_18.jpg"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\index.html",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\img\\waiting-7579_256.gif",
+      "PackagePath": "staticwebassets\\img\\waiting-7579_256.gif"
+    },
+    {
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\index.html",
       "PackagePath": "staticwebassets\\index.html"
     },
     {
-      "Id": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\sample-data\\weather.json",
+      "Id": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },
     {

@@ -1454,7 +1454,10 @@
           "NUEVO.NOE.Model": "1.0.0"
         },
         "runtime": {
-          "NUEVO.NOE.DTO.dll": {}
+          "NUEVO.NOE.DTO.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "NUEVO.NOE.Model/1.0.0": {
@@ -1462,7 +1465,10 @@
           "EPPlus": "7.3.0"
         },
         "runtime": {
-          "NUEVO.NOE.Model.dll": {}
+          "NUEVO.NOE.Model.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "NUEVO.NOE.Repository/1.0.0": {
@@ -1475,7 +1481,10 @@
           "NUEVO.NOE.Model": "1.0.0"
         },
         "runtime": {
-          "NUEVO.NOE.Repository.dll": {}
+          "NUEVO.NOE.Repository.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "NUEVO.NOE.Service/1.0.0": {
@@ -1490,7 +1499,10 @@
           "System.DirectoryServices": "8.0.0"
         },
         "runtime": {
-          "NUEVO.NOE.Service.dll": {}
+          "NUEVO.NOE.Service.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

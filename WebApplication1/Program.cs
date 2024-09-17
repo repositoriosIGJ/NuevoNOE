@@ -1,11 +1,16 @@
 using DinkToPdf;
 using DinkToPdf.Contracts;
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
 using Microsoft.EntityFrameworkCore;
 using NUEVO.NOE.API.Models;
 using NUEVO.NOE.Business.Contrato;
+using NUEVO.NOE.Business.DatosCiviles.Contrato;
+using NUEVO.NOE.Business.DatosCiviles.Implementacion;
 using NUEVO.NOE.Business.Implementacion;
 using NUEVO.NOE.Business.Oracle.Contrato;
 using NUEVO.NOE.Business.Oracle.Implementacion;
+using NUEVO.NOE.Repository.DatosCiviles.Contrato;
+using NUEVO.NOE.Repository.DatosCiviles.Implementacion;
 using NUEVO.NOE.Repository.Seguridad.Contrato;
 using NUEVO.NOE.Repository.Seguridad.Implementacion;
 using NUEVO.NOE.Service;
@@ -53,19 +58,22 @@ builder.Services.AddScoped<IRolesUsuariosBusiness, RolesUsuariosBusiness>();
 builder.Services.AddScoped<IFuncionRolBusiness, FuncionRolBusiness>();
 builder.Services.AddScoped<IFuncionBusiness, FuncionBusiness>();
 builder.Services.AddScoped<IDepartamentoBusiness, DepartamentoBusiness>();
-builder.Services.AddScoped<ITipoSocietarioBusiness, TipoSocietarioBusiness>();
-builder.Services.AddScoped<ITipoTramiteBusiness, TipoTramiteBusiness>();
+builder.Services.AddScoped<IDatosCivilesBusiness, DatosCivilesBusiness>();
 builder.Services.AddScoped<IExpedienteBusiness, ExpedienteBusiness>();
 builder.Services.AddScoped<ITramiteBusiness, TramiteBusiness>();
+builder.Services.AddScoped<ITipoSocietarioBusiness, TipoSocietarioBusiness>();
+builder.Services.AddScoped<ITipoTramiteBusiness, TipoTramiteBusiness>();
+
 // *  S E R V I C I O S  *
 builder.Services.AddScoped<IActiveDirectoryService, ActiveDirectoryService>();
 builder.Services.AddScoped<IGenerarExcelService, GenerarExcelService>();
 builder.Services.AddSingleton(typeof(IConverter), new SynchronizedConverter(new PdfTools()));
 builder.Services.AddScoped<GenerarPDFService>();
-builder.Services.AddScoped<ITipoSocietarioService, TipoSocietarioService>();
-builder.Services.AddScoped<ITipoTramiteService, TipoTramiteService>();
 builder.Services.AddScoped<IExpedienteService, ExpedienteService>();
 builder.Services.AddScoped<ITramiteService, TramiteService>();
+builder.Services.AddScoped<ITipoTramiteService, TipoTramiteService>();
+builder.Services.AddScoped<ITipoSocietarioService, TipoSocietarioService>();
+
 //AUTOMAPPER
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
 
@@ -76,9 +84,9 @@ builder.Services.AddScoped<IFuncionRepository, FuncionRepository>();
 builder.Services.AddScoped<IRolUsuarioRepository, RolUsuarioRepository>();
 builder.Services.AddScoped<IFuncionRolRepository, FuncionRolRepositoy>();
 builder.Services.AddScoped<IDepartamentoRepository, DepartamentoRepository>();
+builder.Services.AddScoped<IDatosCivilesRepository, DatosCivilesRepository>();
 
-builder.Services.AddScoped(sp => new HttpClient());
-
+builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri("http://localhost:32674/") });
 
 var app = builder.Build();
 

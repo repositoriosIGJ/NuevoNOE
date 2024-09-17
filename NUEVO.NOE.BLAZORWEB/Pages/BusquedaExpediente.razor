@@ -1,0 +1,126 @@
+﻿@page "/busquedaExp"
+@using NUEVO.NOE.Model;
+@using Radzen;
+@using Radzen.Blazor;
+
+@inject IExpedienteClientService expedienteClientService
+@inject ITramitesClientService tramiteClientService
+@inject IGenerarPDFClientService generarPDFService
+@inject IGenerarExcelClientService generarExcelService
+@inject IJSRuntime JSRuntime
+@inject Radzen.DialogService dialogService;
+
+<AuthorizedViewRoles RolesAutorizados="@(new string[] { "SISTEMAS" })">
+
+    <div class="flex-grow-1 d-flex flex-column text-center gap-3 p-3" style="background-color:#efd1a7">
+
+        <h2 style="color:#242c4f">Busqueda de Expedientes</h2>
+
+        <div class="d-flex justify-content-around align-items-center">
+            <EditForm class="d-flex flex-column justify-content-center align-items-center gap-2" Model="@modeloExp" OnValidSubmit="CargarDatos">
+                <div>
+                    <label class="fw-bolder">Correlativo:  </label>
+                    <MudInput @bind-Value="modeloExp.Correlativo" />
+                </div>
+
+                <MudButton Variant="MudBlazor.Variant.Filled" Color="Color.Primary" OnClick="CargarDatos">Buscar</MudButton>
+            </EditForm>
+            <div class="text-start" style="color:#242c4f">
+                @if (expedientes is not null)
+                {
+                    foreach (var exp in expedientes)
+                    {
+                        <h4>Correlativo: @exp.Correlativo</h4>
+                        <h4>Denominación: @exp.RazonSocial</h4>
+                        <h4>Tipo societario: @exp.TipoSocietario</h4>
+                    }
+                }
+            </div>
+        </div>
+
+        <MudTable Items="@filteredTramite"  Dense="true" Hover="true" SortLabel="Sort By" Bordered="false" Striped="true">
+            <ToolBarContent>
+                <MudText Typo="Typo.h6">Tramites</MudText>
+                <MudSpacer />
+                @*La propiedad Immediate en el MudTextField se establece en true para que la busqueda de la funcion searchString
+                se actualice en el momento  sin necesidad de presionar Enter. *@
+                <MudTextField @bind-Value="searchString" Placeholder="Buscar por Nombre o Nro de tramite" Adornment="Adornment.Start"
+                              AdornmentIcon="@Icons.Material.Filled.Search" Class="mt-0" Immediate="true"></MudTextField>
+            </ToolBarContent>
+            <HeaderContent>
+                <MudTh><MudTableSortLabel SortBy="new Func<Tramite, object>(t => t.NroTramite)">Nro Tramite</MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel SortBy="new Func<Tramite, object>(t => t.TipoTramite)">Tipo de Tramite</MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel SortBy="new Func<Tramite, object>(t => t.CodigoTramite)">Codigo</MudTableSortLabel></MudTh>
+                <MudTh><MudTableSortLabel InitialDirection="SortDirection.Descending" SortBy="new Func<Tramite, object>(t => t.FechaRegistracion)">Fecha Registración</MudTableSortLabel></MudTh>
+            </HeaderContent>
+            <RowTemplate>
+                <MudTd DataLabel="Nro Tramite">@context.NroTramite</MudTd>
+                <MudTd DataLabel="Tipo de Tramite">@context.TipoTramite.ToUpper()</MudTd>
+                <MudTd DataLabel="Codigo">@context.CodigoTramite</MudTd>
+                <MudTd DataLabel="Fecha Registración">@context.FechaRegistracion?.ToString("dd/MM/yyy")</MudTd>
+            </RowTemplate>
+            <PagerContent>
+                <MudTablePager />
+            </PagerContent>
+        </MudTable>
+
+    </div>
+
+</AuthorizedViewRoles>
+
+
+@code {
+
+    List<Expediente> expedientes = new();
+    List<Tramite> tramites = new();
+    public Expediente? modeloExp = new Expediente();
+    public Tramite? modeloTram = new Tramite();
+    public string searchString = "";
+
+
+    private List<Tramite> filteredTramite => string.IsNullOrWhiteSpace(searchString)
+           ? tramites
+       : tramites.Where(t => t.TipoTramite.Contains(searchString, StringComparison.OrdinalIgnoreCase) ||
+         t.NroTramite.ToString().Contains(searchString, StringComparison.OrdinalIgnoreCase))
+       .ToList();
+
+
+    private async Task CargarDatos()
+    {
+        BusyDialog();
+        var rsp = await expedienteClientService.GetExpediente(modeloExp);
+
+        if (rsp?.Data is not null)
+        {
+
+            modeloTram.Correlativo = modeloExp.Correlativo;
+
+            var rspTram = await tramiteClientService.GetTramites(modeloTram);
+            expedientes = rsp.Data;
+            tramites = rspTram.Data;
+
+            dialogService.Close();
+
+
+            StateHasChanged();
+        }
+        else
+        {
+            expedientes = new List<Expediente>();
+        }
+    }
+
+    async Task BusyDialog()
+    {
+        await dialogService.OpenAsync("", ds =>
+    @<RadzenStack AlignItems="Radzen.AlignItems.Center" Gap="2rem" class="rz-p-12" Style="background-color:#242c4f">
+        <RadzenImage Path="img/waiting-7579_256.gif" Style="width: 200px;" AlternateText="community" />
+        <RadzenText Style="color:white" TextStyle="TextStyle.H6">Cargando, por favor espere...</RadzenText>
+    </RadzenStack>, new Radzen.DialogOptions() { ShowTitle = false, Style = "min-height:auto;min-width:auto;width:auto", CloseDialogOnEsc = false });
+    }
+
+
+
+
+}
+

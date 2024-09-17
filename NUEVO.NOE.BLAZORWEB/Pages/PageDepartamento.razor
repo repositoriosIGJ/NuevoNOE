@@ -1,0 +1,75 @@
+﻿@page "/depto";
+@using Blazored.SessionStorage
+@using NUEVO.NOE.Model.Seguridad
+@using MudBlazor
+@inject ISessionStorageService sessionStorage
+@inject NavigationManager navigationManager
+@inject IDialogService dialogService
+
+<div class=" justify-content-start p-5 d-flex gap-2 text-center  flex-column flex-grow-1" style="background-color:#efd1a7; color:#242c4f">
+    @if (usuarioDTO.Usuario != null)
+    {
+        <h2>Funciones del Departamento @usuarioDTO.Usuario.Departamento.Descripcion </h2>
+        
+        <div class="d-flex align-items-start gap-3 flex-wrap">
+
+            @foreach (var funcion in usuarioDTO.RolFuncion)
+            {
+                <MudButton Color="Color.Primary" Variant="MudBlazor.Variant.Filled" Href="@funcion.Funcion.Url">@funcion.Funcion.Nombre</MudButton>
+
+            }
+        </div>
+    }
+
+</div>
+
+
+
+
+@code {
+
+    // EN USUARIO DTO SE ALMANCENA  ADEMAS DE LOS DATOS DEL USUARIO, SUS ROLES Y SUS FUNCIONES
+    public UsuarioDTO? usuarioDTO = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        var sesion = await sessionStorage.GetItemAsync<UsuarioDTO>("user");
+
+        if (sesion is not null)
+        {
+            // almaceno el usuario en el objeto user para manejar sus datos en la interfaz
+            usuarioDTO = sesion;
+
+        }
+        else
+        {
+            // redirigir en el caso donde no se encuentra el usuario en la sesión
+            navigationManager.NavigateTo("/");
+        }
+
+    }
+
+    private async Task Logout()
+    {
+        await sessionStorage.RemoveItemAsync("user");
+        navigationManager.NavigateTo("/");
+    }
+
+    public async Task RolManagement()
+    {
+        // var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
+        navigationManager.NavigateTo("/AdministradorRoles");
+    }
+
+    public async Task UserManagement()
+    {
+        //var dialog = dialogService.Show<AdministradorUsuarios>("Administracion de Usuarios");
+        navigationManager.NavigateTo("/AdministradorUsuarios");
+    }
+
+    public async Task FuncionManagement()
+    {
+        // var dialog = dialogService.Show<DetailsUsuario>("Agregar Usuario");
+        navigationManager.NavigateTo("/AdministradorFunciones");
+    }
+}

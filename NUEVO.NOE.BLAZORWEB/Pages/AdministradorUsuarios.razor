@@ -46,7 +46,7 @@
                     <MudTd DataLabel="NOMBRE COMPLETO">@context.NombreCompleto.ToUpper()</MudTd>
                     <MudTd DataLabel="USER NAME">@context.UserName.ToUpper()</MudTd>
                     <MudTd DataLabel="DNI">@context.Documento</MudTd>
-                    <MudTd DataLabel="DADO DE BAJA">@((context.Baja.Value) ? "Si" : "No")</MudTd>
+                    <MudTd DataLabel="DADO DE BAJA">@((context.Baja ?? false) ? "Si" : "No")</MudTd>
                     <MudTd DataLabel="ACCIONES">
                         <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Tertiary" Class="ml-auto" OnClick="@(() => EditarUsuario(context.Id))">Editar</MudButton>
                         <MudButton ButtonType="MudBlazor.ButtonType.Submit" Variant="MudBlazor.Variant.Filled" Color="Color.Info" Class="ml-auto" OnClick="@(() => UsuarioRol(context.Id))">Ver roles </MudButton>

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NUEVO.NOE.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+868f08b6cdeb259e95d03407f84434df37fb842d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+505d773f0c1579f1c644c025e27f0f514500091d")]
 [assembly: System.Reflection.AssemblyProductAttribute("NUEVO.NOE.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NUEVO.NOE.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

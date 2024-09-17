@@ -16,6 +16,19 @@ a, .btn-link {
     border-color: #1861ac;
 }
 
+
+.linkHome:hover {
+    background-color: white;
+    color: #242c4f;
+    
+}
+
+    .menuHome:hover {
+        background-color: #efd1a7;
+        color: #242c4f;
+        transition: all 0.5s;
+    }
+
 .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
   box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }

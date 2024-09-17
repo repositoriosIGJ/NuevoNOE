@@ -1069,7 +1069,10 @@
           "NUEVO.NOE.Model": "1.0.0"
         },
         "runtime": {
-          "NUEVO.NOE.DTO.dll": {}
+          "NUEVO.NOE.DTO.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "NUEVO.NOE.Model/1.0.0": {
@@ -1077,7 +1080,10 @@
           "EPPlus": "7.3.0"
         },
         "runtime": {
-          "NUEVO.NOE.Model.dll": {}
+          "NUEVO.NOE.Model.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

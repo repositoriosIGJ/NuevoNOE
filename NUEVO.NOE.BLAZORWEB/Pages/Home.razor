@@ -6,59 +6,63 @@
  @inject NavigationManager navigationManager
  @inject IDialogService dialogService ;
 
-<div class="container justify-content-center px-5 d-flex gap-2 flex-column flex-grow-1">
+<div class="d-flex gap-2 flex-column bg-white h-100 p-2 flex-grow-1">
 
-    <div class="h-50 d-flex gap-2 ">
-        <MudPaper Class="w-50" Elevation="0" Style="height:16rem">
+    <div class="h-50 d-flex gap-2 flex-grow-1">
+        <MudPaper Class="w-50 menuHome" Elevation="0" Style=" background-color:#efd1a7;color:#242c4f">
             @if (usuarioDTO.Usuario is not null)
             {
-                <MudCardContent Class="d-flex align-items-center gap-4">
-                    <MudAvatar Style="height:200px; width:200px; font-size:5rem;" Color="Color.Primary">AL</MudAvatar>
-                    <div>
+                <MudCardContent >
+                    <MudText Typo="Typo.h4" Class="px-4">Usuario</MudText>
+                    <MudDivider Class="my-2" />
+                    <div class="d-flex align-items-center gap-4">
 
-                        <MudText>Bienvenido: @usuarioDTO.Usuario.NombreCompleto.ToUpper() - @usuarioDTO.Usuario.NameActiveDirectory.ToUpper()</MudText>
-                        <MudText Typo="Typo.body2"> @usuarioDTO.Usuario.Departamento.Descripcion</MudText>
+                        <MudAvatar Style="height:200px; width:200px; font-size:5rem;" Color="Color.Primary" >@iniciales.ToUpper()</MudAvatar>
+                        <div>
 
-                        @if (usuarioDTO.UsuarioRol is not null)
-                        {
-                            <MudList T="UsuarioDTO">
-                                <MudDivider />
-                                @if (usuarioDTO.UsuarioRol is not null)
-                                {
-                                    @foreach (var rolusuario in usuarioDTO.UsuarioRol)
+                            <MudText>Bienvenido: @usuarioDTO.Usuario.NombreCompleto.ToUpper() - @usuarioDTO.Usuario.NameActiveDirectory.ToUpper()</MudText>
+                            <MudText Typo="Typo.body2"> @usuarioDTO.Usuario.Departamento.Descripcion</MudText>
+
+                            @if (usuarioDTO.UsuarioRol is not null)
+                            {
+                                <MudList T="UsuarioDTO">
+                                    <MudDivider />
+                                    @if (usuarioDTO.UsuarioRol is not null)
                                     {
-                                        <MudText Class=" fw-bolder " Style="color:#242c4f" Typo="Typo.body1"><MudIcon Icon="@Icons.Material.Filled.Work" Color="Color.Warning" />   @rolusuario.Rol.Descripcion</MudText>
+                                        @foreach (var rolusuario in usuarioDTO.UsuarioRol)
+                                        {
+                                            <MudText Class=" fw-bolder " Typo="Typo.body1"><MudIcon Icon="@Icons.Material.Filled.Work" Color="Color.Warning" />   @rolusuario.Rol.Descripcion</MudText>
 
+                                        }
                                     }
-                                }
 
-                            </MudList>
-                        }
+                                </MudList>
+                            }
+                        </div>
                     </div>
                 </MudCardContent>
 
             }
         </MudPaper>
 
-        <MudPaper Class="w-50" Elevation="0" Style="height:16rem">
+        <MudPaper Class="w-50 menuHome" Elevation="0" Style=" background-color:#efd1a7;color:#242c4f">
             <MudCardContent>
                 <MudText Typo="Typo.h4" Class="px-4">Links utiles</MudText>
                 <MudDivider Class="my-2" />
 
-                <MudNavLink Icon="@Icons.Material.Filled.TravelExplore" Href="http://intranetigj/" Target="_blank">Intranet</MudNavLink>
-                <MudNavLink Icon="@Icons.Material.Filled.TravelExplore" Href="https://www.argentina.gob.ar/justicia/igj" Target="_blank">Inspección General de Justicia</MudNavLink>
-                <MudNavLink Icon="@Icons.Material.Filled.TravelExplore" Href="https://www.argentina.gob.ar/justicia" Target="_blank">Ministerio de Justicia</MudNavLink>
-                <MudNavLink Icon="@Icons.Material.Filled.TravelExplore" Href="https://borges.jus.gob.ar/" Target="_blank">Borges</MudNavLink>
+                <MudNavLink Class="linkHome" Icon="@Icons.Material.Filled.TravelExplore" Href="http://intranetigj/" Target="_blank">Intranet</MudNavLink>
+                <MudNavLink Class="linkHome" Icon="@Icons.Material.Filled.TravelExplore" Href="https://www.argentina.gob.ar/justicia/igj" Target="_blank">Inspección General de Justicia</MudNavLink>
+                <MudNavLink Class="linkHome" Icon="@Icons.Material.Filled.TravelExplore" Href="https://www.argentina.gob.ar/justicia" Target="_blank">Ministerio de Justicia</MudNavLink>
+                <MudNavLink Class="linkHome" Icon="@Icons.Material.Filled.TravelExplore" Href="https://borges.jus.gob.ar/" Target="_blank">Borges</MudNavLink>
             </MudCardContent>
         </MudPaper>
     </div>
 
-    <div class="d-flex gap-2 ">
-        <MudPaper Class="w-50" Elevation="0" Style="height:16rem">
+    <div class="h-50 d-flex gap-2 flex-grow-1">
+        <MudPaper Class="w-50 menuHome" Elevation="0" Style=" background-color:#efd1a7;color:#242c4f">
             <MudCardContent>
-                <MudText Typo="Typo.h4" Class="px-4">Herramientas de trabajo</MudText>
+                <MudText Typo="Typo.h4" Class="px-4">Favoritos</MudText>
                 <MudDivider Class="my-2" />
-                <MudText Typo="Typo.h4">Sistemas - Testing</MudText>
                 <div class="d-flex flex-column gap-2">
                     <MudButton OnClick="RolManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Roles</MudButton>
                     <MudButton OnClick="UserManagement" Color="Color.Primary" Variant="MudBlazor.Variant.Filled">Administrar Usuarios</MudButton>
@@ -68,13 +72,14 @@
         </MudPaper>
 
 
-        <MudPaper Class="w-50 " Elevation="0" Style="height:16rem">
+        <MudPaper Class="w-50  menuHome" Elevation="0" Style=" background-color:#efd1a7;color:#242c4f">
             <MudCardContent>
                 <MudText Typo="Typo.h4" Class="px-4">Utilidades</MudText>
                 <MudDivider Class="my-2" />
 
-                <MudNavLink Href="/ListTiposSocietarios">Codigos societarios</MudNavLink>
-                <MudNavLink Href="/ListTipoTramite">Codigos tramites</MudNavLink>
+                <MudNavLink Class="linkHome" Href="/ListTiposSocietarios">Codigos societarios</MudNavLink>
+                <MudNavLink Class="linkHome" Href="/ListTipoTramite">Codigos tramites</MudNavLink>
+                <MudNavLink Class="linkHome" Href="/DatosCiviles">Estadisticas Civiles</MudNavLink>
             </MudCardContent>
         </MudPaper>
 
@@ -89,6 +94,7 @@
 
     // EN USUARIO DTO SE ALMANCENA  ADEMAS DE LOS DATOS DEL USUARIO, SUS ROLES Y SUS FUNCIONES
     public UsuarioDTO? usuarioDTO = new();
+    private string iniciales = "";
 
     protected override async Task OnInitializedAsync()
     {
@@ -98,7 +104,9 @@
         {
             // almaceno el usuario en el objeto user para manejar sus datos en la interfaz
             usuarioDTO = sesion;
-
+            char inicialNombre = usuarioDTO.Usuario.Nombre[0];
+            char inicialApellido = usuarioDTO.Usuario.Apellido[0];
+            iniciales = $"{inicialNombre}{inicialApellido}";
         }
         else
         {

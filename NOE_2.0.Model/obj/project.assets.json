@@ -1090,23 +1090,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\amalerba\\.nuget\\packages\\": {},
+    "C:\\Users\\alelopez\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
+      "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
       "projectName": "NUEVO.NOE.Model",
-      "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
-      "packagesPath": "C:\\Users\\amalerba\\.nuget\\packages\\",
-      "outputPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\obj\\",
+      "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
+      "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\amalerba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -1115,7 +1115,7 @@
       ],
       "sources": {
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://packages.nuget.org/v1/FeedService.svc": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
@@ -1159,7 +1159,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

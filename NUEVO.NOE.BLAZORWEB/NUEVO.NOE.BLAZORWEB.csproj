@@ -24,4 +24,10 @@
     <ProjectReference Include="..\NOE_2.0.Service\NUEVO.NOE.Service.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Content Update="Layout\LoginLayout.razor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
 </Project>
