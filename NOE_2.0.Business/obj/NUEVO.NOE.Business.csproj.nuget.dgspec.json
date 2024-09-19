@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj": {}
+    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
         "projectName": "NUEVO.NOE.Business",
-        "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
         "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Business\\obj\\",
         "projectStyle": "PackageReference",
@@ -32,17 +32,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
               },
-              "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
               },
-              "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
               },
-              "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj"
               }
             }
           }
@@ -87,12 +87,12 @@
         }
       }
     },
-    "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj",
         "projectName": "NUEVO.NOE.DTO",
-        "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj",
         "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\obj\\",
         "projectStyle": "PackageReference",
@@ -115,8 +115,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
               }
             }
           }
@@ -161,12 +161,12 @@
         }
       }
     },
-    "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
         "projectName": "NUEVO.NOE.Model",
-        "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
         "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\obj\\",
         "projectStyle": "PackageReference",
@@ -231,12 +231,12 @@
         }
       }
     },
-    "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
         "projectName": "NUEVO.NOE.Service",
-        "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
         "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Service\\obj\\",
         "projectStyle": "PackageReference",
@@ -259,11 +259,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
               },
-              "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
               }
             }
           }
@@ -328,12 +328,12 @@
         }
       }
     },
-    "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj",
         "projectName": "NUEVO.NOE.Repository",
-        "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj",
         "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NUEVO.NOE.Repository\\obj\\",
         "projectStyle": "PackageReference",
@@ -356,11 +356,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
               },
-              "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
               }
             }
           }

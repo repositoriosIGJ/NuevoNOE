@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k994hpD0xXk=",
+  "dgSpecHash": "k0pqDO+TAZY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
+  "projectFilePath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alelopez\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\alelopez\\.nuget\\packages\\closedxml\\0.102.3\\closedxml.0.102.3.nupkg.sha512",

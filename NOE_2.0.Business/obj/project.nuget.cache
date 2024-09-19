@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Hk1KR5Z0BUs=",
+  "dgSpecHash": "XnMpZN4NOZM=",
   "success": true,
-  "projectFilePath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
+  "projectFilePath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\alelopez\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\alelopez\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

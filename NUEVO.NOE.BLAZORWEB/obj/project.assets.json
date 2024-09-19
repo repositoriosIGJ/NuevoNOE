@@ -10327,9 +10327,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj",
+      "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj",
       "projectName": "NUEVO.NOE.BLAZORWEB",
-      "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj",
+      "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj",
       "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\obj\\",
       "projectStyle": "PackageReference",
@@ -10352,11 +10352,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
-              "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
+            "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+              "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
             },
-            "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
-              "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
+            "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
+              "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
             }
           }
         }

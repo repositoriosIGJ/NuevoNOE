@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {}
+    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
+        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
         "projectName": "NUEVO.NOE.Model",
-        "projectPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
+        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
         "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\alelopez\\Source\\Repos\\NuevoNOE\\NOE_2.0.Model\\obj\\",
         "projectStyle": "PackageReference",

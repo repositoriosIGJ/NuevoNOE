@@ -63,6 +63,7 @@ builder.Services.AddScoped<IExpedienteBusiness, ExpedienteBusiness>();
 builder.Services.AddScoped<ITramiteBusiness, TramiteBusiness>();
 builder.Services.AddScoped<ITipoSocietarioBusiness, TipoSocietarioBusiness>();
 builder.Services.AddScoped<ITipoTramiteBusiness, TipoTramiteBusiness>();
+builder.Services.AddScoped<IDestinosBusiness, DestinosBusiness>();
 
 // *  S E R V I C I O S  *
 builder.Services.AddScoped<IActiveDirectoryService, ActiveDirectoryService>();
@@ -73,6 +74,7 @@ builder.Services.AddScoped<IExpedienteService, ExpedienteService>();
 builder.Services.AddScoped<ITramiteService, TramiteService>();
 builder.Services.AddScoped<ITipoTramiteService, TipoTramiteService>();
 builder.Services.AddScoped<ITipoSocietarioService, TipoSocietarioService>();
+builder.Services.AddScoped<IDestinosService, DestinosService>();
 
 //AUTOMAPPER
 builder.Services.AddAutoMapper(typeof(AutoMapperProfile));
