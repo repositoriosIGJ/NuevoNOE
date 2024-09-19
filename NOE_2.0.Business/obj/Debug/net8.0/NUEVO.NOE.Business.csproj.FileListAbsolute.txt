@@ -19,28 +19,6 @@ D:\PROYECTOS IGJ 2024\API_NOE_2.0\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Bu
 D:\PROYECTOS IGJ 2024\API_NOE_2.0\NOE_2.0.Business\obj\Debug\net8.0\refint\NUEVO.NOE.Business.dll
 D:\PROYECTOS IGJ 2024\API_NOE_2.0\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.pdb
 D:\PROYECTOS IGJ 2024\API_NOE_2.0\NOE_2.0.Business\obj\Debug\net8.0\ref\NUEVO.NOE.Business.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.deps.json
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Model.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Repository.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Service.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Service.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Repository.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.csproj.AssemblyReference.cache
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.GeneratedMSBuildEditorConfig.editorconfig
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.AssemblyInfoInputs.cache
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.AssemblyInfo.cs
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.csproj.CoreCompileInputs.cache
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.sourcelink.json
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NO.59E89B2B.Up2Date
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\refint\NUEVO.NOE.Business.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\ref\NUEVO.NOE.Business.dll
 C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.deps.json
 C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.dll
 C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.pdb
@@ -63,3 +41,25 @@ C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.
 C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\refint\NUEVO.NOE.Business.dll
 C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.pdb
 C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\ref\NUEVO.NOE.Business.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.csproj.AssemblyReference.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.AssemblyInfoInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.AssemblyInfo.cs
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.csproj.CoreCompileInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.sourcelink.json
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.deps.json
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Business.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Model.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Repository.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Service.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Service.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\bin\Debug\net8.0\NUEVO.NOE.Repository.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NO.59E89B2B.Up2Date
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\refint\NUEVO.NOE.Business.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\NUEVO.NOE.Business.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.Business\obj\Debug\net8.0\ref\NUEVO.NOE.Business.dll

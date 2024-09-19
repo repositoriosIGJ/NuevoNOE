@@ -1,0 +1,6 @@
+@NUEVO.NOE.API_HostAddress = http://localhost:5119
+
+GET {{NUEVO.NOE.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

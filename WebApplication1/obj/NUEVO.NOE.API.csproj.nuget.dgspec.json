@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\NUEVO.NOE.API.csproj": {}
+    "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\NUEVO.NOE.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj": {
+    "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
+        "projectUniqueName": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
         "projectName": "NUEVO.NOE.Business",
-        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
-        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\obj\\",
+        "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj",
+        "packagesPath": "C:\\Users\\amalerba\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amalerba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,23 +26,23 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://packages.nuget.org/v1/FeedService.svc": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
               },
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
               },
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
               },
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj"
               }
             }
           }
@@ -83,24 +83,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+    "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj",
+        "projectUniqueName": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj",
         "projectName": "NUEVO.NOE.DTO",
-        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj",
-        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\obj\\",
+        "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj",
+        "packagesPath": "C:\\Users\\amalerba\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amalerba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -109,14 +109,14 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://packages.nuget.org/v1/FeedService.svc": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
               }
             }
           }
@@ -157,24 +157,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+    "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
+        "projectUniqueName": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
         "projectName": "NUEVO.NOE.Model",
-        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
-        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\obj\\",
+        "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj",
+        "packagesPath": "C:\\Users\\amalerba\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amalerba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -183,7 +183,7 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://packages.nuget.org/v1/FeedService.svc": {}
         },
         "frameworks": {
           "net8.0": {
@@ -227,24 +227,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
+    "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
+        "projectUniqueName": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
         "projectName": "NUEVO.NOE.Service",
-        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
-        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\obj\\",
+        "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj",
+        "packagesPath": "C:\\Users\\amalerba\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amalerba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -253,17 +253,17 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://packages.nuget.org/v1/FeedService.svc": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
               },
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
               }
             }
           }
@@ -324,24 +324,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj": {
+    "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj",
+        "projectUniqueName": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj",
         "projectName": "NUEVO.NOE.Repository",
-        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj",
-        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NUEVO.NOE.Repository\\obj\\",
+        "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.Repository\\NUEVO.NOE.Repository.csproj",
+        "packagesPath": "C:\\Users\\amalerba\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amalerba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -350,17 +350,17 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://packages.nuget.org/v1/FeedService.svc": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
               },
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
               }
             }
           }
@@ -419,24 +419,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\NUEVO.NOE.API.csproj": {
+    "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\NUEVO.NOE.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\NUEVO.NOE.API.csproj",
+        "projectUniqueName": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\NUEVO.NOE.API.csproj",
         "projectName": "NUEVO.NOE.API",
-        "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\NUEVO.NOE.API.csproj",
-        "packagesPath": "C:\\Users\\alelopez\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\WebApplication1\\obj\\",
+        "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\NUEVO.NOE.API.csproj",
+        "packagesPath": "C:\\Users\\amalerba\\.nuget\\packages\\",
+        "outputPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\alelopez\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\amalerba\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -445,23 +445,23 @@
         ],
         "sources": {
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://packages.nuget.org/v1/FeedService.svc": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\NUEVO.NOE.Business.csproj"
               },
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\NUEVO.NOE.DTO.csproj"
               },
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\NUEVO.NOE.Model.csproj"
               },
-              "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
-                "projectPath": "C:\\Users\\alelopez\\source\\repos\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
+              "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj": {
+                "projectPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\NUEVO.NOE.Service.csproj"
               }
             }
           }
@@ -519,7 +519,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -17,26 +17,6 @@ D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.Repository\obj\Debug\net8.0\refint\N
 D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.pdb
 D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.genruntimeconfig.cache
 D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.Repository\obj\Debug\net8.0\ref\NUEVO.NOE.Repository.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.deps.json
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.runtimeconfig.json
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Model.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.csproj.AssemblyReference.cache
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.GeneratedMSBuildEditorConfig.editorconfig
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.AssemblyInfoInputs.cache
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.AssemblyInfo.cs
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.csproj.CoreCompileInputs.cache
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.sourcelink.json
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NO.BF6F41A2.Up2Date
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\refint\NUEVO.NOE.Repository.dll
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.pdb
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.genruntimeconfig.cache
-D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\ref\NUEVO.NOE.Repository.dll
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.deps.json
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.runtimeconfig.json
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.dll
@@ -57,3 +37,23 @@ C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\re
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.pdb
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.genruntimeconfig.cache
 C:\Users\alelopez\source\repos\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\ref\NUEVO.NOE.Repository.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.deps.json
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.runtimeconfig.json
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Repository.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Model.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.csproj.AssemblyReference.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.AssemblyInfoInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.AssemblyInfo.cs
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.csproj.CoreCompileInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.sourcelink.json
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NO.BF6F41A2.Up2Date
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\refint\NUEVO.NOE.Repository.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\NUEVO.NOE.Repository.genruntimeconfig.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.Repository\obj\Debug\net8.0\ref\NUEVO.NOE.Repository.dll

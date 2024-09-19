@@ -3,6 +3,58 @@
   "WorkspaceRootPath": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|d:\\proyectos igj 2024\\nuevonoe\\webapplication1\\controllers\\seguridadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\controllers\\seguridadcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\implementacion\\seguridadbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\implementacion\\seguridadbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\contrato\\iseguridadbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\contrato\\iseguridadbusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.service\\oracleservice\\implementacion\\tiposocietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|solutionrelative:noe_2.0.service\\oracleservice\\implementacion\\tiposocietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|d:\\proyectos igj 2024\\nuevonoe\\webapplication1\\controllers\\tiposocietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\controllers\\tiposocietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\implementacion\\tiposocietariobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\oracle\\implementacion\\tiposocietariobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.service\\oracleservice\\contrato\\itiposocietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|solutionrelative:noe_2.0.service\\oracleservice\\contrato\\itiposocietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\contrato\\itiposocietariobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\oracle\\contrato\\itiposocietariobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\contrato\\iexpedientebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\oracle\\contrato\\iexpedientebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|d:\\proyectos igj 2024\\nuevonoe\\webapplication1\\controllers\\tramitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\controllers\\tramitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\implementacion\\expedientebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\oracle\\implementacion\\expedientebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1ABB076B-63C3-450E-901C-3E21BCB50672}|NOE_2.0.Model\\NUEVO.NOE.Model.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.model\\utilidadesoracles\\tramite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1ABB076B-63C3-450E-901C-3E21BCB50672}|NOE_2.0.Model\\NUEVO.NOE.Model.csproj|solutionrelative:noe_2.0.model\\utilidadesoracles\\tramite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|d:\\proyectos igj 2024\\nuevonoe\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|d:\\proyectos igj 2024\\nuevonoe\\webapplication1\\controllers\\tipotramitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\controllers\\tipotramitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,16 +79,8 @@
       "RelativeMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|solutionrelative:noe_2.0.service\\oracleservice\\implementacion\\expedienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\implementacion\\expedientebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\oracle\\implementacion\\expedientebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|d:\\proyectos igj 2024\\nuevonoe\\webapplication1\\controllers\\expedientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\controllers\\expedientecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|d:\\proyectos igj 2024\\nuevonoe\\webapplication1\\controllers\\tramitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\controllers\\tramitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\implementacion\\tramitebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -55,10 +99,6 @@
       "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\pages\\listtipotramite.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|d:\\proyectos igj 2024\\nuevonoe\\webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\contrato\\itramitebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\oracle\\contrato\\itramitebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -67,24 +107,12 @@
       "RelativeMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|solutionrelative:noe_2.0.service\\oracleservice\\contrato\\itramiteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1ABB076B-63C3-450E-901C-3E21BCB50672}|NOE_2.0.Model\\NUEVO.NOE.Model.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.model\\utilidadesoracles\\tramite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1ABB076B-63C3-450E-901C-3E21BCB50672}|NOE_2.0.Model\\NUEVO.NOE.Model.csproj|solutionrelative:noe_2.0.model\\utilidadesoracles\\tramite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1ABB076B-63C3-450E-901C-3E21BCB50672}|NOE_2.0.Model\\NUEVO.NOE.Model.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.model\\utilidadesoracles\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ABB076B-63C3-450E-901C-3E21BCB50672}|NOE_2.0.Model\\NUEVO.NOE.Model.csproj|solutionrelative:noe_2.0.model\\utilidadesoracles\\expediente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\contrato\\iexpedientebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\oracle\\contrato\\iexpedientebusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.service\\oracleservice\\contrato\\iexpedienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|solutionrelative:noe_2.0.service\\oracleservice\\contrato\\iexpedienteservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.service\\oracleservice\\implementacion\\tiposocietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|solutionrelative:noe_2.0.service\\oracleservice\\implementacion\\tiposocietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|d:\\proyectos igj 2024\\nuevonoe\\nuevo.noe.blazorweb\\clientservices\\contrato\\igenerarpdfclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -95,24 +123,8 @@
       "RelativeMoniker": "D:0:0:{662E40D6-18BD-4085-966B-DE24A1A13A73}|NUEVO.NOE.BLAZORWEB\\NUEVO.NOE.BLAZORWEB.csproj|solutionrelative:nuevo.noe.blazorweb\\clientservices\\implementacion\\generarpdfclientservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.service\\oracleservice\\contrato\\itiposocietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B7595F55-CB59-4564-A3FF-FCF8761005B1}|NOE_2.0.Service\\NUEVO.NOE.Service.csproj|solutionrelative:noe_2.0.service\\oracleservice\\contrato\\itiposocietarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|d:\\proyectos igj 2024\\nuevonoe\\webapplication1\\controllers\\tiposocietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F5A53208-EEE9-4DEA-A649-E0FAA15FFFEF}|WebApplication1\\NUEVO.NOE.API.csproj|solutionrelative:webapplication1\\controllers\\tiposocietariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1ABB076B-63C3-450E-901C-3E21BCB50672}|NOE_2.0.Model\\NUEVO.NOE.Model.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.model\\utilidadesoracles\\tipotramite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1ABB076B-63C3-450E-901C-3E21BCB50672}|NOE_2.0.Model\\NUEVO.NOE.Model.csproj|solutionrelative:noe_2.0.model\\utilidadesoracles\\tipotramite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\contrato\\itiposocietariobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\oracle\\contrato\\itiposocietariobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.business\\oracle\\implementacion\\tiposocietariobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7EB3E5F0-4967-4DFA-9B46-5A27B4FD996C}|NOE_2.0.Business\\NUEVO.NOE.Business.csproj|solutionrelative:noe_2.0.business\\oracle\\implementacion\\tiposocietariobusiness.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1ABB076B-63C3-450E-901C-3E21BCB50672}|NOE_2.0.Model\\NUEVO.NOE.Model.csproj|d:\\proyectos igj 2024\\nuevonoe\\noe_2.0.model\\utilidadesoracles\\tiposocietario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -189,7 +201,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -225,95 +237,46 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISeguridadBusiness.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Contrato\\ISeguridadBusiness.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Business\\Contrato\\ISeguridadBusiness.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Contrato\\ISeguridadBusiness.cs",
+              "RelativeToolTip": "NOE_2.0.Business\\Contrato\\ISeguridadBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA3AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T12:00:49.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SeguridadBusiness.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Implementacion\\SeguridadBusiness.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Business\\Implementacion\\SeguridadBusiness.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Implementacion\\SeguridadBusiness.cs",
+              "RelativeToolTip": "NOE_2.0.Business\\Implementacion\\SeguridadBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T11:58:24.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SeguridadController.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\SeguridadController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\SeguridadController.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\SeguridadController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\SeguridadController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAwwBUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-19T11:57:56.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "TramiteController.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TramiteController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TramiteController.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TramiteController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\TramiteController.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAAABkAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T14:11:17.527Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TramiteBusiness.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\TramiteBusiness.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Implementacion\\TramiteBusiness.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\TramiteBusiness.cs",
-              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Implementacion\\TramiteBusiness.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBUAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:29:35.14Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ITramiteBusiness.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\ITramiteBusiness.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Contrato\\ITramiteBusiness.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\ITramiteBusiness.cs",
-              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Contrato\\ITramiteBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:27:23.296Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "TramiteService.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\TramiteService.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Implementacion\\TramiteService.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\TramiteService.cs",
-              "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Implementacion\\TramiteService.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAkwCQAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:22:44.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ITramiteService.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\ITramiteService.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Contrato\\ITramiteService.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\ITramiteService.cs",
-              "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Contrato\\ITramiteService.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAcAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T13:18:38.797Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Tramite.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\UtilidadesOracles\\Tramite.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Model\\UtilidadesOracles\\Tramite.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\UtilidadesOracles\\Tramite.cs",
-              "RelativeToolTip": "NOE_2.0.Model\\UtilidadesOracles\\Tramite.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T17:37:41.447Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ExpedienteBusiness.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\ExpedienteBusiness.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Implementacion\\ExpedienteBusiness.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\ExpedienteBusiness.cs",
-              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Implementacion\\ExpedienteBusiness.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBIAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T15:02:46.381Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "IExpedienteBusiness.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\IExpedienteBusiness.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Contrato\\IExpedienteBusiness.cs",
@@ -325,7 +288,152 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TipoSocietarioController.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TipoSocietarioController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TipoSocietarioController.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TipoSocietarioController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\TipoSocietarioController.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAwwC4AAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:50:59.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TipoSocietarioService.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\TipoSocietarioService.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Implementacion\\TipoSocietarioService.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\TipoSocietarioService.cs",
+              "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Implementacion\\TipoSocietarioService.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABoAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:51:04.771Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TipoSocietarioBusiness.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\TipoSocietarioBusiness.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Implementacion\\TipoSocietarioBusiness.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\TipoSocietarioBusiness.cs",
+              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Implementacion\\TipoSocietarioBusiness.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABsAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:09:36.048Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
+              "Title": "ITipoSocietarioBusiness.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\ITipoSocietarioBusiness.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Contrato\\ITipoSocietarioBusiness.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\ITipoSocietarioBusiness.cs",
+              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Contrato\\ITipoSocietarioBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T13:09:23.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ITipoSocietarioService.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\ITipoSocietarioService.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Contrato\\ITipoSocietarioService.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\ITipoSocietarioService.cs",
+              "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Contrato\\ITipoSocietarioService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-06T11:50:47.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ExpedienteBusiness.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\ExpedienteBusiness.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Implementacion\\ExpedienteBusiness.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\ExpedienteBusiness.cs",
+              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Implementacion\\ExpedienteBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T15:02:46.381Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Tramite.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\UtilidadesOracles\\Tramite.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Model\\UtilidadesOracles\\Tramite.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\UtilidadesOracles\\Tramite.cs",
+              "RelativeToolTip": "NOE_2.0.Model\\UtilidadesOracles\\Tramite.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T17:37:41.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TramiteController.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TramiteController.cs",
+              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TramiteController.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TramiteController.cs",
+              "RelativeToolTip": "WebApplication1\\Controllers\\TramiteController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T14:11:17.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "ITramiteService.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\ITramiteService.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Contrato\\ITramiteService.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\ITramiteService.cs",
+              "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Contrato\\ITramiteService.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAAAAcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:18:38.797Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TramiteService.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\TramiteService.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Implementacion\\TramiteService.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\TramiteService.cs",
+              "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Implementacion\\TramiteService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAkwCQAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:22:44.832Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "ITramiteBusiness.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\ITramiteBusiness.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Contrato\\ITramiteBusiness.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\ITramiteBusiness.cs",
+              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Contrato\\ITramiteBusiness.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:27:23.296Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "TramiteBusiness.cs",
+              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\TramiteBusiness.cs",
+              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Implementacion\\TramiteBusiness.cs",
+              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\TramiteBusiness.cs",
+              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Implementacion\\TramiteBusiness.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAqwBUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T13:29:35.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
               "Title": "ExpedienteController.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\ExpedienteController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\ExpedienteController.cs",
@@ -338,7 +446,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 26,
               "Title": "Expediente.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\UtilidadesOracles\\Expediente.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Model\\UtilidadesOracles\\Expediente.cs",
@@ -350,7 +458,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 18,
               "Title": "ExpedienteService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\ExpedienteService.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Implementacion\\ExpedienteService.cs",
@@ -358,12 +466,11 @@
               "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Implementacion\\ExpedienteService.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T14:33:24.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T14:33:24.897Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 27,
               "Title": "IExpedienteService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\IExpedienteService.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Contrato\\IExpedienteService.cs",
@@ -375,20 +482,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 13,
               "Title": "TipoTramiteController.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TipoTramiteController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TipoTramiteController.cs",
               "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TipoTramiteController.cs",
               "RelativeToolTip": "WebApplication1\\Controllers\\TipoTramiteController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAAA0AAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T17:01:21.393Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T17:01:21.393Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 16,
               "Title": "TipoTramiteBusiness.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\TipoTramiteBusiness.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Implementacion\\TipoTramiteBusiness.cs",
@@ -396,12 +502,11 @@
               "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Implementacion\\TipoTramiteBusiness.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T16:47:46.275Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T16:47:46.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 17,
               "Title": "ITipoTramiteBusiness.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\ITipoTramiteBusiness.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Contrato\\ITipoTramiteBusiness.cs",
@@ -409,12 +514,11 @@
               "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Contrato\\ITipoTramiteBusiness.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T16:47:20.661Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T16:47:20.661Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 14,
               "Title": "TipoTramiteService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\TipoTramiteService.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Implementacion\\TipoTramiteService.cs",
@@ -422,12 +526,11 @@
               "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Implementacion\\TipoTramiteService.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAAABIAAABBAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T16:14:42.285Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T16:14:42.285Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 15,
               "Title": "ITipoTramiteService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\ITipoTramiteService.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Contrato\\ITipoTramiteService.cs",
@@ -435,12 +538,11 @@
               "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Contrato\\ITipoTramiteService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T16:14:22.639Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-06T16:14:22.639Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 33,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Program.cs",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Program.cs",
@@ -452,69 +554,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "TipoSocietarioController.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TipoSocietarioController.cs",
-              "RelativeDocumentMoniker": "WebApplication1\\Controllers\\TipoSocietarioController.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\TipoSocietarioController.cs",
-              "RelativeToolTip": "WebApplication1\\Controllers\\TipoSocietarioController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAAAC8AAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T13:50:59.879Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "ITipoSocietarioBusiness.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\ITipoSocietarioBusiness.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Contrato\\ITipoSocietarioBusiness.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Contrato\\ITipoSocietarioBusiness.cs",
-              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Contrato\\ITipoSocietarioBusiness.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T13:09:23.398Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "TipoSocietarioBusiness.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\TipoSocietarioBusiness.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Business\\Oracle\\Implementacion\\TipoSocietarioBusiness.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Business\\Oracle\\Implementacion\\TipoSocietarioBusiness.cs",
-              "RelativeToolTip": "NOE_2.0.Business\\Oracle\\Implementacion\\TipoSocietarioBusiness.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAABoAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T13:09:36.048Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "TipoSocietarioService.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\TipoSocietarioService.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Implementacion\\TipoSocietarioService.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Implementacion\\TipoSocietarioService.cs",
-              "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Implementacion\\TipoSocietarioService.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAAACkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T11:51:04.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ITipoSocietarioService.cs",
-              "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\ITipoSocietarioService.cs",
-              "RelativeDocumentMoniker": "NOE_2.0.Service\\OracleService\\Contrato\\ITipoSocietarioService.cs",
-              "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\OracleService\\Contrato\\ITipoSocietarioService.cs",
-              "RelativeToolTip": "NOE_2.0.Service\\OracleService\\Contrato\\ITipoSocietarioService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-06T11:50:47.597Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 35,
               "Title": "DepartamentoClientService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\DepartamentoClientService.cs",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\DepartamentoClientService.cs",
@@ -526,7 +566,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 34,
               "Title": "UtilidadesDBOracle.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\UtilidadesDBOracle.cs",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\UtilidadesDBOracle.cs",
@@ -538,7 +578,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 36,
               "Title": "Home.razor",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\Home.razor",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Pages\\Home.razor",
@@ -550,7 +590,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 22,
               "Title": "ResponseDTO.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.DTO\\ResponseDTO.cs",
               "RelativeDocumentMoniker": "NOE_2.0.DTO\\ResponseDTO.cs",
@@ -558,12 +598,11 @@
               "RelativeToolTip": "NOE_2.0.DTO\\ResponseDTO.cs",
               "ViewState": "AQIAAAEAAAAAAAAAAAAAAAQAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-27T11:32:48.437Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-27T11:32:48.437Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 37,
               "Title": "GenerarExcelClientService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\GenerarExcelClientService.cs",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\GenerarExcelClientService.cs",
@@ -575,7 +614,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 38,
               "Title": "IGenerarExcelClientService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\IGenerarExcelClientService.cs",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\IGenerarExcelClientService.cs",
@@ -587,7 +626,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 32,
               "Title": "GenerarExcelController.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\GenerarExcelController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\GenerarExcelController.cs",
@@ -599,7 +638,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 39,
               "Title": "GenerarExcelService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\Implementacion\\GenerarExcelService.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Service\\Implementacion\\GenerarExcelService.cs",
@@ -611,7 +650,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 40,
               "Title": "IGenerarExcelService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\Contrato\\IGenerarExcelService.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Service\\Contrato\\IGenerarExcelService.cs",
@@ -623,7 +662,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 44,
               "Title": "readme.txt",
               "DocumentMoniker": "C:\\Users\\amalerba\\.nuget\\packages\\epplus\\7.3.0\\readme.txt",
               "ToolTip": "C:\\Users\\amalerba\\.nuget\\packages\\epplus\\7.3.0\\readme.txt",
@@ -633,7 +672,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 31,
               "Title": "TipoSocietario.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\UtilidadesOracles\\TipoSocietario.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Model\\UtilidadesOracles\\TipoSocietario.cs",
@@ -645,7 +684,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 42,
               "Title": "ListTiposSocietarios.razor",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\ListTiposSocietarios.razor",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Pages\\ListTiposSocietarios.razor",
@@ -657,7 +696,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 45,
               "Title": "FuncionRolController.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\FuncionRolController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\FuncionRolController.cs",
@@ -669,7 +708,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 46,
               "Title": "IRolesUsuariosClientService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\IRolesUsuariosClientService.cs",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\IRolesUsuariosClientService.cs",
@@ -681,7 +720,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "TipoTramite.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Model\\UtilidadesOracles\\TipoTramite.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Model\\UtilidadesOracles\\TipoTramite.cs",
@@ -693,7 +732,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 47,
               "Title": "NUEVO.NOE.API.csproj",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\NUEVO.NOE.API.csproj",
               "RelativeDocumentMoniker": "WebApplication1\\NUEVO.NOE.API.csproj",
@@ -705,19 +744,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Program.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Program.cs",
               "ToolTip": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Program.cs",
               "RelativeToolTip": "WebApplication1\\Program.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAqwEMAAAAzAAAA",
+              "ViewState": "AQIAAE8AAAAAAAAAAAAjwFgAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-19T13:04:15.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 43,
               "Title": "GenerarPDFService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NOE_2.0.Service\\GenerarPDFService.cs",
               "RelativeDocumentMoniker": "NOE_2.0.Service\\GenerarPDFService.cs",
@@ -729,7 +768,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 41,
               "Title": "GenerarPDFController.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\WebApplication1\\Controllers\\GenerarPDFController.cs",
               "RelativeDocumentMoniker": "WebApplication1\\Controllers\\GenerarPDFController.cs",
@@ -741,7 +780,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 23,
               "Title": "ListTipoTramite.razor",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\Pages\\ListTipoTramite.razor",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\Pages\\ListTipoTramite.razor",
@@ -753,7 +792,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 29,
               "Title": "GenerarPDFClientService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\GenerarPDFClientService.cs",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Implementacion\\GenerarPDFClientService.cs",
@@ -765,7 +804,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 28,
               "Title": "IGenerarPDFClientService.cs",
               "DocumentMoniker": "D:\\PROYECTOS IGJ 2024\\NuevoNOE\\NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\IGenerarPDFClientService.cs",
               "RelativeDocumentMoniker": "NUEVO.NOE.BLAZORWEB\\ClientServices\\Contrato\\IGenerarPDFClientService.cs",

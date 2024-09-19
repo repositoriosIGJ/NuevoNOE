@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using NUEVO.NOE.Business.Oracle.Contrato;
+using NUEVO.NOE.DTO;
 using NUEVO.NOE.Model.UtilidadesOracles;
 
 namespace NUEVO.NOE.API.Controllers
@@ -16,7 +17,7 @@ namespace NUEVO.NOE.API.Controllers
         }
 
         [HttpGet("GetTiposSocietarios")]
-        public async Task<IEnumerable<TipoSocietario>> GetTiposSocietarios()
+        public async Task<ResponseDTO<IEnumerable<TipoSocietario>>> GetTiposSocietarios()
         {
 
             var tiposSocietarios = await _tipoSocietarioBusiness.GetTiposSocietarios();
@@ -26,7 +27,7 @@ namespace NUEVO.NOE.API.Controllers
 
 
         [HttpGet("GetTiposSocietariosCodigosSinCeroALaIzq")]
-        public async Task<IEnumerable<TipoSocietario>> GetTiposSocietariosCodigosSinCeroALaIzq()
+        public async Task<ResponseDTO<IEnumerable<TipoSocietario>>> GetTiposSocietariosCodigosSinCeroALaIzq()
         {
             var rst = await _tipoSocietarioBusiness.GetTiposSocietariosCodigosSinCeroALaIzq();
 
@@ -34,7 +35,7 @@ namespace NUEVO.NOE.API.Controllers
         }
 
         [HttpGet("GetTipoSocietarioPorCodigo")]
-        public async Task<TipoSocietario> GetTipoSocietarioPorCodigo(string codigo)
+        public async Task<ResponseDTO<TipoSocietario>> GetTipoSocietarioPorCodigo(string codigo)
         {
             var rst = await _tipoSocietarioBusiness.GetTipoSocietarioPorCodigo(codigo);
 
@@ -43,7 +44,7 @@ namespace NUEVO.NOE.API.Controllers
 
 
         [HttpGet("GetTipoSocietarioPorTipo")]
-        public async Task<IEnumerable<TipoSocietario>> GetTipoSocietarioPorTipo(string tipo)
+        public async Task<ResponseDTO<IEnumerable<TipoSocietario>>> GetTipoSocietarioPorTipo(string tipo)
         {
             var rst = await _tipoSocietarioBusiness.GetTipoSocietarioPorTipo(tipo);
 
