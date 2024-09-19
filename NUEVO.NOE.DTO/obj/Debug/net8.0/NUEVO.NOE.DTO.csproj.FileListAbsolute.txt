@@ -1,0 +1,54 @@
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.deps.json
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.AssemblyInfoInputs.cache
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.AssemblyInfo.cs
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.csproj.CoreCompileInputs.cache
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\obj\Debug\net8.0\refint\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.pdb
+D:\PROYECTOS IGJ 2024\API_NOE_2.0\NUEVO.NOE.DTO\obj\Debug\net8.0\ref\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.deps.json
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.AssemblyInfoInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.AssemblyInfo.cs
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.csproj.CoreCompileInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\obj\Debug\net8.0\refint\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NUEVO.NOE.DTO\obj\Debug\net8.0\ref\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.deps.json
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.Model.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.csproj.AssemblyReference.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.AssemblyInfoInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.AssemblyInfo.cs
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.csproj.CoreCompileInputs.cache
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.sourcelink.json
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NO.8E745312.Up2Date
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\refint\NUEVO.NOE.DTO.dll
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.pdb
+D:\PROYECTOS IGJ 2024\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\ref\NUEVO.NOE.DTO.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.deps.json
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.DTO.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.Model.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\bin\Debug\net8.0\NUEVO.NOE.Model.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.csproj.AssemblyReference.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.AssemblyInfoInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.AssemblyInfo.cs
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.csproj.CoreCompileInputs.cache
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.sourcelink.json
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NO.8E745312.Up2Date
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\refint\NUEVO.NOE.DTO.dll
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\NUEVO.NOE.DTO.pdb
+C:\Users\alelopez\source\repos\NuevoNOE\NOE_2.0.DTO\obj\Debug\net8.0\ref\NUEVO.NOE.DTO.dll
