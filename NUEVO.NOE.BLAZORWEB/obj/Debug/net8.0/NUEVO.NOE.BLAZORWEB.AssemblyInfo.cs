@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("NUEVO.NOE.Business")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("NUEVO.NOE.BLAZORWEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+48a9ef420cf3b901cf01a69bef4e2be77bfa06a8")]
-[assembly: System.Reflection.AssemblyProductAttribute("NUEVO.NOE.Business")]
-[assembly: System.Reflection.AssemblyTitleAttribute("NUEVO.NOE.Business")]
+[assembly: System.Reflection.AssemblyProductAttribute("NUEVO.NOE.BLAZORWEB")]
+[assembly: System.Reflection.AssemblyTitleAttribute("NUEVO.NOE.BLAZORWEB")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Generado por la clase WriteCodeFragment de MSBuild.
